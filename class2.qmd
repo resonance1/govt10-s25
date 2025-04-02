@@ -1,0 +1,239 @@
+---
+title: "Class 2"
+format: docx
+---
+
+# Class Plan
+
+-   R tutorial: Variables
+-   R tutorial: Intro to dataframes
+-   Group work
+
+# Variables
+
+R can save information as a variable using the following syntax: *variable name <- value*
+
+Let's create a variable named my_variable, with the value of 13.
+
+```{r}
+
+```
+
+We can also use '=' to create a variable
+
+```{r}
+
+```
+
+Get the value of the variable *my_variable* by typing the variable name
+
+```{r}
+
+```
+
+There are some limits to variable names. Don't use spaces, or (most) punctuation. Dots, dashes, underscores are fine.
+
+```{r}
+
+```
+
+We can input variable names into functions. Let's take the natural log of *my_variable*
+
+Note: There are many helpful lists of functions online: <https://www.statmethods.net/management/functions.html>
+
+```{r}
+
+```
+
+Let's change the value of *my_variable* by overwriting it
+
+```{r}
+
+```
+
+Now let's copy the variable *my_variable* to a new variable called *my_variable2*
+
+```{r}
+
+```
+
+We can perform mathematical operations directly on variables
+
+```{r}
+
+```
+
+## String (text) variables
+
+We can also store text within variables by wrapping the text in double quotation marks (""). Let's create a new variable called my_text that contains the words "gov 10"
+
+```{r}
+
+```
+
+We can't perform mathematical operations on text
+
+```{r}
+
+```
+
+# Data frames
+
+Data frames are similar to a spreadsheet, and contain multiple observations (rows) and variables (columns). We'll also call them "data sets" in this course
+
+## Loading data frames
+
+For this class, all data are stored in .csv format. Let's load turnout.csv. There are two ways we can do this.
+
+A)  Sync git, then read in the file:
+
+```{r}
+turnout <- read.csv("class_data/turnout.csv")
+```
+
+B)  Download the file from the internet into your current directory and load it:
+
+```{r}
+download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/main/class_data/turnout.csv","turnout.csv")
+turnout <- read.csv("turnout.csv")
+```
+
+## Data frames and variables
+
+We can see the variable names in our data frame using *names()*
+
+```{r}
+
+```
+
+We can select columns in a dataframe by name using the *$* operator. When using the *$* operator we place the name of the data frame to the left and the name of the variable to the right.
+
+Let's pull out the variable *year*
+
+```{r}
+
+```
+
+To create a new column in our data frame, we can also use the *$* operator. If we pass it a single value, that value will be placed within every row.
+
+```{r}
+
+```
+
+We can also create variables that are combinations of existing variables in the dataset:
+
+```{r}
+
+```
+
+We can run functions on columns:
+
+```{r}
+
+```
+
+## Pulling out specific columns and rows
+
+R has a package called tidyverse, which makes working with data frames easier. First, install tidyverse:
+
+```{r}
+install.packages("tidyverse")
+```
+
+Next, load the package
+
+```{r}
+library(tidyverse)
+```
+
+Tidyverse functions use the pipe command: |>
+
+The select() function pulls in the columns that we want.
+
+The syntax is: dataframe |> select(column_name)
+
+```{r}
+
+```
+
+We can save the results as a new data frame:
+
+```{r}
+
+```
+
+One of the most useful functions is filter(), which returns just the rows that match some criteria. Let's filter to Presidential elections. To do so, we are going to use == to match a specific value. We use == rather than =, so that R knows we are not trying to create a new variable.
+
+The syntax is: dataframe |> filter(variable name == "something")
+
+```{r}
+
+```
+
+We can also use |> filter() to match numeric values
+
+```{r}
+
+```
+
+
+## Group work
+
+Surveys are frequently used to measure political behavior such as voter turnout, but some researchers are concerned about the accuracy of self-reporting. In particular, they worry about possible social desirability bias. In this phenomenon, respondents lie on surveys out of a desire to provide the 'socially correct' answer. In this case, those who did not vote in an election may report that they did.
+
+To study this issue, we can look at data from the ANES. The ANES is a nation-wide survey that has been conducted for every election since 1948. The ANES conducts face-to-face interviews with a nationally representative sample of adults.
+
+The following variables are in the turnout.csv file:
+
+year         | election year 
+ANES_turnout | Estimated turnout rate, based on self-reporting 
+VEP          | Voting Eligible Population (in thousands) 
+total_votes  | total ballots cast for highest office (in thousands) 
+type         | midterm or presidential election 
+
+Using the *\$* symbol to reference specific columns in the dataset, create a new variable in the dataframe called **VEP_turnout** that contains the turnout rate for each year. To do so, divide the total votes by the voting eligible population.
+
+```{r}
+
+```
+
+Using your new variable, what is the average turnout rate in the data? What is the median turnout rate? You may have to look up the functions for this
+
+```{r}
+
+```
+
+Create a new variable named *anes_vep_diff* that computes the difference between the actual turnout rate (VEP_turnout) and ANES estimates of the turnout rate for each year.
+
+```{r}
+
+```
+
+How large is the difference on average?
+
+```{r}
+
+```
+
+Using tidyverse and the filter() function, assess whether the difference between reported/actual turnout is larger or smaller for presidential versus midterm elections
+
+```{r}
+
+```
+
+Briefly interpret the results. What do your findings suggest about social desirability bias?
+
+Answer in full sentences here
+
+If you still have time remaining, please look at the following resources:
+
+https://datacarpentry.github.io/R-ecology-lesson/working-with-data.html - Covers basic tidyverse commands (only read through the "Pipes" section)
+
+https://r4ds.hadley.nz/workflow-basics - Covers basic R syntax
+
+
+## Check-in
+
+1.  On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class:
+2.  What was the easiest thing to understand?
+3.  What was the most difficult thing to understand?
