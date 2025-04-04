@@ -17,7 +17,7 @@ execute:
 # Uncomment one of the options below to load your file.
 
 # Git
-#turnout <- read_csv("Problem Sets/data/turnout.csv")
+#turnout <- read_csv("class_date/turnout.csv")
 
 # Non-git
 #download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/main/class_data/turnout.csv","turnout.csv")
