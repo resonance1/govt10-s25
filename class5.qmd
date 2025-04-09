@@ -1,0 +1,61 @@
+---
+title: "Class 5"
+format: docx
+execute:
+  error: TRUE
+---
+
+
+# Plan
+* Quiz
+* Brief Lecture (Causality/Randomization)
+
+
+# Brief Lecture: Causality / Randomization 
+
+
+# Simulating the effects of randomization (demonstration only - do *not* need to know this code)
+
+Initialize
+
+```{r}
+nrows <- 10000
+age <- round(rnorm(10000,mean=40,sd=10))
+college <- rbinom(10000,1,.38)
+hair <- c(rep("brown",4000),rep("blonde",1000),rep("red",250),rep("black",4750))
+handshake10k <- data.frame(age,college,hair)
+```
+
+Randomize
+
+```{r}
+handshake10k$treatment <- 0
+randomsample <- sample(1:nrow(handshake10k),5000)
+handshake10k$treatment[randomsample] <- 1
+```
+
+Let's check how accurate randomization was. Compare the mean value of age and college between the groups:
+
+```{r}
+
+
+```
+
+Visualize Law of Large Numbers via flipping a fair coin
+
+```{r}
+n <- 50000
+x <- sample(0:1,n, repl=T)
+s <- cumsum(x)
+r <- s/(1:n)
+plot(r, ylim=c(0, 1), type="l")
+lines(c(0,n), c(.50,.50),col="red")
+round(cbind(x,s,r), 5)[1:10,]; r[n]
+```
+
+
+## Check-in
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand?
