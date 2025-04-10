@@ -1,0 +1,136 @@
+---
+title: "Problem Set 1"
+format: docx
+execute:
+  error: TRUE
+---
+
+Note: you can begin the problem set before Friday, but we'll cover everything you need to know to complete the problem set during Friday's class. 
+
+# Criminal Records and Hiring [10 points]
+
+In this exercise, we will analyze the effect of having a criminal record on one's job prospects. 
+
+To examine the role of a criminal record, a researcher hired a pair of 23 year old white men and a pair of 23 year old black men and instructed them to apply for existing entry-level jobs in the city of Milwaukee. The men in each pair were matched on a number of dimensions, including physical appearance and self-presentation. As much as possible, the only difference between the two was that the researcher randomly varied which individual in the pair would indicate to potential employers that he had a criminal record related to drug offenses. Further, each week, the pair alternated which applicant would present himself as an ex-felon. In other words, each individual presented themselves as a felon half of the time. The researcher then compared callback rates.
+
+```{r}
+library(tidyverse)
+
+# Git
+crime <- read.csv("data/crime.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/refs/heads/main/problem_sets/data/crime.csv","crime.csv")
+#crime <- read.csv("crime.csv")
+
+
+```
+
+The relevant variables in the dataset are as follows:
+
+call    	        1 if applicant received a callback, 0 if the applicant did not receive a callback.
+black	            1 if the applicant identifies as black, 0 if the applicant does not identify as black. 
+crimrec          	1 if the applicant has a putative criminal record, 0 if the applicant does not.
+custserv        	1 if job is in the costumer service sector, 0 if it is not.
+manualskill	      1 if job requires manual skills, 0 if it does not.
+distance          Distance between the job and downtown Milwaukee
+
+
+1. What proportion of all job applications received a callback? 
+
+```{r}
+
+
+```
+
+2. Calculate the *average treatment effect* of having a criminal record on the callback rate. You can do this manually if needed after obtaining the mean values.
+
+```{r}
+
+# Interpret the result in words below. What is the percentage point change in the likelihood of receiving a call back, if someone has a criminal record? 
+
+```
+
+3. Evaluate the quality of the randomization by looking at the race of the applicant, as well as the type of job they applied to.
+
+```{r}
+
+```
+
+4. Do you think this study likely identifies a causal relationship or a correlation? Why or why not? Thinking about internal vs. external validity, what are some potential limitations of this study? 
+ 
+Answer here
+
+5. Reactions to crime in the inner city may differ from the suburbs. Re-assess the average treatment effect of a criminal record, examining only employers in the customer service sector that were 10 miles or more from the city center. Are the effects larger or smaller? What does this suggest?
+
+```{r}
+
+
+# Interpret your results here
+```
+
+
+
+# Demographic change and attitudes towards immigration (10 points)
+
+A researcher conducted a randomized field experiment assessing the extent to which individuals living in suburban communities around Boston, Massachusetts changed their views in response to perceived demographic change.
+
+Subjects in the experiment were individuals riding on the commuter rail line and overwhelmingly white. Every morning, multiple trains pass through various stations in suburban communities that were used for this study. For pairs of trains leaving the same station at roughly the same time, one was randomly assigned to receive the treatment and one was designated as a control.
+
+The treatment in this experiment was the presence of Latino 'confederates' (a term used in experiments to indicate that these individuals did not know the full purpose of the study at the time of their participation) on the platform prior to the train's arrival. The presence of these confederates at the train station was intended by the researchers to emulate the kind of demographic change anticipated for the United States in coming years.
+
+For individuals in the control group, no such confederates were present on the platform. For individuals in the treatment group, confederates were always present on their train platform.The study was administered for 10 days. Participants were asked questions related to immigration policy both before the study started and after the study had ended.
+
+The names and descriptions of relevant variables in the data set boston.csv are:
+
+| Name                  | Description                                                     |
+|-----------------------|-----------------------------------------------------------------|
+| age                   | Age of individual at time of experiment                                   
+| treatment             | Whether an individual was exposed to immigration and is in the treatment group (1) or (0) 
+| income                | Income group in dollars (not exact income)
+| male                  | Whether individual indicated they were male (1) or not (0)
+| white                 | Indicator variable for whether individual identifies as white (1) or not (0)
+| college               | Indicator variable for whether individual attended college (1) or not (0)
+| usborn                | Indicator variable for whether individual is born in the US (1) or not (0)
+| partisanship          | Self-reported political views, ranging from (1) Very Liberal to (5) Very Conservative
+| immigration_after     | The outcome. Policy opinion on question about increasing the number of immigrants allowed in the country, on a scale 
+                        | from Oppose Increase (1) to Not Sure (3) to Support Increase (5). 
+
+```{r}
+library(tidyverse)
+
+boston <- read.csv("data/boston.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/refs/heads/main/problem_sets/data/boston.csv","boston.csv")
+#boston <- read.csv("boston.csv")
+
+```
+
+
+2.1. Calculate the average treatment effect of randomized exposure to diversity on attitudes towards immigration.
+
+```{r}
+
+
+
+# Briefly interpret the results here  using the 5 point scale on immigration preferences. 
+
+```
+
+
+2.2. In this study, the randomization (the coin flip) was not conducted for each participant, but rather occurred at the level of the train -- each train was assigned to different groups of individuals waiting in platforms. How accurate was this type of randomization in creating similar treatment and control groups? Compare the average values of the treated and control groups for all background characteristics in the data: age, male, income, partisanship, white, college, and usborn.
+
+```{r}
+
+```
+
+2.3. Discuss the similarities and differences between the treated and control groups. Based on these results, how confident are you that the results of this study indicate a causal relationship between exposure to immigration and exclusionary attitudes?
+
+
+2.4. Calculate the average treatment effects, separately for self-identified liberal (1 or 2 on the scale) vs conservative (4 or 5 on the scale) respondents. 
+
+```{r}
+
+
+# Briefly interpret the results here 
+
+```
