@@ -1,0 +1,161 @@
+---
+title: "Class 6"
+format: docx
+execute:
+  error: TRUE
+---
+
+# Plan
+* Quiz Discussion
+* Review - Causality
+* Analyzing randomized experiments - RCTs
+* More filtering in R; Effects by Subgroup
+* Group Work
+
+# Brief Lecture 
+
+## Analyze randomized treatments
+
+Gerber, Green & Latimer (2008) conducted an experiment which aimed to increase voter turnout in elections by exploiting social desirability bias. 
+
+The research design randomly allocated citizens into one of four conditions:
+
+* Neighbor Shaming - These individuals received a letter saying their neighbors would be told if they did not vote
+* Hawthorne - These individuals received a letter saying researchers were observing whether they voted or not
+* Civic Duty - These individuals received a letter saying it was a civic duty to vote
+* Control - These individuals received no letter. 
+  
+After sending the letters, the researchers observed whether individuals voted in the 2008 primaries. 
+
+Let's load the data 
+
+```{r}
+library(tidyverse)
+social <- read.csv("class_data/social.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/refs/heads/main/class_data/social.csv","social.csv")
+#social <- read.csv("social.csv")
+```
+
+The variables in the dataset are as follows:
+
+hhsize          household size of voter
+messages        GOTV messages voter received (Civic Duty, Control, Neighbors, Hawthorne)
+sex             sex of voter (female or male)
+yearofbirth     year of birth of voter
+primary2008     whether a voter turned out in the 2008 Primary election (1=voted, 0=abstained)
+
+
+Calculate the average turnout in the 2008 primaries for the 4 different groups ("Control","Civic Duty","Neighbors","Hawthorne"). 
+
+```{r}
+
+```
+
+Calculate an average treatment effect for each treatment condition
+
+```{r}
+
+```
+
+Evaluate randomization: For each of the 4 groups, what is the average household size? The average age in 2008? The proportion of females?
+
+```{r}
+
+```
+
+
+
+## More Filtering in R
+
+Use filter() to select all female respondents within the dataframe (==), and summarize the voting rate. Sex is a character variable, so we need to use ""
+
+```{r}
+
+```
+
+We often want to subset on multiple criteria.  To do this we need to two new operands:
+
+ & and  
+ | or 
+
+Select all respondents who are female and born before 1980
+
+```{r}
+
+```
+
+
+Select all respondents who are male or have a household size of 1
+
+```{r}
+
+```
+
+We can estimate average treatment effects for subgroups. Let's compare the average treatment effects of males vs females
+
+```{r}
+
+```
+
+
+
+# Group work: health savings experiment
+
+To understand why the poor are constrained in their ability to save for investments in preventative health products, researchers designed a field experiment in rural Kenya in which they randomly varied access to innovative saving technologies.  In the first treatment group (*Safe Box*), respondents were given a box locked with a padlock. This treatment is designed to estimate the effect of having a safe and designated storage technology for preventative health savings.  
+
+In the second treatment group (*Locked Box*), respondents were given a locked box, but not the key to the padlock. The respondents were instructed to call the program officer once they had reached their saving goal, and the program officer would then meet the participant and open the box. Compared to the safe box, the locked box offered stronger commitment through earmarking (the money saved could only be used for health expenses). 
+
+In this exercise, our outcome of interest is the amount (in Kenyan shilling) spent on preventative health products after 12 months.
+
+
+| Name           | Description                                                     |
+|----------------|-----------------------------------------------------------------|
+| bg_female      | 1 if female, and 0 otherwise                                    |
+| bg_married     | 1 if married, and 0 otherwise                                   |
+| bg_b1_age      | age at baseline                                                 |
+| tgroup         | Locked Box, Safe Box, or Control                                |
+| fol2_amtinvest | Amount invested in health products                              |
+ 
+## Load the data
+
+```{r}
+hsavings <- read.csv("./class_data/rosca.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/refs/heads/main/class_data/rosca.csv","rosca.csv")
+#hsavings <- read.csv("rosca.csv")
+
+```
+
+1. Evaluate the quality of the randomization. To do so, test whether participants in each of the three groups (safe_box, locked_box, or control) have a similar age, on average. Then check whether a similar proportion of the three groups are female, and finally whether a similar proportion are married. 
+
+```{r}
+
+
+```
+
+[Discuss randomization quality here]
+
+2. Now calculate the average treatment effect for those assigned to the safe_box and locked_box conditions. Which was more effective in increasing health savings?
+
+```{r}
+
+
+
+```
+
+3. Was the locked box treatment more effective among male or female study participants? Recalculate the average treatment effects for each subset of participants
+
+```{r}
+
+```
+
+
+You can work on the problem set if you have additional time
+
+
+## Check-in
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand?
