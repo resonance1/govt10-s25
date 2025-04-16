@@ -17,7 +17,7 @@ library(tidyverse)
 
 leaders <- read.csv("./data/leaders.csv")
 
-#download.file("https://raw.githubusercontent.com/resonance1/govt10-w24/main/Problem%20Sets/data/leaders.csv","leaders.csv")
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/refs/heads/main/problem_sets/data/leaders.csv","leaders.csv")
 #leaders <- read.csv("leaders.csv")
 
 
