@@ -1,0 +1,94 @@
+---
+title: "Problem Set 2"
+format: docx
+execute:
+  error: TRUE
+---
+
+
+# Are assassinations a natural experiment?
+
+One longstanding debate in the study of international relations concerns the question of whether individual political leaders can make a difference. Some emphasize that leaders with different ideologies and personalities can significantly affect the course of a nation. Others argue that political leaders are severely constrained by historical and institutional forces.  
+
+The difficulty of empirically testing these arguments stems from the fact that the change of leadership is not random and there are many confounding factors to be adjusted for. In this exercise, we consider a purported *natural experiment* in which the authors of an academic study argue that the success or failure of assassination attempts is essentially random. For instance, if a fired bullet is slightly to the left, the leader might die, but if it is slightly to the right, it hits a non-essential organ and the leader lives. If there is a creaky floorboard or a squeaky door handle, the leader might hear the assassin in time to escape. In other words, the claim is that while an assassination _attempt_ is not random, the outcome is. The authors then use this random variation to test the effect of a leader *randomly* remaining in power on subsequent national and international-level outcomes. 
+
+```{r}
+library(tidyverse)
+
+leaders <- read.csv("./data/leaders.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-w24/main/Problem%20Sets/data/leaders.csv","leaders.csv")
+#leaders <- read.csv("leaders.csv")
+
+
+```
+
+
+| Name           | Description                                                                      |
+|----------------|----------------------------------------------------------------------------------|
+| country        | The name of the country                                                          |
+| year           | Year of assassination attempt                                                    |                                    
+| age            | Age of the targeted leader                                                       |
+| polity_before  | Average polity score during the 3 year period prior to the attempt               |
+| civilwar_before| 1 if country is in civil war during the 3 year period prior to the attempt, or 0 |
+| civilwar_after | 1 if country is in civil war during the 3 year period after the attempt, or 0    |
+| interwar_before| 1 if country is in international war during the 3 year period prior to the attem |
+| interwar_after | 1 if country is in international war during the 3 year period after the attempt, |
+| result         | Result of the assassination attempt, one of 10 categories                        |
+
+The polity variable represents the  *polity score* from the Polity Project.  The Polity Project systematically documents and quantifies the regime types of all countries in the world from 1800.  The polity score is a 21-point scale ranging from -10 (hereditary monarchy) to 10 (consolidated democracy).  
+
+1.1 Let's examine the distribution of the polity score variable. To do so, create a histogram for the variable *polity_before*. Then calculate the median polity score, as well as the 25th and 75th percentiles.
+
+```{r}
+
+```
+
+1.2 How many leaders of strong democracies (>=9 on the polity scale) were the targets of an assassination attempt?
+
+Note: you can answer this question by looking at the number of rows in the dataset, or you can use the n() function in summarize() to count
+
+```{r}
+
+
+```
+ 
+1.4 Create a new binary variable in the dataset that is set to 1 if the attack resulted in the leaders death, and 0 otherwise. What proportion of attacks resulted in the leaders' death? 
+
+```{r}
+
+
+```
+
+1.5 How does a successful assassination attempt affect a country's likelihood of subsequently engaging in an international war? A civil war? To assess this, evaluate the average treatment effect of a successful assassination attempt (calculated in the previous question) on two outcome variables: *interwar_after* and *civilwar_after*. 
+
+```{r}
+
+
+# Interpret the ATE using full sentences here; what does it imply about how assassinations affect the likelihood of international/civil war? 
+```
+
+1.6 Let's examine balance between the treated and control group in this natural experiment. Looking at the variables, determine which ones were measured before the treatment. Then for each of these, check whether they are similar, on average, between the treated and control groups. (Note: you can safely ignore any characteristics relating to country name or the leader's name).
+
+```{r}
+
+```
+
+1.7 Let's visualize the continuous distributions. Create boxplots of polity_before, separately for the treated and control groups. Now do the same for the age measure. 
+
+```{r}
+
+
+```
+
+1.8 Given the results above, evaluate the quality of this natural experiment. Should we view the results as causal or correlational? 
+
+*Full sentences here*
+
+
+1.9 Let's say --- hypothetically --- that your previous results suggest that whether a leader lives or dies after an assassination attempt was initiated was not random. But at face value, one could argue that the authors' underlying logic in this study seems plausible. We can imagine, for instance, that Lee Harvey Oswald may have missed if he had simply had too much coffee right before the attempt and his hands were shaking. Looking carefully at the differences across background characteristics you see between the treated and control groups, what explanation might you provide to the authors as to why the outcome of the attempts may be non-random?  
+
+Note: Here I am interested in your own brainstorming about causality; it is fine if your explanation differs from mine as long as it is well reasoned!
+
+*Full sentences here*
+
