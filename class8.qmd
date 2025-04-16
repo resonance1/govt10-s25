@@ -1,0 +1,233 @@
+---
+title: "Class 8"
+format: docx
+execute:
+  error: TRUE
+---
+
+# Plan
+* Review: PSET + Group Work
+* Short lecture - Regression Discontinuity
+* Group work
+
+# Review
+
+## Pset problem areas:
+
+```{r}
+library(tidyverse)
+
+crime <- read.csv("./problem_sets/data/crime.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/refs/heads/main/problem_sets/data/crime.csv","crime.csv")
+#crime <- read.csv("crime.csv")
+
+```
+
+
+2.Calculate the average treatment effect of having a criminal record on the callback rate. You can do this manually if needed after obtaining the mean values
+
+```{r}
+crime %>% group_by(crimrec) %>% summarize(ate=mean(call))
+
+```
+
+
+3. Evaluate the quality of the randomization by looking at the race of the applicant, as well as the type of job they applied to.
+
+```{r}
+crime %>%
+group_by(crimrec) %>%
+summarize(mean(black),
+          mean(custserv, na.rm = T), 
+          mean(manualskill,na.rm = T),
+          mean(distance, na.rm = T))
+
+```
+
+2.2. In this study, the randomization (the coin flip) was not conducted for each participant, but rather occurred at the level of the train – each train was assigned to different groups of individuals waiting in platforms. How accurate was this type of randomization in creating similar treatment and control groups? Compare the average values of the treated and control groups for all background characteristics in the data: age, male, income, partisanship, white, college, and usborn.
+
+```{r}
+
+boston <- read.csv("./problem_sets/data/boston.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/refs/heads/main/problem_sets/data/boston.csv","boston.csv")
+#boston <- read.csv("boston.csv")
+
+```
+
+```{r}
+boston %>%
+group_by(treatment) %>%
+summarize(mean(age,na.rm=T),
+          mean(male,na.rm=T),
+          mean(income,na.rm=T),
+          mean(partisanship,na.rm=T),
+          mean(white,na.rm=T),
+          mean(college,na.rm=T),
+          mean(usborn,na.rm=T))
+```
+
+
+## Group work:
+
+```{r}
+chechen <- read.csv("./class_data/chechen.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/refs/heads/main/class_data/chechen.csv","chechen.csv")
+#chechen <- read.csv("chechen.csv")
+```
+
+The variables of interest are as follows:
+
+fire            Whether Russians struck a village with artillery fire (equal to 1) or not (equal to 0)
+deaths          Estimated number of individuals killed during Russian artillery fire
+preattack       The number of insurgent attacks before Russian artillery fire
+postattack      The number of insurgent attacks after Russian artillery fire
+
+What proportion of villages were attacked by Russian artillery? What was the average number of deaths associated with an attack?
+
+```{r}
+
+```
+
+Estimate the average treatment effect of indiscriminate fire on insurgency. The outcome variable is _postattack_
+
+```{r}
+
+```
+
+Does this analysis support the claim that indiscriminate violence reduced insurgency attacks in Chechnya? If you were in charge of briefing military leaders on these results, what caveats and/or additional data might you want to draw on?
+
+
+
+### Group work Extended:
+
+1. Let's first change our outcome variable in the Chechen case to measure the change in insurgent attacks. This fixes any remaining imbalance that might exist in the preattack variable. To do so, create a new variable called diffattack that measures the change in attacks over time.
+
+```{r}
+
+```
+
+2. Separately for the treated and control groups, calculate the median of diffattack as well as the 90th and 99th percentiles. Note: the quantile function can go in summarize()
+
+```{r}
+
+```
+
+3. Create a boxplot of diffattack, comparing the treatment and control groups:
+
+```{r}
+
+```
+
+
+4. Average treatment effects can sometimes be driven by outliers. In other words, even if most units did not respond to the treatment, a large response among a small subset of treated units could generate an average difference between treated and control groups. For instance, consider the case where there are 10 villages. 9 villages did not change their resistance activity following artillery fire. However, the remaining village had a decrease of 10 attacks in the period following artillery fire. In this case the average treatment effect on diffattack would have been -1, even though most villages did not change their behavior. When we look at just the average treatment effect, we cannot distinguish this case from a hypothetical situation in which each of the 10 villages had 1 less attack following the artillery fire -- the average treatment effect would be identical (-1).
+
+Based on your answers above, is the average treatment effect in the Chechen study likely influenced by outliers? In other words, is the observed reduction in violence concentrated in a subset of villages, or did most villages decrease violent resistance following artillery fire?
+
+
+# Brief Lecture: Natural Experiments: Regression Discontinuity
+
+
+# Group Work: Regression Discontinuity
+
+We are going to examine the monetary returns to political office in the United Kingdom, by comparing the lifetime wealth of candidates who barely won a parliamentary election to those candidates who barely lost.
+
+This study looks at the winners and losers of a single election. The sample is limited to those individuals who had died before the study was completed (2009); this way their full earnings over the lifecourse can be observed.
+
+The assumption is that candidates who barely won an election are similar to those who barely lost. However, the relatively small sample size of candidates implies that we cannot restrict the sample to very small values of the running variable (in this case, victory or loss margin). We will explore whether we can obtain findings by examining observations on either side of the victory/loss cutoff, selecting a cutoff that enables the Law of Large Numbers to apply.
+
+Relevant variables:
+
+ln.gross        Log of wealth upon death (from probate records)
+yob             Year of birth
+female          Whether candidate is female(1) or not (0)
+margin          Victory or loss margin in the election being assessed; this is the "running variable" we will use to narrow the analysis window
+party           political party
+
+```{r}
+library(tidyverse)
+
+british_mp <- read.csv("./class_data/MP.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/refs/heads/main/class_data/MP.csv","MP.csv")
+#british_mp <- read.csv("MP.csv")
+
+```
+
+Create a histogram of *margin* to examine the distribution of the running variable
+
+```{r}
+
+```
+
+Create a new variable called *victory* that receives a 1 if the vote margin is positive (indicating a victory), and a 0 if is negative (indicating a loss). This will be our treatment variable.
+
+Note: you'll have to use ifelse() for this. The syntax is ifelse(logical statement,value if true, value if false). If you don't remember how to use it, you can look at class7.qmd
+
+```{r}
+
+
+
+```
+
+Using the treatment variable created above, compare the background characteristics (yob,female) of all candidates who won an election to the candidates who lost. Are the treatment and control groups similar on average?
+
+```{r}
+
+```
+
+Now explore narrowing the window using filter() on the *margin* variable so that it only includes candidates who won or lost an election by +- 3.5 percentage points. Recalculate differences in background characteristics. Are the differences smaller? If so, why might we expect this to be the case?
+
+Note: when doing this you could either save a new dataset that contains only MPs with a margin of +- 3.5 percentage points, or you could include the filter() in a tidyverse chain. 
+
+If you can't figure out how to use the filter command to do this, please raise your hand!
+
+```{r}
+
+
+```
+
+Using the filtered data (+- 3.5 percentage points), calculate the average treatment effect on our outcome of interest: ln.gross (gross lifetime earnings)
+
+```{r}
+
+
+```
+
+Using the same filtered data, calculate the average treatment effects, separately for Labour and Conservative MPs. Which party in this dataset seems to financially benefit more from being elected? 
+
+```{r}
+
+
+```
+
+Would you interpret these results as causal, or correlational? If correlational, what additional evidence would you like to see?
+
+*answer here*
+
+
+
+_Stretch Questions_
+
+The dataset also contains a variable called school, which indicated what school candidates went to. What proportion of candidates from Eton win parliamentary elections? 
+
+```{r}
+
+```
+
+
+The more background characteristics we have to evaluate, the better. Convert the information in the 'school' variable to variables. Then assess differences between the treatment and control groups to determine the quality of the "as-if random" assumption. Do your conclusions change? Interpret the results. 
+
+```{r}
+
+
+```
+
+
+## Check-in
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand?
