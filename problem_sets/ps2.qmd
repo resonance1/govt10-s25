@@ -53,14 +53,14 @@ Note: you can answer this question by looking at the number of rows in the datas
 
 ```
  
-1.4 Create a new binary variable in the dataset that is set to 1 if the attack resulted in the leaders death, and 0 otherwise. What proportion of attacks resulted in the leaders' death? 
+1.3 Create a new binary variable in the dataset that is set to 1 if the attack resulted in the leaders death, and 0 otherwise. What proportion of attacks resulted in the leaders' death? 
 
 ```{r}
 
 
 ```
 
-1.5 How does a successful assassination attempt affect a country's likelihood of subsequently engaging in an international war? A civil war? To assess this, evaluate the average treatment effect of a successful assassination attempt (calculated in the previous question) on two outcome variables: *interwar_after* and *civilwar_after*. 
+1.4 How does a successful assassination attempt affect a country's likelihood of subsequently engaging in an international war? A civil war? To assess this, evaluate the average treatment effect of a successful assassination attempt (calculated in the previous question) on two outcome variables: *interwar_after* and *civilwar_after*. 
 
 ```{r}
 
@@ -68,25 +68,25 @@ Note: you can answer this question by looking at the number of rows in the datas
 # Interpret the ATE using full sentences here; what does it imply about how assassinations affect the likelihood of international/civil war? 
 ```
 
-1.6 Let's examine balance between the treated and control group in this natural experiment. Looking at the variables, determine which ones were measured before the treatment. Then for each of these, check whether they are similar, on average, between the treated and control groups. (Note: you can safely ignore any characteristics relating to country name or the leader's name).
+1.5 Let's examine balance between the treated and control group in this natural experiment. Looking at the variables, determine which ones were measured before the treatment. Then for each of these, check whether they are similar, on average, between the treated and control groups. (Note: you can safely ignore any characteristics relating to country name or the leader's name).
 
 ```{r}
 
 ```
 
-1.7 Let's visualize the continuous distributions. Create boxplots of polity_before, separately for the treated and control groups. Now do the same for the age measure. 
+1.6 Let's visualize the continuous distributions. Create boxplots of polity_before, separately for the treated and control groups. Now do the same for the age measure. 
 
 ```{r}
 
 
 ```
 
-1.8 Given the results above, evaluate the quality of this natural experiment. Should we view the results as causal or correlational? 
+1.7 Given the results above, evaluate the quality of this natural experiment. Should we view the results as causal or correlational? 
 
 *Full sentences here*
 
 
-1.9 Let's say --- hypothetically --- that your previous results suggest that whether a leader lives or dies after an assassination attempt was initiated was not random. But at face value, one could argue that the authors' underlying logic in this study seems plausible. We can imagine, for instance, that Lee Harvey Oswald may have missed if he had simply had too much coffee right before the attempt and his hands were shaking. Looking carefully at the differences across background characteristics you see between the treated and control groups, what explanation might you provide to the authors as to why the outcome of the attempts may be non-random?  
+1.8 Let's say --- hypothetically --- that your previous results suggest that whether a leader lives or dies after an assassination attempt was initiated was not random. But at face value, one could argue that the authors' underlying logic in this study seems plausible. We can imagine, for instance, that Lee Harvey Oswald may have missed if he had simply had too much coffee right before the attempt and his hands were shaking. Looking carefully at the differences across background characteristics you see between the treated and control groups, what explanation might you provide to the authors as to why the outcome of the attempts may be non-random?  
 
 Note: Here I am interested in your own brainstorming about causality; it is fine if your explanation differs from mine as long as it is well reasoned!
 
