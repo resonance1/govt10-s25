@@ -5,15 +5,6 @@ execute:
   error: TRUE
 ---
 
----
-title: "Class 10"
-author: "Your name"
-header-includes:
-   - \usepackage{pdfpages}
-output:
-  pdf_document: default
----
-
 ```{r setup, echo=F}
 library(knitr)
 opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
