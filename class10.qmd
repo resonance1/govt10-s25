@@ -1,0 +1,198 @@
+---
+title: "Class 10"
+format: docx
+execute:
+  error: TRUE
+---
+
+```{r setup, echo=F}
+library(knitr)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+# Plan
+* Quiz discussion
+* Longitudinal vs Wide Data
+* Plotting Diff-in-Diff
+* Longitudinal vs Wide Diff-in-diff
+* Brief Lecture: Correlation
+* Group Work on Correlation
+
+
+# Longitudinal vs wide data
+
+```{r}
+
+austria_long <- read.csv("./class_data/austria_long.csv")
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/refs/heads/main/class_data/austria_long.csv","austria_long.csv")
+#austria_long <- read.csv("austria_long.csv")
+
+
+austria_wide <- read.csv("./class_data/austria_wide.csv")
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/refs/heads/main/class_data/austria_wide.csv","austria_wide.csv")
+#austria_wide <- read.csv("austria_wide.csv")
+
+
+```
+
+
+# Plotting DiD
+
+It is often helpful to plot the trends when doing DiD problems. Here is how we do so. First, we need a long dataset. Then, create two new datasets that contain the average value of the outcome for each time period:
+
+```{r}
+
+treat.avg <- 
+
+control.avg <- 
+
+```
+
+Next, use the plot(x=,y=,type="l") command to plot the time series.
+
+```{r}
+
+
+```
+
+Let's adjust the vertical axis and add color:
+
+```{r}
+
+```
+
+We can overlay the other data by using lines(x=,y=)
+
+```{r}
+
+```
+
+
+
+
+## DiD with long data
+
+```{r}
+
+# Step 1: Get 4 averages
+
+treat_post <- austria_long %>%
+filter(treated == 1 & year == 1994) %>%
+summarize(mean(socialist_voteshare, na.rm = T))
+
+treat_pre <- 
+
+control_post <- 
+
+control_pre <- 
+
+# Step 2: Calculate DiD estimate
+
+(treat_post - treat_pre) - (control_post-control_pre)
+
+# Step 3: Parallel Trends
+
+
+```
+
+## DiD with wide data
+
+```{r}
+
+# Step 1: Calculate longitudinal difference
+
+
+# Step 2: Get average of longitudinal difference for treatment vs control
+
+
+# Step 3: Parallel trends
+
+
+```
+
+# Brief lecture: correlation
+
+
+# Exploring descriptive relationships in data
+
+Descriptive correlations can provide helpful information to policymakers (remember that any causal relationship between two variables will have a non-zero correlation). In this exercise, you will evaluate the factors that are correlated with violent crime, using data from Denmark.
+
+```{r}
+denmark <- read.csv("./class_data/denmark.csv")
+
+#download.file("https://github.com/resonance1/govt10-s25/raw/refs/heads/main/class_data/denmark.csv","denmark.csv")
+#denmark<- read.csv("denmark.csv")
+
+```
+
+Variables:
+
+violentcrime_rate          Violent crime (scaled by population)
+murderrate                 Murders (scaled by population)
+lowincome_rate             Poverty Rate (scaled by population)
+unemp_rate                 Unemployment Rate (scaled by population)
+pct1565                    % of Population Aged 15-65 (scaled by population)
+pctforeign                 % Non-citizen population (scaled by population)
+sd_share                   Social Democratic Share of council seats
+pop                        Population
+eEducationhead             Spending on education, per capita
+eHousinghead               Spending on public housing, per capita
+eSocialhead                Spending on social expenditures, per capita
+eTrafficInfrastructure     Spending on infrastructure, per capita
+eTotalhead                 Total spending, per capita
+drug_total                 Total drug offenses
+murder                     Total murders
+violentcrime               Total violent crimes
+
+
+Let's explore potential correlations between violent crime and other municipal-level variables using a scatter plot.
+
+```{r}
+y <- denmark$violentcrime_rate
+x <- 
+  
+plot()
+```
+
+We can add a trend line to the plot using lines(lowess(x,y))
+
+```{r}
+```
+
+We can also evaluate the correlation numerically using cor(x,y,use="complete.obs"):
+
+```{r}
+
+
+```
+
+Here is how correlation works:
+
+```{r}
+sum((x - mean(x)) * (y - mean(y))) / sqrt(sum((x - mean(x))^2) * sum((y - mean(y))^2))
+
+```
+
+
+
+# Group work
+
+With your neighbors, explore other correlations. Which factors are most strongly correlated with violent crime? Use a separate code chunks for each variable you explore. 
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+
+
+## Check-in
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand (leave blank if nothing)?
