@@ -1,0 +1,261 @@
+---
+title: "Class 12"
+format: docx
+execute:
+  error: TRUE
+---
+
+```{r setup, echo=F}
+library(knitr)
+opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+knitr::opts_chunk$set(error = TRUE)
+```
+
+# Plan
+
+* Quick review
+* Other sources of polling error
+* Sensitive questions
+* Prediction
+
+
+# Recap: standard deviation for effect size
+
+```{r}
+
+library(tidyverse)
+
+hsavings <- read.csv("./class_data/rosca.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/refs/heads/main/class_data/rosca.csv","rosca.csv")
+#hsavings <- read.csv("rosca.csv")
+
+```
+
+We can use standard deviation to contextualize an ATE, by comparing the effect size to the standard deviation of the outcome in the control group:
+
+```{r}
+ate <- 150.3817
+
+hist(control$fol2_amtinvest,breaks=20)
+
+control <- hsavings |> filter(tgroup=="Control")
+
+mean <- mean(control$fol2_amtinvest,na.rm=T)
+sd <- sd(control$fol2_amtinvest,na.rm=T)
+
+effect_1sd <- mean + sd
+effect_2sd <- mean + 2*sd
+
+hist(control$fol2_amtinvest,breaks=20)
+
+abline(v=mean,col="goldenrod")
+abline(v=effect_1sd,col="peachpuff1")
+abline(v=effect_2sd,col="peachpuff3")
+
+```
+
+# Recap: Sampling Distribution
+
+Create a population:
+
+```{r}
+state <- c(rep(1,40000),rep(0,60000))
+
+```
+
+Sample from the population, with a sample size (n) large enough for the Law of Large Numbers:
+
+```{r}
+sample <- sample(state,1000,replace=F)
+mean(sample)
+
+```
+
+The error tells us how far off our sample mean will be from the population mean, on average
+
+```{r}
+n <- 1000
+sd <- sd(sample)
+
+sd/sqrt(n)
+
+```
+
+Technically, it gives us the standard deviation of the hypothetical sampling distribution: the standard deviation of all possible answers we could have received
+
+```{r}
+# You do not need to know this code. This repeats the sampling procedure we did above 10,000 times
+n<- 1000
+samples <- 10000
+out <- c()
+for (i in 1:samples){
+  out <- c(out,mean(sample(state,n,replace=FALSE)))
+}
+
+hist(out,breaks=100)
+sd(out)
+```
+
+
+# Short Lecture: Other Sources of Polling Error
+
+Let's load a survey of Afghan citizens. 
+
+```{r}
+library(tidyverse)
+afghan <- read.csv("./class_data/afghan.csv") %>% filter(list.group!="ISAF")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/refs/heads/main/class_data/afghan.csv","afghan.csv")
+#afghan<- read.csv("afghan.csv") %>% filter(list.group!="ISAF")
+
+```
+
+One of the most common items individuals refuse to respond to in surveys are questions about income. How many fall into this category in the afghan survey?
+
+To determine this, we can use is.na() on the _income_ variable.
+
+```{r}
+
+```
+
+How does non-response vary by other characteristics? Let's create a variable that measures income non-response. Then let's examine how it varies  as a function of employment
+
+```{r}
+
+```
+
+
+# Short Lecture: Sensitive Questions
+
+
+## Practice: List Experiment
+
+Now let’s assess the list experiment. The relevant variables are:
+
+list.group      Whether respondents saw no sensitive items (Control), or a sensitive item stating that they support the Taliban
+list.response   Number of items on the list respondents agreed with
+
+1. What is the non-response rate to the list experiment?
+
+```{r}
+
+```
+
+2. What percentage of respondents supported the Taliban?
+
+```{r}
+
+```
+
+# Short Lecture: Prediction
+
+
+## 2008 Presidential Election
+
+Load the dataset:
+
+```{r}
+library(tidyverse)
+polls08 <- read.csv("./class_data/polls08.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-w24/main/class_data/polls08.csv","polls08.csv")
+#polls08 <- read.csv("polls08.csv")
+
+```
+
+Let's create a new variable called _poll.margin_ that measures the difference in polling support between Obama and McCain:
+
+```{r}
+
+polls08 <- polls08 %>% mutate()
+
+```
+
+Let’s examine polls within the state of California by filtering
+
+```{r}
+
+
+```
+
+We can select the first observation using slice(1)
+
+```{r}
+
+```
+
+We can do this for all states at once by returning to the main dataset and using %>% group_by _before_ sorting. 
+
+```{r}
+
+
+```
+
+# Merging datasets
+
+What if we want to compare the accuracy of our poll results to the actual results? To do that, we will need to merge two datasets together.
+
+Load the actual results: 
+
+```{r}
+pres08 <- read.csv("./class_data/pres08.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-w24/main/class_data/pres08.csv","pres08.csv")
+#pres08 <- read.csv("pres08.csv")
+
+```
+
+Let's create a margin variable in this new dataset that mirrors our prior format (Obama vs Mccain)
+
+```{r}
+pres08 <- pres08 %>% mutate()
+
+```
+
+To merge datasets, we need to find a _key_ that's held in common between the two datasets.
+
+```{r}
+```
+
+We can merge using the following syntax:
+
+dataset1 %>% left_join(dataset2,by="key")
+
+```{r}
+
+
+```
+
+This can result in some duplication of columns. To fix this, we can trim a dataset before merging using select():
+
+```{r}
+
+
+```
+
+# Error
+
+Evaluating Prediction error: Actual - Predicted
+
+```{r}
+
+```
+
+Root mean squared error (RMSE):
+
+sqrt(mean(error^2))
+
+```{r}
+
+```
+
+
+## Check-in
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand (leave blank if nothing)?
+
+4. What are the 2-3 things you'd most like to cover in Wed's review?
+
