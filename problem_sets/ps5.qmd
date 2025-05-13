@@ -1,0 +1,63 @@
+---
+title: "Problem Set 5"
+format: docx
+execute:
+  error: TRUE
+---
+
+Loading the datasets:
+
+```{r}
+
+# Note: if not using git, make sure that you move the data folder from the .zip to the same directory as the ps5.qmd file 
+
+# Outcomes
+
+pres08 <- read.csv("data/pres08.csv")
+pres12 <- read.csv("data/pres12.csv")
+pres16 <- read.csv("data/pres16.csv")
+pres20 <- read.csv("data/pres20.csv")
+
+# Independent Variables (Training Data)
+
+#Polls
+polls08 <- read.csv("data/polls08.csv")
+polls12 <- read.csv("data/polls12.csv") 
+polls16 <- read.csv("data/polls16.csv") 
+polls20 <- read.csv("data/polls20.csv")
+
+# Median Household income 
+medianincome <- read.csv("data/medianincome.csv")
+
+# Unemployment by state/month
+econ <- read.csv("data/unemployment.csv")
+
+# Reported Race (Census)
+demographics_race <- read.csv("data/dem_race.csv")
+
+# Reported Age/Sex (Census)
+demographics_agesex <- read.csv("data/dem_agesex.csv")
+
+
+
+```
+
+Feel free to add code chunks, keeping the following order:
+
+1. Merging and dataset manipulation:
+
+```{r}
+
+```
+
+2. Code used to test various models:
+
+```{r}
+
+```
+
+3. Code used to generate the final predictions
+
+```{r}
+
+```
