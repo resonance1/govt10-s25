@@ -1,0 +1,278 @@
+---
+title: "Class 17"
+format: docx
+execute:
+  error: TRUE
+---
+
+# Plan
+* Review on Creating Predictive Models
+* Regression and ATE (lecture)
+* Group work
+* Limits of multivariate models 
+
+
+# Review on Creating Predictive Models
+
+Let's create a predictive model with the latest poll from 2008 and the percent of Black voters, and use it to predict outcomes.
+
+To do this, we need the following:
+
+*Training Dataset:*
+Actual Margin in 2008 (y)
+Poll Margin in 2008 (x)
+% Black  in 2008 (x)
+
+*Test Dataset:*
+Poll Margin in 2020 (x)
+% Black in 2020 (x)
+
+
+```{r}
+# All margins defined as Democrat - Republican
+
+library(tidyverse)
+
+polls08 <- read.csv("./problem_sets/data/polls08.csv")
+polls12 <- read.csv("./problem_sets/data/polls12.csv")
+polls16 <- read.csv("./problem_sets/data/polls16.csv")
+polls20 <- read.csv("./problem_sets/data/polls20.csv")
+pres08 <- read.csv("./problem_sets/data/pres08.csv")
+pres12 <- read.csv("./problem_sets/data/pres12.csv")
+pres16 <- read.csv("./problem_sets/data/pres16.csv")
+demographics <- read.csv("./problem_sets/data/dem_race.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/refs/heads/main/problem_sets/data/polls08.csv","polls08.csv")
+#polls08 <- read.csv("polls08.csv")
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/refs/heads/main/problem_sets/data/polls12.csv","polls12.csv")
+#polls12 <- read.csv("polls12.csv")
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/refs/heads/main/problem_sets/data/polls16.csv","polls16.csv")
+#polls16 <- read.csv("polls16.csv")
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/refs/heads/main/problem_sets/data/polls20.csv","polls20.csv")
+#polls20 <- read.csv("polls20.csv")
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/refs/heads/main/problem_sets/data/pres08.csv","pres08.csv")
+#pres08 <- read.csv("pres08.csv")
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/refs/heads/main/problem_sets/data/pres12.csv","pres12.csv")
+#pres12 <- read.csv("pres12.csv")
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/refs/heads/main/problem_sets/data/pres16.csv","pres16.csv")
+#pres16 <- read.csv("pres16.csv")
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/refs/heads/main/problem_sets/data/dem_race.csv","demographics_full.csv")
+#demographics <- read.csv("demographics_full.csv")
+
+
+pres08$actual.margin <- pres08$Obama - pres08$McCain
+polls08$days.until <- as.Date("2008-11-04") - as.Date(polls08$middate, "%m/%d/%y")
+polls08$margin <- polls08$Obama - polls08$McCain
+polls16$margin <- polls16$clinton - polls16$trump
+polls16$days.until <- as.Date("2016-11-08") - as.Date(polls16$date, "%m/%d/%y")
+polls20$margin <- polls20$biden - polls20$trump
+pres16$actual.margin <- pres16$clinton - pres16$trump
+polls12$margin <- polls12$Obama - polls12$Romney
+pres12$actual.margin <- pres12$Obama - pres12$Romney
+
+```
+
+```{r}
+
+### CREATE THE TRAINING DATASET AND FIT THE MODEL
+
+# Get most recent poll in 2008, by state
+polls08_latest <- polls08 |> group_by(state)  |> 
+  arrange(days.until)  |>  slice(1)  |> 
+  select()
+
+# Find the % black in 2008, by state
+
+demographics08 <- demographics |> filter() |> mutate()
+
+# Merge the two independent variables together
+
+training <- polls08_latest  |> left_join()
+  
+# Merge in the outcomes for 2008
+
+training <- training |>  left_join()
+  
+# Fit the model
+result <- lm(data=training,)
+summary(result)
+
+```
+
+
+```{r}
+
+### CROSS-VALIDATE ON 2016 (predict)
+
+# Get most recent poll in 2016, by state
+polls16_latest <- polls16 |> group_by(state) |>  
+  arrange(days.until) |>  slice(1) |> 
+  select()
+
+# Find the % black in 2016, by state
+demographics_20 <- demographics |> filter() |> mutate()
+
+# Merge the two together
+xvalidate <- polls16_latest |> left_join()
+  
+# Create a test dataframe
+predict_frame <- data.frame()
+
+# Predict
+predictions <- predict(result,newdata=predict_frame)
+xv.out.df <- data.frame(state=xvalidate$state,predict=predictions)
+xv.out.df
+
+
+### Diagnose
+
+# Merge in actual outcomes from 2016
+
+xv.out.df <- xv.out.df 
+
+# Calculate error
+
+# RMSE
+sqrt(mean(ERRORˆ2))
+
+# Plot
+
+x<- 
+y<- 
+  
+plot(type="n",x =  x , y = y, xlab = "Predicted Results", ylab = "Actual Election Results")
+text(x = x  , y = y, 
+     labels = , 
+     col = "blue",
+     cex=.5)
+
+# Diagnosis Lines
+abline(0, 1, lty = "dashed")
+abline(v=0)
+abline(h=0)
+
+```
+
+
+```{r}
+
+### CREATE THE TEST DATASET AND PREDICT ON 2020
+
+# Get most recent poll in 2020, by state
+polls20_latest <- polls20  |>  group_by(state)  |>  
+  arrange(days.until)  |> slice(1)  |> 
+  select()
+
+# Find the % black , by state
+
+demographics_20 <- demographics |> filter() |> mutate()
+
+# Merge the two together
+test <- polls20_latest |> left_join()
+  
+# Create a test dataframe
+predict_frame <- data.frame()
+
+# Predict
+out <- predict(result,newdata=predict_frame)
+
+out.df <- data.frame(state=test$state,predict=out)
+out.df
+
+
+```
+
+
+# Brief Lecture: Regression and Causation
+
+
+# Group work
+
+Let's examine a simple case first, with 1 treatment. 
+
+```{r}
+resume <- read.csv("./class_data/resume.csv")
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/main/class_data/resume.csv","resume.csv")
+#resume<- read.csv("resume.csv")
+```
+
+Calculate the ATE for the racial discrimination resume experiment using group_by |> summarize().
+
+The outcome variable is *call* (1 or 0), and the treatment variable is *race* (black or white)
+
+```{r}
+
+```
+
+Now do it with a regression
+
+```{r}
+
+```
+
+
+Let's examine the Kenyan savings experiment again:
+
+```{r}
+kenya <- read.csv("./class_data/rosca2.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/main/class_data/rosca2.csv","kenya.csv")
+#kenya<- read.csv("kenya.csv")
+
+kenya <- subset(kenya,has_followup2 == 1)
+```
+
+fol2_amtinvest            The outcome (investment in Kenyan shillings)
+encouragement             1 if the person is in the control group, 0 otherwise
+locked_box                1 if the person is in the locked box group, 0 otherwise
+safe_box                  1 if the person is in the safe_box group, 0 otherwise
+bg_b1_age                 Age of participant
+bg_married                Whether participant is married (1) or not (0)
+bg_female                 Whether participant is female (1) or not (0)
+
+Calculate the ATE of the locked_box and safe_box groups, using a single multivariate regression model.
+
+```{r}
+
+
+```
+
+Now add the background characteristics of participants to the model. Do the ATEs change? What might this tell you about the quality of the randomization? Interpret the coefficient on Locked Box.
+
+```{r}
+
+
+```
+
+
+# Demonstration: limits on adding new predictors to multivariate models.
+
+*Degrees of freedom:*
+This corresponds to our number of observations (n), minus 1, minus the number of independent variables in our model. Degrees of freedom must always be positive to return cofficients. If degrees of freedom is too small, we also become more uncertain about whether our coefficients are accurate.
+
+*Collinearity:*
+
+If independent variables are perfectly correlated, we cannot estimate both terms. Very high correlation is also problematic for accurate coefficients (difficult to disentangle direct and indirect effects)
+
+```{r}
+
+# Number of observations
+
+kenya_subset <- kenya %>% slice_sample(5)
+result <- lm(fol2_amtinvest ~ safe_box + locked_box + bg_b1_age + bg_married + bg_female, data = kenya_subset)
+summary(result)
+
+# Collinearity
+
+kenya <- kenya %>% mutate(bg_unmarried = ifelse(bg_married==0,1,0))
+kenya$bg_b1_age_18 = kenya$bg_b1_age - 18
+
+result <- lm(fol2_amtinvest ~ safe_box + locked_box + bg_b1_age + bg_married  + bg_female, data = kenya)
+summary(result)
+```
+
+## Check-in
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand?
