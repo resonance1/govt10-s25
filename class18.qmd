@@ -1,0 +1,167 @@
+---
+title: "Class 18"
+format: docx
+execute:
+  error: TRUE
+---
+
+# Plan
+* Group work review
+* Limits of multivariate models 
+* Short lecture: Interaction effects
+* Group Work: Interaction effects
+
+# Group work Review
+
+Resume
+
+```{r}
+resume <- read.csv("./class_data/resume.csv")
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/main/class_data/resume.csv","resume.csv")
+#resume<- read.csv("resume.csv")
+```
+
+```{r}
+resume |> group_by(race) |> summarize(mean(call))
+```
+
+```{r}
+lm(call ~ race,data=resume)
+
+# or
+resume <- resume |> mutate(black=ifelse(race=="black",1,0))
+lm(call ~ black,data=resume)
+
+```
+
+Kenya
+
+```{r}
+kenya <- read.csv("./class_data/rosca2.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/main/class_data/rosca2.csv","kenya.csv")
+#kenya<- read.csv("kenya.csv")
+
+kenya <- subset(kenya,has_followup2 == 1)
+```
+
+```{r}
+
+lm(fol2_amtinvest ~ locked_box + safe_box ,data=kenya)
+
+```
+
+Now add the background characteristics of participants to the model. Do the ATEs change? What might this tell you about the quality of the randomization? Interpret the coefficient on Locked Box.
+
+```{r}
+
+lm(fol2_amtinvest ~ locked_box + safe_box + bg_b1_age + bg_married + bg_female,data=kenya)
+
+```
+
+# A more complicated example
+
+```{r}
+gotv <- read.csv("./class_data/social2.csv")
+
+result <- lm(primary2008 ~ messages, data=gotv)
+result
+```
+
+```{r}
+gotv <- gotv |> mutate(neighbors=ifelse(messages=="Neighbors",1,0),hawthorne=ifelse("Hawthorne",1,0),civic=ifelse("Civic Duty",1,0))
+
+```
+
+
+# Limits on adding new predictors to multivariate models.
+
+*Degrees of freedom:*
+This corresponds to our number of observations (n), minus 1, minus the number of independent variables in our model. Degrees of freedom must always be positive to return coefficients. If degrees of freedom is too small, we also become more uncertain about whether our coefficients are accurate.
+
+*Collinearity:*
+If independent variables are perfectly correlated, we cannot estimate both terms. Very high correlation is also problematic for accurate coefficients (difficult to disentangle direct and indirect effects)
+
+```{r}
+
+# Number of observations
+
+kenya_subset <- kenya %>% slice_sample(5)
+result <- lm(fol2_amtinvest ~ safe_box + locked_box + bg_b1_age + bg_married + bg_female, data = kenya_subset)
+summary(result)
+
+# Collinearity
+
+kenya <- kenya %>% mutate(bg_unmarried = ifelse(bg_married==0,1,0))
+kenya$bg_b1_age_18 = kenya$bg_b1_age - 18
+
+result <- lm(fol2_amtinvest ~ safe_box + locked_box + bg_b1_age + bg_married  + bg_female, data = kenya)
+summary(result)
+```
+
+# Interaction effects (lecture)
+
+# Interaction effects
+
+Heterogeneity by gender
+
+```{r}
+gotv <- read.csv("./class_data/social2.csv")
+
+gotv <- gotv |> filter(messages=="Control" | messages == "Neighbors")
+
+result <- lm(primary2008 ~ messages, data=gotv)
+result
+
+
+
+```
+
+What if we use interaction effects with continuous variables?
+
+Household Size (hhsize)
+
+```{r}
+
+```
+
+Visualization
+
+```{r}
+install.packages("sjPlot")
+library(sjPlot)
+
+
+plot_model(result,type="pred",terms=c("hhsize","messages"))
+
+```
+
+
+# Only if time: Group Work - Interaction Effects
+
+Let's look at a simplified version of the Kenyan savings example
+
+```{r}
+# Create a subset of the dataframe called kenya2 with just the locked box treatment
+kenya2 <- kenya |> filter(safe_box!=1) |> select(-safe_box,-has_followup2,-X)
+
+```
+
+Separately explore interactions with marital status, gender, and age. Choose the regression with the strongest interaction effect and interpret the beta coefficients
+
+```{r}
+
+result <- lm(fol2_amtinvest ~ locked_box, data=kenya2)
+result
+
+
+```
+
+
+
+
+## Check-in
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand?
