@@ -1,0 +1,199 @@
+---
+title: "Class 19"
+format: docx
+execute:
+  error: TRUE
+---
+
+# Plan
+* Open questions on group projects
+* Basic probability theory (Lecture)
+* Probability practice problems
+* Uncertainty (Lecture)
+* Central Limit Theorem Demonstration
+* Standard error
+
+# Quick recap
+
+You run the following regression:
+
+result <- lm(fol2_amtinvest ~ locked_box + bg_b1_age + bg_b1_age*locked_box, data=kenya2)
+
+Coefficients:
+         (Intercept)            locked_box             bg_b1_age  locked_box:bg_b1_age  
+             406.899              -159.695                -3.560                 5.092  
+
+What is the expected savings, in Kenyan Shillings for:
+
+- Someone aged 20 in the control group
+- Someone aged 20 in the locked box group
+
+```{r}
+
+```
+
+
+# Basic probability theory (lecture)
+
+# Probability practice (group work)
+
+If the probability that the Democrats win State A is 47%, and the probability they win State B 
+is 37%, what is the probability that they win both states?
+
+```{r}
+
+```
+
+If the probability that the Democrats win State A is 47%, and the probability they win State B 
+is 37%, what is the probability that they win either of the states?
+
+```{r}
+
+```
+
+If the probability that the Democrats win State A is 47%, and the probability that the Green party wins State A 
+is 2%, what is the probability that either the Democrats or the Green party win?
+
+```{r}
+
+```
+
+
+# Uncertainty (lecture)
+
+# Central Limit Theorem Demonstration
+
+Trump Supporter     = 1
+Non-Trump Supporter = 0 
+
+The support for Trump in this particular state is 50%:
+
+```{r}
+library(tidyverse)
+
+# Don't need to know this code 
+state <- c(rep(1,50000),rep(0,50000))
+
+hist(state)
+```
+
+Loop through each poll, one at a time, and obtain the mean
+
+```{r}
+# You do not need to know this code
+
+n <- 10000     # number of polls
+ss <- 1000     # sample size of each poll
+results <- rep(NA,n)
+for (i in 1:n){
+  poll <- sample(state,ss,replace=F)
+  results[i] <- mean(poll)
+}
+```
+
+Plot the means
+
+```{r}
+# You do not need to know this code
+
+hist(results,xlim=c(.5,.7),col="lightgray",breaks=(n/2))
+abline(v=mean(results),col="blue",lwd=3)
+abline(v=.6,col="red",lwd=3)
+
+```
+
+We have n values: how many are outside the boundaries? 
+
+If it's a perfectly normal distribution, it should be ~2.5% on each side.
+
+```{r}
+# You do not need to know this code
+
+length(results[results < mean(results) - 1.96*sd(results)])  / n
+length(results[results > mean(results) + 1.96*sd(results)])  / n
+```
+
+
+# Recap: how standard error works
+
+Let's use the normal distribution to calculate the standard error of a poll of size 100.
+
+First, let's simulate doing this manually:
+
+```{r}
+# You do not need to understand this code
+
+population <- c(rep(1,50000),rep(0,50000))
+
+# Simulation - Get sampling distribution
+n <- 1000  # number of polls
+ss <- 100  # sample size
+results <- rep(NA,n)
+for (i in 1:n){
+  poll <- sample(population,ss,replace=F)
+  results[i] <- mean(poll)
+}
+
+# Sampling distribution
+hist(results,breaks=50)
+
+# Standard deviation of sampling distribution
+round(sd(results),2)
+```
+
+Now let's use the formula (with only 1 poll)
+
+```{r}
+poll <- sample(population,ss,replace=F)
+p_sd <- sd(poll)
+se <- p_sd / sqrt(ss)
+round(se, 2)
+```
+
+# Group Work: Error in Average Treatment Effects
+
+Let's return to the data from Chechnya. First, using group_by() and summarize() obtain the difference in means between the treated and control group for the _postattack_ variable.
+
+Treated group: (fire==1)
+Control group: (fire==0)
+
+```{r}
+library(tidyverse)
+
+chechen <- read.csv("./class_data/chechen.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/refs/heads/main/class_data/chechen.csv","chechen.csv")
+#chechen <- read.csv("chechen.csv")
+
+```
+
+Estimate the standard error for this difference in means, by obtaining the standard deviation and sample size of _each_ distribution (i.e. the treated and control distributions). To get the number of observations, remember that you can use table() to count; you can also use n() inside summarize(). To obtain the standard deviations for each group, use sd() on a filtered dataset, or use sd() within summarize()
+
+```{r}
+# Sample Size
+n_treatment <- 
+n_control <- 
+  
+# Obtain standard deviation
+
+  
+# Combine using formula
+# sqrt( sd1^2 / n1     + sd2^2 / n2 )
+  
+# Answer should match: 0.4165658
+```
+
+# As a class:
+
+For a _binary treatment indicator_, standard errors for the ATE can be quickly calculated using linear regression. Let's regress fire on postattack
+
+```{r}
+result <- lm()
+```
+
+
+## Check-in
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand?
