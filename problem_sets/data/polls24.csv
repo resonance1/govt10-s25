@@ -1,0 +1,2043 @@
+"","poll_id","state","state.name","pollster","numeric_grade","end_date","sample_size","population","DEM","REP","days.until"
+"1",74706,"MO","Missouri","Remington",2.6,2021-04-22,933,"lv",38,53,1293
+"2",74928,"NH","New Hampshire","St. Anselm",2.4,2021-05-10,1267,"rv",51,43,1275
+"3",75009,"AZ","Arizona","Bendixen & Amandi International",1,2021-06-23,600,"rv",51,44,1231
+"4",75617,"FL","Florida","St. Pete Polls",2.4,2021-08-17,2068,"rv",48,47.4,1176
+"5",75620,"FL","Florida","Susquehanna",2.3,2021-08-10,700,"rv",49.5,44.5,1183
+"6",76282,"FL","Florida","The Political Matrix/The Listener Group",0.7,2021-09-12,911,"lv",55.2,44.8,1150
+"7",76426,"MO","Missouri","Remington",2.6,2021-09-20,1014,"lv",36,55,1142
+"8",76752,"FL","Florida","Victory Insights",1.3,2021-09-18,450,"lv",50.575,49.425,1144
+"9",77034,"IA","Iowa","Cygnal",2.1,2021-10-19,600,"lv",40.5,54.1,1113
+"10",77173,"WI","Wisconsin","Marquette Law School",3,2021-10-31,805,"rv",45,41,1101
+"11",77529,"IA","Iowa","Selzer",2.8,2021-11-10,658,"lv",40,51,1091
+"12",77828,"AZ","Arizona","Fabrizio",1.7,2021-11-16,600,"lv",43,51,1085
+"13",77829,"GA","Georgia","Fabrizio",1.7,2021-11-16,600,"lv",45,48,1085
+"14",77830,"MI","Michigan","Fabrizio",1.7,2021-11-16,600,"lv",41,53,1085
+"15",77831,"PA","Pennsylvania","Fabrizio",1.7,2021-11-16,600,"lv",45,51,1085
+"16",77832,"WI","Wisconsin","Fabrizio",1.7,2021-11-16,600,"lv",42,52,1085
+"17",78084,"NH","New Hampshire","Trafalgar Group",0.7,2021-12-12,1041,"lv",45.95,47.75,1059
+"18",78368,"FL","Florida","Suffolk",2.9,2022-01-29,500,"lv",42.6,50.45,1011
+"19",78428,"MI","Michigan","Blueprint Polling",2.4,2022-02-04,632,"lv",38.2,40.4,1005
+"20",78477,"PA","Pennsylvania","Blueprint Polling",2.4,2022-02-16,635,"lv",45.1,39.9,993
+"21",78514,"IA","Iowa","Cygnal",2.1,2022-02-22,610,"lv",38.4,52.5,987
+"22",78550,"GA","Georgia","Blueprint Polling",2.4,2022-03-08,662,"lv",36.3,49.9,973
+"23",78668,"NV","Nevada","Blueprint Polling",2.4,2022-03-24,671,"lv",34.2,44.1,957
+"24",78773,"CO","Colorado","Blueprint Polling",2.4,2022-04-08,612,"rv",42.9,43.1,942
+"25",78785,"NH","New Hampshire","Praecones Analytica",2,2022-04-16,503,"rv",35.5,52.8,934
+"26",78972,"MO","Missouri","SurveyUSA",2.8,2022-05-15,1782,"rv",35,50,905
+"27",78975,"CT","Connecticut","Emerson",2.9,2022-05-11,1000,"rv",50.8,38.1,909
+"28",78994,"AZ","Arizona","Blueprint Polling",2.4,2022-05-16,608,"lv",40.8,40.7,904
+"29",78997,"NC","North Carolina","East Carolina University",2.6,2022-05-20,635,"rv",37.2,46.4,900
+"30",79146,"TX","Texas","Blueprint Polling",2.4,2022-06-10,603,"lv",38.3,44,879
+"31",79159,"GA","Georgia","East Carolina University",2.6,2022-06-09,868,"rv",40.2,46.7,880
+"32",79205,"MA","Massachusetts","U. Massachusetts - Lowell",2.9,2022-06-15,1000,"lv",60,31,874
+"33",79206,"NH","New Hampshire","U. New Hampshire",2.6,2022-06-20,845,"lv",48,45,869
+"34",79362,"NV","Nevada","Emerson",2.9,2022-07-10,2000,"rv",39.25,42.9,849
+"35",79426,"IA","Iowa","Cygnal",2.1,2022-07-14,600,"lv",39.7,51.1,845
+"36",79464,"PA","Pennsylvania","Blueprint Polling",2.4,2022-07-21,712,"lv",42,41,838
+"37",79514,"MO","Missouri","SurveyUSA",2.8,2022-07-27,787,"lv",35,51,832
+"38",79515,"PA","Pennsylvania","PEM Management Corporation",NA,2022-07-24,300,"lv",41.7,44.3,835
+"39",79516,"GA","Georgia","PEM Management Corporation",NA,2022-07-24,300,"lv",40,48,835
+"40",79517,"OH","Ohio","PEM Management Corporation",NA,2022-07-24,300,"lv",44,41.7,835
+"41",79518,"NC","North Carolina","PEM Management Corporation",NA,2022-07-24,300,"lv",40.7,48,835
+"42",79594,"CT","Connecticut","McLaughlin",0.5,2022-07-27,500,"lv",52.4,38.6,832
+"43",79648,"NC","North Carolina","Blueprint Polling",2.4,2022-08-06,656,"lv",39,45,822
+"44",79715,"NY","New York","McLaughlin",0.5,2022-08-09,600,"lv",52,40,819
+"45",79727,"CO","Colorado","McLaughlin",0.5,2022-07-26,500,"lv",50.2,43.4,833
+"46",79763,"OH","Ohio","Emerson",2.9,2022-08-16,925,"lv",38.9,52.5,812
+"47",79788,"MI","Michigan","Blueprint Polling",2.4,2022-08-16,611,"lv",41.2,40.8,812
+"48",79789,"WA","Washington","McLaughlin",0.5,2022-08-17,500,"lv",53.6,40.6,811
+"49",79817,"NY","New York","SurveyUSA",2.8,2022-08-21,1046,"rv",49,29,807
+"50",79848,"PA","Pennsylvania","Emerson",2.9,2022-08-23,1034,"lv",41.7,47.2,805
+"51",79865,"CA","California","Probolsky Research",1.3,2022-08-09,900,"lv",55,38,819
+"52",79879,"GA","Georgia","Emerson",2.9,2022-08-29,600,"lv",45.8,50.7,799
+"53",79889,"SC","South Carolina","Blueprint Polling",2.4,2022-08-25,721,"lv",34,46,803
+"54",80564,"MA","Massachusetts","Emerson",2.9,2022-09-08,708,"lv",54,33.7,789
+"55",80570,"AZ","Arizona","Emerson",2.9,2022-09-07,627,"lv",41,44.2,790
+"56",80572,"NY","New York","Emerson",2.9,2022-09-06,1000,"lv",52.6,37.4,791
+"57",80588,"CT","Connecticut","Emerson",2.9,2022-09-09,1000,"lv",49,35.7,788
+"58",80600,"AZ","Arizona","Echelon Insights",2.7,2022-09-07,773,"lv",43,45,790
+"59",80601,"FL","Florida","Echelon Insights",2.7,2022-09-07,815,"lv",41.5,50,790
+"60",80602,"GA","Georgia","Echelon Insights",2.7,2022-09-07,751,"lv",47,43.5,790
+"61",80603,"KS","Kansas","Echelon Insights",2.7,2022-09-07,392,"lv",40,51,790
+"62",80604,"LA","Louisiana","Echelon Insights",2.7,2022-09-07,506,"lv",34.5,48.5,790
+"63",80605,"OH","Ohio","Echelon Insights",2.7,2022-09-07,831,"lv",40.5,47.5,790
+"64",80606,"OK","Oklahoma","Echelon Insights",2.7,2022-09-07,522,"lv",29,58,790
+"65",80607,"PA","Pennsylvania","Echelon Insights",2.7,2022-09-07,828,"lv",47,42.5,790
+"66",80608,"SC","South Carolina","Echelon Insights",2.7,2022-09-07,600,"lv",40.5,46.5,790
+"67",80609,"AR","Arkansas","Echelon Insights",2.7,2022-09-07,382,"lv",32,53.5,790
+"68",80610,"RI","Rhode Island","Echelon Insights",2.7,2022-09-07,373,"lv",49,36.5,790
+"69",80611,"TX","Texas","Echelon Insights",2.7,2022-09-07,813,"lv",42,46,790
+"70",80612,"MS","Mississippi","Echelon Insights",2.7,2022-09-07,320,"lv",36.5,51.5,790
+"71",80613,"MT","Montana","Echelon Insights",2.7,2022-09-07,409,"lv",35.5,45.5,790
+"72",80617,"NC","North Carolina","East Carolina University",2.6,2022-09-10,1020,"lv",44.6,46.1,787
+"73",80620,"NV","Nevada","Emerson",2.9,2022-09-10,1000,"lv",39.8,42.5,787
+"74",80635,"NM","New Mexico","Emerson",2.9,2022-09-11,1000,"lv",47.4,40.5,786
+"75",80659,"OH","Ohio","Emerson",2.9,2022-09-13,1000,"lv",39.05,49.1,784
+"76",80666,"NH","New Hampshire","Emerson",2.9,2022-09-15,800,"lv",46.3,43.2,782
+"77",80689,"MO","Missouri","SurveyUSA",2.8,2022-09-18,830,"rv",35,52,779
+"78",80704,"WI","Wisconsin","Emerson",2.9,2022-09-18,860,"lv",44.8,44,779
+"79",80710,"NC","North Carolina","Emerson",2.9,2022-09-16,1000,"lv",42,47,781
+"80",80715,"FL","Florida","Suffolk",2.9,2022-09-18,500,"lv",43.2,49.05,779
+"81",80717,"KS","Kansas","Emerson",2.9,2022-09-18,1000,"lv",35.7,51.5,779
+"82",80745,"CO","Colorado","Emerson",2.9,2022-09-19,1000,"lv",45.8,36,778
+"83",80746,"MI","Michigan","EPIC/MRA",1.9,2022-09-19,600,"lv",48,44,778
+"84",80770,"ME","Maine","Emerson",2.9,2022-09-20,1164,"lv",50.9,40.1,777
+"85",80817,"TX","Texas","Emerson",2.9,2022-09-22,1000,"lv",39.9,49.1,775
+"86",80848,"IL","Illinois","Emerson",2.9,2022-09-23,1000,"lv",51,38.3,774
+"87",80871,"PA","Pennsylvania","Emerson",2.9,2022-09-26,1000,"lv",44.9,45.9,771
+"88",80872,"MO","Missouri","Emerson",2.9,2022-09-27,1160,"lv",37,51.4,770
+"89",80905,"NC","North Carolina","SurveyUSA",2.8,2022-10-02,918,"rv",45,43,765
+"90",80927,"OR","Oregon","Emerson",2.9,2022-10-01,796,"lv",50.2,40.5,766
+"91",80928,"WA","Washington","Emerson",2.9,2022-10-01,782,"lv",49.4,38.7,766
+"92",80962,"IA","Iowa","Cygnal",2.1,2022-10-04,600,"lv",40.8,51,763
+"93",80963,"RI","Rhode Island","Fleming & Associates",1.9,2022-10-02,402,"lv",49,32,765
+"94",80965,"IA","Iowa","Emerson",2.9,2022-10-04,959,"lv",38.8,47,763
+"95",80976,"OK","Oklahoma","SoonerPoll.com",1.8,2022-10-06,301,"lv",40.8,52.7,761
+"96",81008,"GA","Georgia","Emerson",2.9,2022-10-07,1000,"lv",43.4,45.2,760
+"97",81015,"NC","North Carolina","PPP",1.4,2022-10-08,606,"rv",44,44,759
+"98",81035,"OH","Ohio","Emerson",2.9,2022-10-07,1000,"lv",38.7,48.35,760
+"99",81062,"IL","Illinois","PPP",1.4,2022-10-11,770,"lv",51,42,756
+"100",81106,"MI","Michigan","Emerson",2.9,2022-10-14,580,"lv",43.7,44.4,753
+"101",81116,"OH","Ohio","Ohio Northern University Institute for Civics and Public Policy",1.5,2022-10-15,668,"lv",35.18,55.4,752
+"102",81158,"NY","New York","SurveyUSA",2.8,2022-10-18,1018,"rv",42,37,749
+"103",81166,"FL","Florida","Florida Atlantic University",2,2022-10-16,719,"lv",41.4,45.1,751
+"104",81187,"NV","Nevada","Rasmussen",2.1,2022-10-17,707,"lv",37,49,750
+"105",81210,"TX","Texas","Emerson",2.9,2022-10-19,1000,"lv",40.4,47.4,748
+"106",81231,"NH","New Hampshire","Emerson",2.9,2022-10-19,727,"lv",44.3,42.7,748
+"107",81242,"CT","Connecticut","Emerson",2.9,2022-10-21,1000,"lv",49.4,40,746
+"108",81275,"SD","South Dakota","Emerson",2.9,2022-10-21,1500,"lv",32.6,53.1,746
+"109",81279,"IL","Illinois","Emerson",2.9,2022-10-24,1000,"lv",49,37.1,743
+"110",81307,"GA","Georgia","Rasmussen",2.1,2022-10-24,1053,"lv",39,47,743
+"111",81337,"NY","New York","Emerson",2.9,2022-10-24,1000,"lv",47.1,39.7,743
+"112",81374,"UT","Utah","Emerson",2.9,2022-10-28,825,"lv",33.6,47,739
+"113",81375,"OK","Oklahoma","Emerson",2.9,2022-10-28,1000,"lv",30,58.7,739
+"114",81389,"NM","New Mexico","Emerson",2.9,2022-10-28,1000,"lv",47.9,38.2,739
+"115",81404,"CO","Colorado","Emerson",2.9,2022-10-29,1000,"lv",46.6,39.4,738
+"116",81405,"MO","Missouri","Emerson",2.9,2022-10-28,1000,"lv",36.5,52.9,739
+"117",81419,"NY","New York","Emerson",2.9,2022-10-31,1000,"lv",51.6,36.9,736
+"118",81437,"NV","Nevada","Susquehanna",2.3,2022-10-27,500,"lv",44.5,47,740
+"119",81438,"KS","Kansas","Emerson",2.9,2022-10-29,1000,"lv",36.8,50.4,738
+"120",81445,"WI","Wisconsin","Emerson",2.9,2022-10-29,1000,"lv",44.2,42.9,738
+"121",81451,"NC","North Carolina","Emerson",2.9,2022-10-29,1000,"lv",40.1,50.6,738
+"122",81464,"MO","Missouri","SurveyUSA",2.8,2022-11-01,991,"rv",34,52,735
+"123",81468,"PA","Pennsylvania","Emerson",2.9,2022-10-31,1000,"lv",44.2,44.3,736
+"124",81471,"MI","Michigan","Emerson",2.9,2022-10-31,900,"lv",44.4,46.7,736
+"125",81486,"NH","New Hampshire","U. Massachusetts - Lowell",2.9,2022-10-25,600,"lv",49,43,742
+"126",81487,"MA","Massachusetts","U. Massachusetts - Lowell",2.9,2022-10-25,1000,"lv",58,32,742
+"127",81488,"GA","Georgia","Emerson",2.9,2022-10-31,1000,"lv",43.8,46.9,736
+"128",81519,"NH","New Hampshire","Emerson",2.9,2022-11-01,850,"lv",45.2,40.7,735
+"129",81521,"AZ","Arizona","Emerson",2.9,2022-11-01,1000,"lv",42,46.2,735
+"130",81540,"OH","Ohio","Emerson",2.9,2022-11-01,1000,"lv",38.2,50.3,735
+"131",81544,"OR","Oregon","Emerson",2.9,2022-11-01,975,"lv",50.7,35.3,735
+"132",81625,"GA","Georgia","Targoz Market Research",1.8,2022-11-06,579,"lv",43,52,730
+"133",81625,"GA","Georgia","Targoz Market Research",1.8,2022-11-06,810,"rv",41,52,730
+"134",81626,"AZ","Arizona","Targoz Market Research",1.8,2022-11-06,560,"lv",45,53,730
+"135",81626,"AZ","Arizona","Targoz Market Research",1.8,2022-11-06,809,"rv",41,54,730
+"136",81627,"PA","Pennsylvania","Targoz Market Research",1.8,2022-11-06,631,"lv",46,52,730
+"137",81627,"PA","Pennsylvania","Targoz Market Research",1.8,2022-11-06,904,"rv",48,48,730
+"138",81628,"OH","Ohio","Targoz Market Research",1.8,2022-11-06,505,"lv",40,57,730
+"139",81628,"OH","Ohio","Targoz Market Research",1.8,2022-11-06,814,"rv",37,56,730
+"140",81636,"NY","New York","SurveyUSA",2.8,2022-11-06,918,"rv",46,34,730
+"141",81693,"FL","Florida","Victory Insights",1.3,2022-11-17,600,"lv",49.2,50.8,719
+"142",81734,"GA","Georgia","Emerson",2.9,2022-11-30,888,"lv",43.25,45,706
+"143",81747,"AZ","Arizona","Rasmussen",2.1,2022-11-09,874,"lv",47,45,727
+"144",81748,"FL","Florida","Rasmussen",2.1,2022-11-09,1224,"lv",40,49,727
+"145",81749,"NV","Nevada","Rasmussen",2.1,2022-11-09,679,"lv",41,45,727
+"146",81756,"GA","Georgia","U. Massachusetts - Lowell",2.9,2022-11-28,1300,"lv",46.5,45,708
+"147",81796,"MI","Michigan","EPIC/MRA",1.9,2022-12-06,600,"lv",47,43,700
+"148",81798,"MI","Michigan","PPP",1.4,2022-12-07,763,"v",50,43,699
+"149",81967,"AZ","Arizona","Blueprint Polling",2.4,2023-01-08,618,"v",36.1,40.75,667
+"150",82054,"NC","North Carolina","Differentiators",NA,2023-01-12,500,"lv",46.1,46.7,663
+"151",82071,"NH","New Hampshire","co/efficient",1.1,2023-01-26,1179,"lv",38,43.5,649
+"152",82144,"NV","Nevada","OH Predictive Insights / MBQF",2.4,2023-02-06,800,"rv",38,42,638
+"153",82213,"AZ","Arizona","OH Predictive Insights / MBQF",2.4,2023-02-09,1000,"rv",37,36.5,635
+"154",82257,"FL","Florida","Cherry Communications",1,2023-02-19,608,"lv",38,49,625
+"155",82258,"CA","California","UC Berkeley",2.5,2023-02-20,5149,"lv",57.5,31.5,624
+"156",82258,"CA","California","UC Berkeley",2.5,2023-02-20,7512,"rv",55.5,29,624
+"157",82299,"VA","Virginia","Roanoke College",2.6,2023-02-21,590,"rv",43,49.6666666666667,623
+"158",82299,"VA","Virginia","Roanoke College",2.6,2023-02-21,680,"a",43.3333333333333,48.6666666666667,623
+"159",82305,"PA","Pennsylvania","Susquehanna",2.3,2023-02-26,800,"rv",48,41,618
+"160",82337,"NH","New Hampshire","Emerson",2.9,2023-03-05,1025,"rv",39.8333333333333,39.4666666666667,611
+"161",82349,"FL","Florida","U. North Florida",2.8,2023-03-07,1452,"rv",42.5,50.5,609
+"162",82402,"FL","Florida","Emerson",2.9,2023-03-15,1153,"rv",43.75,44.85,601
+"163",82403,"AZ","Arizona","Rasmussen",2.1,2023-03-14,1001,"lv",39,50,602
+"164",82423,"FL","Florida","Metropolitan Research",NA,2023-03-19,1001,"rv",43,47,597
+"165",82483,"NC","North Carolina","Cygnal",2.1,2023-03-27,605,"lv",42.6,42.1333333333333,589
+"166",82562,"IA","Iowa","Cygnal",2.1,2023-04-04,600,"lv",39.25,47.4,581
+"167",82601,"PA","Pennsylvania","Franklin and Marshall College",2.4,2023-04-07,643,"rv",36,35,578
+"168",82609,"AZ","Arizona","Public Opinion Strategies",1.6,2023-04-13,500,"rv",43.5,46,572
+"169",82610,"PA","Pennsylvania","Public Opinion Strategies",1.6,2023-04-13,500,"rv",44,43.5,572
+"170",82655,"MI","Michigan","Public Opinion Strategies",1.6,2023-04-19,500,"rv",44,43.5,566
+"171",82658,"WI","Wisconsin","Public Opinion Strategies",1.6,2023-04-20,500,"rv",46.5,45,565
+"172",82661,"NV","Nevada","Public Opinion Strategies",1.6,2023-04-20,500,"rv",43.5,44.5,565
+"173",82678,"TX","Texas","CWS Research",1.6,2023-04-21,677,"lv",41,44.5,564
+"174",82707,"NV","Nevada","Noble Predictive Insights",2.4,2023-04-26,613,"rv",45.5,41,559
+"175",82708,"GA","Georgia","Public Opinion Strategies",1.6,2023-04-27,500,"rv",43,45,558
+"176",82726,"TN","Tennessee","SSRS",2.4,2023-04-23,501,"rv",24,33,562
+"177",82726,"TN","Tennessee","SSRS",2.4,2023-04-23,502,"rv",26,42,562
+"178",82788,"PA","Pennsylvania","Susquehanna",2.3,2023-05-08,700,"lv",45,38.5,547
+"179",82804,"CO","Colorado","Public Opinion Strategies",1.6,2023-05-09,500,"lv",46.5,40,546
+"180",82805,"MN","Minnesota","Public Opinion Strategies",1.6,2023-05-08,500,"lv",46.5,41.5,547
+"181",82806,"NM","New Mexico","Public Opinion Strategies",1.6,2023-05-08,500,"lv",47,40.5,547
+"182",82807,"VA","Virginia","Public Opinion Strategies",1.6,2023-05-09,500,"lv",46,42.5,546
+"183",82846,"GA","Georgia","Public Opinion Strategies",1.6,2023-05-17,500,"rv",43.3333333333333,43.6666666666667,538
+"184",82847,"AZ","Arizona","Public Opinion Strategies",1.6,2023-05-17,500,"rv",44.6666666666667,44.6666666666667,538
+"185",82854,"KY","Kentucky","co/efficient",1.1,2023-05-19,987,"lv",33,57,536
+"186",82878,"TX","Texas","Texas Hispanic Policy Foundation",NA,2023-05-17,1000,"rv",40.75,44.75,538
+"187",82880,"IA","Iowa","Emerson",2.9,2023-05-22,1064,"rv",38.1,47,533
+"188",82890,"NV","Nevada","VoteTXT",NA,2023-05-19,412,"rv",38.495,47.395,536
+"189",82937,"NV","Nevada","McLaughlin",0.5,2023-05-24,400,"lv",47,48,531
+"190",82938,"CA","California","PPIC",2.5,2023-05-24,1062,"lv",58,25,531
+"191",82951,"VA","Virginia","Roanoke College",2.6,2023-05-23,678,"a",54,38,532
+"192",82972,"NC","North Carolina","Opinion Diagnostics",NA,2023-06-07,902,"lv",40.3,44.25,517
+"193",82975,"GA","Georgia","Cygnal",2.1,2023-06-07,600,"lv",41.4,42,517
+"194",82983,"WA","Washington","PPP",1.4,2023-06-08,773,"lv",52,37.5,516
+"195",82993,"CA","California","Emerson",2.9,2023-06-07,1056,"rv",53.6,30.05,517
+"196",83002,"MD","Maryland","Gonzales Research & Media Services",1.2,2023-06-06,841,"rv",51.65,35.9,518
+"197",83020,"MI","Michigan","EPIC/MRA",1.9,2023-06-14,600,"lv",44,44.5,510
+"198",83042,"AZ","Arizona","Public Opinion Strategies",1.6,2023-06-19,500,"rv",43,45,505
+"199",83043,"GA","Georgia","Public Opinion Strategies",1.6,2023-06-19,500,"rv",46.5,47,505
+"200",83044,"PA","Pennsylvania","Public Opinion Strategies",1.6,2023-06-19,500,"rv",46.5,46.5,505
+"201",83109,"NH","New Hampshire","St. Anselm",2.4,2023-06-23,1065,"rv",49,40,501
+"202",83112,"NY","New York","Siena",2.7,2023-06-25,817,"rv",50,28,499
+"203",83118,"WI","Wisconsin","Marquette Law School",3,2023-06-13,913,"rv",50.5,45,511
+"204",83119,"PA","Pennsylvania","Quinnipiac",2.8,2023-06-26,1584,"rv",46,47,498
+"205",83145,"TN","Tennessee","Targoz Market Research",1.8,2023-06-22,977,"lv",36,52,502
+"206",83145,"TN","Tennessee","Targoz Market Research",1.8,2023-06-22,1046,"lv",34,54,502
+"207",83145,"TN","Tennessee","Targoz Market Research",1.8,2023-06-22,1120,"rv",32,48.5,502
+"208",83164,"NV","Nevada","Public Opinion Strategies",1.6,2023-07-06,500,"rv",45.5,44.5,488
+"209",83169,"FL","Florida","Florida Atlantic University/Mainstreet Research",NA,2023-07-01,933,"a",37.5,49.1,493
+"210",83200,"AZ","Arizona","Prime Group",NA,2023-06-28,500,"rv",48,52,496
+"211",83201,"GA","Georgia","Prime Group",NA,2023-06-28,500,"rv",48,52,496
+"212",83202,"MI","Michigan","Prime Group",NA,2023-06-28,500,"rv",50,50,496
+"213",83203,"NC","North Carolina","Prime Group",NA,2023-06-28,500,"rv",46,54,496
+"214",83204,"NV","Nevada","Prime Group",NA,2023-06-28,500,"rv",51,49,496
+"215",83205,"PA","Pennsylvania","Prime Group",NA,2023-06-28,500,"rv",50,50,496
+"216",83206,"WI","Wisconsin","Prime Group",NA,2023-06-28,500,"rv",53,47,496
+"217",83207,"CA","California","PPIC",2.5,2023-06-29,1092,"lv",57,31,495
+"218",83209,"MI","Michigan","Public Opinion Strategies",1.6,2023-07-10,500,"rv",44.5,45,484
+"219",83215,"NH","New Hampshire","American Pulse",NA,2023-07-11,895,"lv",41.9,37.725,483
+"220",83223,"OH","Ohio","Suffolk",2.9,2023-07-12,500,"rv",37.6,41.3,482
+"221",83253,"MI","Michigan","Mitchell",2.4,2023-07-13,639,"lv",44.5,37,481
+"222",83286,"AZ","Arizona","Public Opinion Strategies",1.6,2023-07-24,500,"rv",43,47.5,470
+"223",83308,"OH","Ohio","Ohio Northern University Institute for Civics and Public Policy",1.5,2023-07-26,675,"rv",38.5833333333333,39.3,468
+"224",83343,"VA","Virginia","Virginia Commonwealth U.",2.1,2023-07-25,804,"a",40.3333333333333,41.6666666666667,469
+"225",83347,"MI","Michigan","Emerson",2.9,2023-08-02,1121,"rv",42.65,43.45,461
+"226",83357,"AZ","Arizona","Emerson",2.9,2023-08-04,1337,"rv",41.9,43.25,459
+"227",83390,"KY","Kentucky","PPP",1.4,2023-08-10,737,"v",34,55,453
+"228",83400,"AK","Alaska","Alaska Survey Research",1.9,2023-07-21,1336,"lv",36,43,473
+"229",83402,"NH","New Hampshire","Emerson",2.9,2023-08-11,837,"rv",46.1,40.05,452
+"230",83918,"MI","Michigan","EPIC/MRA",1.9,2023-08-11,600,"lv",46,45,452
+"231",83949,"NY","New York","Siena",2.7,2023-08-16,803,"rv",47,34,447
+"232",83952,"IA","Iowa","HarrisX",1.5,2023-08-21,1952,"rv",41,47,442
+"233",83965,"PA","Pennsylvania","Franklin and Marshall College",2.4,2023-08-20,723,"rv",42,40,443
+"234",83991,"NM","New Mexico","PPP",1.4,2023-08-24,767,"rv",49,42,439
+"235",84017,"VA","Virginia","Roanoke College",2.6,2023-08-15,702,"a",51,42,448
+"236",84043,"IL","Illinois","Cor Strategies",NA,2023-08-27,811,"rv",54,35,436
+"237",84056,"AL","Alabama","WPAi",1.7,2023-08-26,500,"rv",32,57,437
+"238",84067,"MT","Montana","J.L. Partners",1.6,2023-08-17,741,"lv",37.5,50.5,446
+"239",84085,"CA","California","UC Berkeley",2.5,2023-08-29,6030,"rv",51,31,434
+"240",84119,"NC","North Carolina","Change Research",1.4,2023-09-05,914,"lv",42,46,427
+"241",84123,"IA","Iowa","Emerson",2.9,2023-09-09,896,"rv",36.85,48.75,423
+"242",84163,"GA","Georgia","Rasmussen",2.1,2023-09-11,1061,"lv",38,47,421
+"243",84166,"MI","Michigan","Susquehanna",2.3,2023-09-12,700,"rv",47,42.5,420
+"244",84175,"NY","New York","Siena",2.7,2023-09-13,804,"rv",52,31,419
+"245",84194,"NH","New Hampshire","U. New Hampshire",2.6,2023-09-18,2018,"lv",48,29.7142857142857,414
+"246",84211,"PA","Pennsylvania","National Public Affairs",NA,2023-09-17,622,"lv",47,45,415
+"247",84252,"CA","California","PPIC",2.5,2023-09-05,1146,"lv",57,26,427
+"248",84269,"VA","Virginia","Research America",0.7,2023-09-11,1000,"a",37.6666666666667,33.6666666666667,421
+"249",84270,"MI","Michigan","PPP",1.4,2023-09-27,679,"rv",48,44,405
+"250",84271,"PA","Pennsylvania","PPP",1.4,2023-09-26,673,"rv",48,45,406
+"251",84272,"WI","Wisconsin","PPP",1.4,2023-09-26,673,"rv",48,44,406
+"252",84304,"CA","California","Data Viewpoint",NA,2023-10-01,533,"rv",62.5,37.5,401
+"253",84309,"MD","Maryland","Gonzales Research & Media Services",1.2,2023-09-28,818,"rv",55.4,32.6,404
+"254",84317,"PA","Pennsylvania","Quinnipiac",2.8,2023-10-02,1725,"rv",45,47,400
+"255",84321,"IA","Iowa","Cygnal",2.1,2023-09-29,506,"lv",36.2,47.45,403
+"256",84322,"PA","Pennsylvania","Susquehanna",2.3,2023-09-28,700,"rv",45.5,45,404
+"257",84337,"KY","Kentucky","Emerson",2.9,2023-10-03,450,"rv",26.3,54.6,399
+"258",84366,"NV","Nevada","CNN/SSRS",2.8,2023-10-03,1251,"rv",46,45,399
+"259",84367,"OH","Ohio","Emerson",2.9,2023-10-04,438,"rv",32.6,44.6,398
+"260",84368,"OK","Oklahoma","Emerson",2.9,2023-10-03,447,"rv",27,55,399
+"261",84369,"MI","Michigan","MRG (Marketing Resource Group)",1.8,2023-10-08,600,"lv",40.65,41,394
+"262",84377,"PA","Pennsylvania","Emerson",2.9,2023-10-04,430,"rv",36.4,45.3,398
+"263",84378,"ID","Idaho","Emerson",2.9,2023-10-04,490,"rv",25.8,54.5,398
+"264",84379,"VA","Virginia","Change Research",1.4,2023-09-19,1437,"rv",41.3333333333333,39.3333333333333,413
+"265",84380,"MT","Montana","Change Research",1.4,2023-09-19,1451,"rv",31.6666666666667,51.3333333333333,413
+"266",84381,"OH","Ohio","Change Research",1.4,2023-09-19,1559,"rv",37.6666666666667,45,413
+"267",84392,"WI","Wisconsin","Emerson",2.9,2023-10-04,532,"rv",39.5,42,398
+"268",84395,"MO","Missouri","Emerson",2.9,2023-10-04,491,"rv",33,50.2,398
+"269",84396,"KS","Kansas","Emerson",2.9,2023-10-04,487,"rv",31,47,398
+"270",84399,"WV","West Virginia","Emerson",2.9,2023-10-04,539,"rv",22.5,59.3,398
+"271",84400,"IN","Indiana","Emerson",2.9,2023-10-04,462,"rv",28.5,47.5,398
+"272",84401,"IA","Iowa","Emerson",2.9,2023-10-04,464,"rv",33.8,43.5,398
+"273",84402,"NE","Nebraska","Emerson",2.9,2023-10-04,423,"rv",30.9,46.8,398
+"274",84410,"AZ","Arizona","Redfield & Wilton Strategies",1.8,2023-10-08,627,"lv",38,43,394
+"275",84411,"FL","Florida","Redfield & Wilton Strategies",1.8,2023-10-08,1100,"lv",38,44,394
+"276",84412,"GA","Georgia","Redfield & Wilton Strategies",1.8,2023-10-08,761,"lv",39,42,394
+"277",84413,"MI","Michigan","Redfield & Wilton Strategies",1.8,2023-10-09,820,"lv",39.5,40.5,393
+"278",84414,"NC","North Carolina","Redfield & Wilton Strategies",1.8,2023-10-08,736,"lv",38,42,394
+"279",84415,"PA","Pennsylvania","Redfield & Wilton Strategies",1.8,2023-10-08,900,"lv",41,40.5,394
+"280",84416,"ND","North Dakota","Emerson",2.9,2023-10-04,419,"rv",17,54,398
+"281",84417,"SD","South Dakota","Emerson",2.9,2023-10-04,432,"rv",27.8,50.3,398
+"282",84418,"IL","Illinois","Emerson",2.9,2023-10-04,468,"rv",43.4,33.7,398
+"283",84419,"AR","Arkansas","Emerson",2.9,2023-10-04,435,"rv",24.4,56.6,398
+"284",84421,"MN","Minnesota","Emerson",2.9,2023-10-04,477,"rv",39.8,37.8,398
+"285",84422,"MI","Michigan","Emerson",2.9,2023-10-04,468,"rv",44.1,42.5,398
+"286",84423,"CO","Colorado","Emerson",2.9,2023-10-04,442,"rv",41.8,37.6,398
+"287",84426,"MT","Montana","Emerson",2.9,2023-10-04,447,"rv",28.3,48.6,398
+"288",84427,"WY","Wyoming","Emerson",2.9,2023-10-04,478,"rv",14.8,67.6,398
+"289",84428,"TN","Tennessee","Emerson",2.9,2023-10-04,410,"rv",22,55.3,398
+"290",84450,"AZ","Arizona","Morning Consult",1.9,2023-10-10,804,"rv",43,47,392
+"291",84451,"GA","Georgia","Morning Consult",1.9,2023-10-10,801,"rv",43,48,392
+"292",84452,"MI","Michigan","Morning Consult",1.9,2023-10-10,706,"rv",44,44,392
+"293",84453,"NV","Nevada","Morning Consult",1.9,2023-10-10,503,"rv",46,43,392
+"294",84454,"NC","North Carolina","Morning Consult",1.9,2023-10-10,702,"rv",43,47,392
+"295",84455,"PA","Pennsylvania","Morning Consult",1.9,2023-10-10,807,"rv",45,46,392
+"296",84456,"WI","Wisconsin","Morning Consult",1.9,2023-10-10,700,"rv",44,46,392
+"297",84473,"AK","Alaska","Alaska Survey Research",1.9,2023-10-18,1375,"lv",33,41,384
+"298",84478,"NY","New York","Siena",2.7,2023-10-19,1225,"rv",42,34,383
+"299",84479,"MO","Missouri","Remington",2.6,2023-10-12,806,"lv",36.5,50.5,390
+"300",84488,"TX","Texas","YouGov",3,2023-10-17,1200,"rv",35.8333333333333,35.1666666666667,385
+"301",84489,"MA","Massachusetts","UMass Amherst/YouGov",2.4,2023-10-20,700,"a",43,21,382
+"302",84491,"TN","Tennessee","Targoz Market Research",1.8,2023-10-16,835,"lv",30,61,386
+"303",84491,"TN","Tennessee","Targoz Market Research",1.8,2023-10-16,844,"lv",23,53,386
+"304",84491,"TN","Tennessee","Targoz Market Research",1.8,2023-10-16,872,"lv",23,48,386
+"305",84491,"TN","Tennessee","Targoz Market Research",1.8,2023-10-16,1075,"rv",29,59,386
+"306",84491,"TN","Tennessee","Targoz Market Research",1.8,2023-10-16,1118,"rv",21,52,386
+"307",84491,"TN","Tennessee","Targoz Market Research",1.8,2023-10-16,1164,"rv",18,46,386
+"308",84492,"PA","Pennsylvania","Franklin and Marshall College",2.4,2023-10-22,873,"rv",44,42,380
+"309",84501,"GA","Georgia","Zogby",1.2,2023-10-12,628,"lv",42.45,47.75,390
+"310",84522,"NV","Nevada","Tarrance",1.6,2023-10-26,600,"lv",46,46,376
+"311",84526,"OH","Ohio","Ohio Northern University Institute for Civics and Public Policy",1.5,2023-10-19,668,"rv",38,39.4,383
+"312",84542,"AZ","Arizona","Siena/NYT",3,2023-11-03,603,"lv",40,44.6,368
+"313",84542,"AZ","Arizona","Siena/NYT",3,2023-11-03,603,"rv",39.8,44.2,368
+"314",84543,"GA","Georgia","Siena/NYT",3,2023-11-03,629,"lv",40.6,44.8,368
+"315",84543,"GA","Georgia","Siena/NYT",3,2023-11-03,629,"rv",39.8,43.2,368
+"316",84544,"MI","Michigan","Siena/NYT",3,2023-11-03,616,"lv",41.6,43,368
+"317",84544,"MI","Michigan","Siena/NYT",3,2023-11-03,616,"rv",39.2,43.2,368
+"318",84545,"NV","Nevada","Siena/NYT",3,2023-11-03,611,"lv",39,46.6,368
+"319",84545,"NV","Nevada","Siena/NYT",3,2023-11-03,611,"rv",38.8,45,368
+"320",84546,"PA","Pennsylvania","Siena/NYT",3,2023-11-03,600,"lv",41.2,45.8,368
+"321",84546,"PA","Pennsylvania","Siena/NYT",3,2023-11-03,600,"rv",40.8,44.6,368
+"322",84547,"WI","Wisconsin","Siena/NYT",3,2023-11-03,603,"lv",42.6,45.8,368
+"323",84547,"WI","Wisconsin","Siena/NYT",3,2023-11-03,603,"rv",42.6,45.4,368
+"324",84614,"GA","Georgia","U. Georgia SPIA",2.2,2023-11-03,1002,"lv",42.6,43.5333333333333,368
+"325",84615,"CA","California","UC Berkeley",2.5,2023-10-30,4506,"lv",44.5,30,372
+"326",84616,"WI","Wisconsin","Marquette Law School",3,2023-11-02,908,"rv",47.3333333333333,50.3333333333333,369
+"327",84617,"CA","California","PPIC",2.5,2023-10-19,1395,"lv",60,29,383
+"328",84619,"MI","Michigan","Emerson",2.9,2023-11-04,788,"lv",44.4,43,367
+"329",84619,"MI","Michigan","Emerson",2.9,2023-11-04,1000,"rv",42.6,41,367
+"330",84620,"PA","Pennsylvania","Emerson",2.9,2023-11-04,816,"lv",45.2,49.1,367
+"331",84620,"PA","Pennsylvania","Emerson",2.9,2023-11-04,1000,"rv",43.2,46.4,367
+"332",84621,"GA","Georgia","Emerson",2.9,2023-11-04,780,"lv",41.4,49.1,367
+"333",84621,"GA","Georgia","Emerson",2.9,2023-11-04,1000,"rv",39.7,46.9,367
+"334",84622,"WI","Wisconsin","Emerson",2.9,2023-11-04,819,"lv",45,45.2,367
+"335",84622,"WI","Wisconsin","Emerson",2.9,2023-11-04,1000,"rv",42.6,43.8,367
+"336",84623,"AZ","Arizona","Emerson",2.9,2023-11-04,778,"lv",43.7,45.5,367
+"337",84623,"AZ","Arizona","Emerson",2.9,2023-11-04,1000,"rv",40.6,42.8,367
+"338",84624,"NV","Nevada","Emerson",2.9,2023-11-04,770,"lv",44.2,47.3,367
+"339",84624,"NV","Nevada","Emerson",2.9,2023-11-04,1000,"rv",39.4,46.2,367
+"340",84649,"OH","Ohio","Data for Progress",2.6,2023-11-02,597,"lv",43,51,369
+"341",84650,"AZ","Arizona","Morning Consult",1.9,2023-11-07,800,"rv",39,43,364
+"342",84651,"GA","Georgia","Morning Consult",1.9,2023-11-07,803,"rv",37.5,45.5,364
+"343",84652,"MI","Michigan","Morning Consult",1.9,2023-11-07,700,"rv",40.5,40,364
+"344",84653,"NV","Nevada","Morning Consult",1.9,2023-11-07,437,"rv",39,42.5,364
+"345",84654,"NC","North Carolina","Morning Consult",1.9,2023-11-07,702,"rv",36,45,364
+"346",84655,"PA","Pennsylvania","Morning Consult",1.9,2023-11-07,805,"rv",41,44,364
+"347",84656,"WI","Wisconsin","Morning Consult",1.9,2023-11-07,675,"rv",41,42.5,364
+"348",84665,"NC","North Carolina","Meredith College",1.6,2023-11-05,755,"rv",40,39,366
+"349",84666,"AZ","Arizona","Noble Predictive Insights",2.4,2023-10-31,1010,"rv",37.5,43,371
+"350",84684,"NH","New Hampshire","Emerson",2.9,2023-11-13,917,"rv",43.8166666666667,41.1166666666667,358
+"351",84692,"WA","Washington","Elway",1.9,2023-11-03,403,"rv",38,27,368
+"352",84696,"OH","Ohio","Emerson",2.9,2023-11-13,1000,"rv",34.8,47.45,358
+"353",84697,"FL","Florida","Florida Atlantic University/Mainstreet Research",NA,2023-11-11,946,"rv",38.55,47.9,360
+"354",84702,"WA","Washington","PPP",1.4,2023-11-15,700,"lv",52,38,356
+"355",84708,"CA","California","Emerson",2.9,2023-11-14,1000,"rv",48.25,35.125,357
+"356",84709,"MI","Michigan","EPIC/MRA",1.9,2023-11-16,600,"lv",38.5,46.5,355
+"357",84713,"NY","New York","Siena",2.7,2023-11-15,803,"rv",41.5,32,356
+"358",84717,"FL","Florida","Cygnal",2.1,2023-11-15,800,"lv",41.1,45.8333333333333,356
+"359",84835,"MN","Minnesota","Embold Research",1.4,2023-11-17,1519,"lv",45,42,354
+"360",84841,"VA","Virginia","Roanoke College",2.6,2023-11-20,686,"a",48,44,351
+"361",84849,"AZ","Arizona","J.L. Partners",1.6,2023-12-01,550,"lv",38.5,43.5,340
+"362",84850,"GA","Georgia","J.L. Partners",1.6,2023-12-01,550,"lv",40,42.5,340
+"363",84851,"WI","Wisconsin","J.L. Partners",1.6,2023-12-01,550,"lv",41,36.5,340
+"364",84862,"AZ","Arizona","Redfield & Wilton Strategies",1.8,2023-11-29,1103,"lv",33.3333333333333,30.6666666666667,342
+"365",84863,"FL","Florida","Redfield & Wilton Strategies",1.8,2023-11-29,897,"lv",33.3333333333333,36.3333333333333,342
+"366",84864,"GA","Georgia","Redfield & Wilton Strategies",1.8,2023-11-29,746,"lv",35.3333333333333,35.3333333333333,342
+"367",84865,"MI","Michigan","Redfield & Wilton Strategies",1.8,2023-11-29,874,"lv",38,31.3333333333333,342
+"368",84866,"NC","North Carolina","Redfield & Wilton Strategies",1.8,2023-11-29,620,"lv",34,39.3333333333333,342
+"369",84867,"PA","Pennsylvania","Redfield & Wilton Strategies",1.8,2023-11-29,887,"lv",36.6666666666667,34.6666666666667,342
+"370",84873,"NE","Nebraska","Change Research",1.4,2023-11-16,1048,"lv",35,53,355
+"371",84887,"CA","California","PPIC",2.5,2023-11-16,1113,"lv",54,30,355
+"372",84962,"MI","Michigan","CNN/SSRS",2.8,2023-12-06,1197,"rv",37.75,47,335
+"373",84963,"GA","Georgia","CNN/SSRS",2.8,2023-12-07,1068,"rv",42.25,46.25,334
+"374",85330,"AZ","Arizona","Tulchin Research",0.9,2023-11-20,800,"lv",42,42,351
+"375",85338,"AZ","Arizona","Morning Consult",1.9,2023-12-06,796,"rv",39.5,43,335
+"376",85339,"GA","Georgia","Morning Consult",1.9,2023-12-06,801,"rv",40,46.5,335
+"377",85340,"MI","Michigan","Morning Consult",1.9,2023-12-06,703,"rv",38.5,42.5,335
+"378",85341,"NV","Nevada","Morning Consult",1.9,2023-12-06,451,"rv",40.5,44.5,335
+"379",85342,"NC","North Carolina","Morning Consult",1.9,2023-12-06,704,"rv",37,47,335
+"380",85343,"PA","Pennsylvania","Morning Consult",1.9,2023-12-06,799,"rv",41,42.5,335
+"381",85344,"WI","Wisconsin","Morning Consult",1.9,2023-12-06,681,"rv",37.5,42.5,335
+"382",85345,"TN","Tennessee","SSRS",2.4,2023-12-02,502,"rv",26,45,339
+"383",85361,"CO","Colorado","Cygnal/Aspect Strategic",NA,2023-11-27,652,"lv",45,36.2,344
+"384",85416,"TN","Tennessee","Siena",2.7,2023-11-10,805,"a",20,49,361
+"385",85435,"AZ","Arizona","Bullfinch",NA,2023-12-18,600,"rv",40,50,323
+"386",85436,"PA","Pennsylvania","Bullfinch",NA,2023-12-18,600,"rv",45,45,323
+"387",85449,"AZ","Arizona","VCreek/AMG",1.1,2023-12-08,694,"lv",34.5,40.75,333
+"388",85450,"PA","Pennsylvania","Muhlenberg",2.8,2023-12-13,421,"rv",41,38.75,328
+"389",85451,"TX","Texas","YouGov",3,2023-12-10,1200,"rv",36.6,38.6,331
+"390",85456,"IA","Iowa","Emerson",2.9,2023-12-17,1094,"rv",39.6,48.2,324
+"391",85460,"NH","New Hampshire","St. Anselm",2.4,2023-12-19,1711,"lv",49,39,322
+"392",85533,"TN","Tennessee","Targoz Market Research",1.8,2023-12-28,929,"lv",28,57,313
+"393",85533,"TN","Tennessee","Targoz Market Research",1.8,2023-12-28,1187,"rv",26.5,54.5,313
+"394",85538,"VA","Virginia","Mason-Dixon",2.6,2023-12-19,625,"rv",45.5,39.5,322
+"395",85542,"IA","Iowa","John Zogby Strategies",1.8,2024-01-04,500,"lv",39,51,306
+"396",85543,"MI","Michigan","John Zogby Strategies",1.8,2024-01-04,602,"lv",44,47,306
+"397",85546,"AZ","Arizona","Redfield & Wilton Strategies",1.8,2023-12-30,808,"lv",35,41,311
+"398",85547,"FL","Florida","Redfield & Wilton Strategies",1.8,2023-12-30,1147,"lv",34,45,311
+"399",85548,"GA","Georgia","Redfield & Wilton Strategies",1.8,2023-12-30,953,"lv",34,42,311
+"400",85549,"MI","Michigan","Redfield & Wilton Strategies",1.8,2023-12-30,832,"lv",37,39,311
+"401",85550,"NC","North Carolina","Redfield & Wilton Strategies",1.8,2023-12-30,1220,"lv",33,37,311
+"402",85551,"PA","Pennsylvania","Redfield & Wilton Strategies",1.8,2023-12-30,1069,"lv",39,40,311
+"403",85554,"PA","Pennsylvania","Change Research",1.4,2023-12-07,NA,"rv",40,46,334
+"404",85555,"NV","Nevada","Change Research",1.4,2023-12-07,NA,"rv",40,44,334
+"405",85563,"NV","Nevada","Emerson",2.9,2024-01-08,1294,"rv",42.05,44.6,302
+"406",85564,"NH","New Hampshire","Suffolk",2.9,2024-01-07,1000,"lv",41.5,34.1,303
+"407",85576,"MI","Michigan","Glengariff Group Inc.",1.5,2024-01-06,600,"lv",38.2,44.4,304
+"408",85584,"PA","Pennsylvania","Quinnipiac",2.8,2024-01-08,1680,"rv",45,42.5,302
+"409",85595,"ME","Maine","Digital Research",1.4,2023-11-02,614,"rv",36,35,369
+"410",85596,"ME","Maine CD-1","Digital Research",1.4,2023-11-02,307,"rv",43,27,369
+"411",85597,"ME","Maine CD-2","Digital Research",1.4,2023-11-02,307,"rv",28,42,369
+"412",85602,"MI","Michigan","Target Insyght",1,2024-01-10,800,"rv",45,41,300
+"413",85604,"CA","California","UC Berkeley",2.5,2024-01-08,4470,"lv",51.5,34,302
+"414",85620,"GA","Georgia","U. Georgia SPIA",2.2,2024-01-11,1007,"rv",36.9,44.7,299
+"415",85646,"TX","Texas","Emerson",2.9,2024-01-15,1315,"rv",38.5,47.2,295
+"416",85648,"CA","California","Emerson",2.9,2024-01-14,1087,"rv",50.45,32.7,296
+"417",85655,"NH","New Hampshire","Marist",2.9,2024-01-17,1157,"rv",47.75,43.75,293
+"418",85667,"NY","New York","Siena",2.7,2024-01-17,807,"rv",43.5,34.5,293
+"419",85675,"VA","Virginia","Virginia Commonwealth U.",2.1,2024-01-13,812,"a",41,40.6666666666667,297
+"420",85694,"PA","Pennsylvania","Susquehanna",2.3,2024-01-21,745,"lv",46.8,39.3,289
+"421",85733,"CO","Colorado","YouGov",3,2023-12-18,800,"a",46.5,36.5,323
+"422",85736,"TX","Texas","U. Houston",2.2,2024-01-24,1145,"lv",39.3333333333333,48,286
+"423",85751,"UT","Utah","Dan Jones",1.9,2024-01-21,801,"rv",33,43,289
+"424",85765,"AZ","Arizona","Morning Consult",1.9,2024-01-21,800,"rv",39.5,45,289
+"425",85766,"GA","Georgia","Morning Consult",1.9,2024-01-21,798,"rv",39,46.5,289
+"426",85767,"MI","Michigan","Morning Consult",1.9,2024-01-21,703,"rv",39.5,45,289
+"427",85768,"NV","Nevada","Morning Consult",1.9,2024-01-21,457,"rv",35.5,45.5,289
+"428",85769,"NC","North Carolina","Morning Consult",1.9,2024-01-21,706,"rv",35.5,47,289
+"429",85770,"PA","Pennsylvania","Morning Consult",1.9,2024-01-21,795,"rv",42.5,45.5,289
+"430",85771,"WI","Wisconsin","Morning Consult",1.9,2024-01-21,697,"rv",39.5,46,289
+"431",85794,"OH","Ohio","Emerson",2.9,2024-01-25,1844,"rv",35.8,46.8,285
+"432",85797,"PA","Pennsylvania","Franklin and Marshall College",2.4,2024-01-28,499,"rv",42,37,282
+"433",85797,"PA","Pennsylvania","Franklin and Marshall College",2.4,2024-01-28,507,"rv",43,42,282
+"434",85798,"MN","Minnesota","SurveyUSA",2.8,2024-01-29,1594,"lv",42,39,281
+"435",85801,"CA","California","USC Dornsife/CSU Long Beach/Cal Poly Pomona",NA,2024-01-29,1416,"lv",53,25,281
+"436",85825,"MO","Missouri","Emerson",2.9,2024-01-28,1830,"rv",31.9,49.4,282
+"437",85827,"WI","Wisconsin","Beacon/Shaw",2.8,2024-01-30,1172,"rv",41,39,280
+"438",85828,"GA","Georgia","Beacon/Shaw",2.8,2024-01-30,1119,"rv",38.3333333333333,41.6666666666667,280
+"439",85829,"CO","Colorado","Emerson",2.9,2024-01-28,1856,"rv",41,35,282
+"440",85830,"SD","South Dakota","Emerson",2.9,2024-01-28,1777,"rv",26.4,55.3,282
+"441",85834,"AZ","Arizona","J.L. Partners",1.6,2024-02-01,500,"rv",41,45,278
+"442",85843,"NC","North Carolina","Meredith College",1.6,2024-01-31,760,"rv",39,44,279
+"443",85862,"MA","Massachusetts","Suffolk",2.9,2024-02-05,1000,"rv",45.4,25.5,274
+"444",85865,"TX","Texas","Redfield & Wilton Strategies",1.8,2024-02-03,605,"lv",33.5,37,276
+"445",85891,"WI","Wisconsin","Marquette Law School",3,2024-01-31,808,"lv",43.3333333333333,49.3333333333333,279
+"446",85891,"WI","Wisconsin","Marquette Law School",3,2024-01-31,930,"rv",42.3333333333333,48.6666666666667,279
+"447",85892,"CO","Colorado","Global Strategy Group",1.8,2024-01-28,801,"rv",49,41,282
+"448",85907,"NC","North Carolina","North Star Opinion Research",1.1,2024-02-04,600,"lv",32,39,275
+"449",85914,"PA","Pennsylvania","Chism Strategies",2.4,2024-02-08,500,"rv",32,40,271
+"450",85936,"SC","South Carolina","Florida Atlantic University/Mainstreet Research",NA,2024-02-08,643,"lv",35.9,53.6,271
+"451",85936,"SC","South Carolina","Florida Atlantic University/Mainstreet Research",NA,2024-02-08,679,"rv",34.3,51.6,271
+"452",85939,"SC","South Carolina","Winthrop U.",2.5,2024-02-10,1717,"rv",32,48.5,269
+"453",85940,"MD","Maryland","Gonzales Research & Media Services",1.2,2024-02-02,815,"rv",49.3333333333333,32,277
+"454",85960,"MI","Michigan","Beacon/Shaw",2.8,2024-02-12,1106,"rv",39.75,39.5,267
+"455",85961,"NC","North Carolina","Beacon/Shaw",2.8,2024-02-12,1099,"rv",39,43.25,267
+"456",85962,"MD","Maryland","Emerson",2.9,2024-02-13,1000,"rv",50.6,31.7,266
+"457",85964,"TX","Texas","National Public Affairs",NA,2024-02-08,807,"lv",35,42,271
+"458",85968,"MT","Montana","SurveyUSA",2.8,2024-02-15,549,"lv",29,51,264
+"459",85971,"NC","North Carolina","East Carolina University",2.6,2024-02-12,1207,"rv",41.55,39.2,267
+"460",85973,"WA","Washington","PPP",1.4,2024-02-14,789,"lv",54,38,265
+"461",85994,"SC","South Carolina","The Citadel",NA,2024-02-11,1000,"rv",30,48.5,268
+"462",86060,"IA","Iowa","Cygnal",2.1,2024-02-13,600,"lv",40,49.2,266
+"463",86065,"TX","Texas","YouGov",3,2024-02-12,1200,"rv",39,41.3333333333333,267
+"464",86066,"SC","South Carolina","Emerson",2.9,2024-02-16,1197,"rv",36.7,50.6,263
+"465",86067,"PA","Pennsylvania","Emerson",2.9,2024-02-16,1000,"rv",38.1,46.05,263
+"466",86068,"CA","California","Emerson",2.9,2024-02-18,1000,"rv",52.1,31.65,261
+"467",86069,"NY","New York","Siena",2.7,2024-02-14,806,"rv",45,34,265
+"468",86140,"MI","Michigan","EPIC/MRA",1.9,2024-02-18,600,"lv",41,45,261
+"469",86141,"NC","North Carolina","Emerson",2.9,2024-02-16,1000,"rv",38.775,47.9,263
+"470",86143,"GA","Georgia","Emerson",2.9,2024-02-16,1000,"rv",37.8,48.6,263
+"471",86164,"NV","Nevada","Emerson",2.9,2024-02-19,1000,"rv",36.225,46.725,260
+"472",86165,"AZ","Arizona","Emerson",2.9,2024-02-19,1000,"rv",38.575,45.775,260
+"473",86174,"CA","California","PPIC",2.5,2024-02-13,1075,"lv",55,32,266
+"474",86181,"MI","Michigan","Emerson",2.9,2024-02-24,1000,"rv",41.35,44.2,255
+"475",86186,"PA","Pennsylvania","Public Opinion Strategies",1.6,2024-01-25,800,"lv",42,48,285
+"476",86187,"ME","Maine","Pan Atlantic Research",2.1,2024-02-14,791,"lv",32,38,265
+"477",86188,"ME","Maine CD-1","Pan Atlantic Research",2.1,2024-02-14,NA,"lv",39,31,265
+"478",86189,"ME","Maine CD-2","Pan Atlantic Research",2.1,2024-02-14,NA,"lv",25,45,265
+"479",86191,"WI","Wisconsin","Kaplan Strategies",2,2024-02-23,941,"rv",39,41,256
+"480",86192,"MI","Michigan","North Star Opinion Research",1.1,2024-02-25,600,"lv",43,43,254
+"481",86193,"MI","Michigan","Kaplan Strategies",2,2024-02-23,1019,"rv",36,46,256
+"482",86194,"WI","Wisconsin","Emerson",2.9,2024-02-24,1000,"rv",39.725,44.425,255
+"483",86220,"AZ","Arizona","Rasmussen",2.1,2024-02-26,1001,"lv",40,47,253
+"484",86229,"CA","California","Emerson",2.9,2024-02-27,1000,"lv",53.65,33.3,252
+"485",86230,"AZ","Arizona","Morning Consult",1.9,2024-02-18,798,"rv",39.5,47,261
+"486",86231,"GA","Georgia","Morning Consult",1.9,2024-02-18,800,"rv",40.5,47,261
+"487",86232,"MI","Michigan","Morning Consult",1.9,2024-02-18,702,"rv",42,43.5,261
+"488",86233,"NV","Nevada","Morning Consult",1.9,2024-02-18,445,"rv",39.5,46,261
+"489",86234,"NC","North Carolina","Morning Consult",1.9,2024-02-18,705,"rv",38,47.5,261
+"490",86235,"PA","Pennsylvania","Morning Consult",1.9,2024-02-18,803,"rv",39.5,47,261
+"491",86236,"WI","Wisconsin","Morning Consult",1.9,2024-02-18,702,"rv",38.5,43.5,261
+"492",86238,"TX","Texas","University of Texas at Tyler",1.8,2024-02-26,1167,"rv",37.75,40.5,253
+"493",86240,"CA","California","UC Berkeley",2.5,2024-02-26,6536,"rv",46,31,253
+"494",86241,"VA","Virginia","Roanoke College",2.6,2024-02-19,705,"a",43.5,46,260
+"495",86245,"MI","Michigan","Focaldata",NA,2024-01-23,933,"a",41,43,287
+"496",86245,"MI","Michigan","Focaldata",NA,2024-01-23,NA,"lv",50.6,49.4,287
+"497",86246,"WI","Wisconsin","Focaldata",NA,2024-01-23,863,"a",38,43,287
+"498",86246,"WI","Wisconsin","Focaldata",NA,2024-01-23,NA,"lv",49.3,50.7,287
+"499",86247,"GA","Georgia","Focaldata",NA,2024-01-23,887,"a",36,45,287
+"500",86247,"GA","Georgia","Focaldata",NA,2024-01-23,NA,"lv",48.3,51.7,287
+"501",86248,"PA","Pennsylvania","Focaldata",NA,2024-01-23,834,"a",38,46,287
+"502",86248,"PA","Pennsylvania","Focaldata",NA,2024-01-23,NA,"lv",48.6,51.4,287
+"503",86249,"AZ","Arizona","Focaldata",NA,2024-01-23,783,"a",39,43,287
+"504",86249,"AZ","Arizona","Focaldata",NA,2024-01-23,NA,"lv",49.6,50.4,287
+"505",86250,"NV","Nevada","Focaldata",NA,2024-01-23,704,"a",40,43,287
+"506",86250,"NV","Nevada","Focaldata",NA,2024-01-23,NA,"lv",49,51,287
+"507",86266,"MN","Minnesota","SurveyUSA",2.8,2024-02-28,1603,"lv",42,38,251
+"508",86274,"PA","Pennsylvania","Axis Research",NA,2024-02-27,601,"rv",39.5,29,252
+"509",86275,"IA","Iowa","Selzer",2.8,2024-02-28,640,"lv",33,48,251
+"510",86296,"MT","Montana","Emerson",2.9,2024-03-02,1000,"rv",31.65,52.05,248
+"511",86301,"IN","Indiana","Emerson",2.9,2024-03-05,1000,"rv",31.15,49.65,245
+"512",86304,"AL","Alabama","Florida Atlantic University/Mainstreet Research",NA,2024-03-03,179,"lv",37.8,57.4,247
+"513",86304,"AL","Alabama","Florida Atlantic University/Mainstreet Research",NA,2024-03-03,191,"rv",36.5,55.7,247
+"514",86305,"CA","California","Florida Atlantic University/Mainstreet Research",NA,2024-03-03,692,"lv",56.3,37.4,247
+"515",86305,"CA","California","Florida Atlantic University/Mainstreet Research",NA,2024-03-03,740,"rv",54.4,36.3,247
+"516",86306,"CO","Colorado","Florida Atlantic University/Mainstreet Research",NA,2024-03-03,170,"lv",48.3,44.1,247
+"517",86306,"CO","Colorado","Florida Atlantic University/Mainstreet Research",NA,2024-03-03,179,"rv",47.6,42.6,247
+"518",86307,"MA","Massachusetts","Florida Atlantic University/Mainstreet Research",NA,2024-03-03,263,"lv",58.8,33.7,247
+"519",86307,"MA","Massachusetts","Florida Atlantic University/Mainstreet Research",NA,2024-03-03,271,"rv",57.8,33.5,247
+"520",86308,"NC","North Carolina","Florida Atlantic University/Mainstreet Research",NA,2024-03-03,251,"lv",40.2,53.9,247
+"521",86308,"NC","North Carolina","Florida Atlantic University/Mainstreet Research",NA,2024-03-03,270,"rv",40.1,52,247
+"522",86309,"TN","Tennessee","Florida Atlantic University/Mainstreet Research",NA,2024-03-03,201,"lv",34.4,58.9,247
+"523",86309,"TN","Tennessee","Florida Atlantic University/Mainstreet Research",NA,2024-03-03,216,"rv",34.2,58.4,247
+"524",86310,"TX","Texas","Florida Atlantic University/Mainstreet Research",NA,2024-03-03,458,"lv",42.3,50.9,247
+"525",86310,"TX","Texas","Florida Atlantic University/Mainstreet Research",NA,2024-03-03,489,"rv",41.5,49.9,247
+"526",86311,"VA","Virginia","Florida Atlantic University/Mainstreet Research",NA,2024-03-03,368,"lv",48.6,42.4,247
+"527",86311,"VA","Virginia","Florida Atlantic University/Mainstreet Research",NA,2024-03-03,394,"rv",46.9,41.8,247
+"528",86313,"MN","Minnesota","Florida Atlantic University/Mainstreet Research",NA,2024-03-03,125,"lv",46.3,38.7,247
+"529",86313,"MN","Minnesota","Florida Atlantic University/Mainstreet Research",NA,2024-03-03,125,"rv",46.3,38.7,247
+"530",86314,"UT","Utah","Florida Atlantic University/Mainstreet Research",NA,2024-03-03,166,"lv",38.2,45.9,247
+"531",86314,"UT","Utah","Florida Atlantic University/Mainstreet Research",NA,2024-03-03,174,"rv",37,46.3,247
+"532",86315,"VT","Vermont","Florida Atlantic University/Mainstreet Research",NA,2024-03-03,111,"lv",59.3,28.4,247
+"533",86315,"VT","Vermont","Florida Atlantic University/Mainstreet Research",NA,2024-03-03,117,"rv",58.2,27.9,247
+"534",86316,"AK","Alaska","Data for Progress",2.6,2024-03-02,1120,"lv",41,53,248
+"535",86328,"GA","Georgia","Emerson",2.9,2024-03-07,1000,"rv",42.55,48.1,243
+"536",86329,"NC","North Carolina","SurveyUSA",2.8,2024-03-09,598,"lv",45,50,241
+"537",86352,"NC","North Carolina","Cygnal",2.1,2024-03-07,600,"lv",39.8,45.2,243
+"538",86457,"GA","Georgia","YouGov",3,2024-03-11,1126,"lv",48,51,239
+"539",86461,"OH","Ohio","Emerson",2.9,2024-03-10,1300,"rv",41.3,51.25,240
+"540",86466,"PA","Pennsylvania","Beacon/Shaw",2.8,2024-03-11,1149,"rv",44.5,45.5,239
+"541",86467,"AZ","Arizona","Beacon/Shaw",2.8,2024-03-11,1121,"rv",42,46,239
+"542",86468,"NV","Nevada","Noble Predictive Insights",2.4,2024-03-05,829,"rv",36.5,42.5,245
+"543",86469,"OH","Ohio","SurveyUSA",2.8,2024-03-11,1241,"rv",35,49.4,239
+"544",86470,"PA","Pennsylvania","Emerson",2.9,2024-03-13,1000,"rv",44.2,47.75,237
+"545",86472,"MI","Michigan","Quinnipiac",2.8,2024-03-12,1487,"rv",40.5,44.5,238
+"546",86474,"OH","Ohio","East Carolina University",2.6,2024-03-11,1298,"lv",37.6,48.1,239
+"547",86477,"FL","Florida","St. Pete Polls",2.4,2024-03-13,1963,"lv",41.7,47.5,237
+"548",86478,"OH","Ohio","Florida Atlantic University/Mainstreet Research",NA,2024-03-13,705,"lv",40.4,51,237
+"549",86478,"OH","Ohio","Florida Atlantic University/Mainstreet Research",NA,2024-03-13,753,"rv",39.5,50.4,237
+"550",86492,"AZ","Arizona","North Star Opinion Research",1.1,2024-03-17,600,"lv",37.5,41.5,233
+"551",86494,"GA","Georgia","Marist",2.9,2024-03-14,1177,"rv",43.5,48,236
+"552",86495,"NC","North Carolina","Marist",2.9,2024-03-14,1197,"rv",45.5,48.5,236
+"553",86496,"AZ","Arizona","Emerson",2.9,2024-03-15,1000,"rv",42.8,49.05,235
+"554",86497,"NV","Nevada","Emerson",2.9,2024-03-15,1000,"rv",42.35,46.15,235
+"555",86502,"MI","Michigan","Emerson",2.9,2024-03-18,1000,"rv",46.6,46.0333333333333,232
+"556",86503,"WI","Wisconsin","Emerson",2.9,2024-03-18,1000,"rv",43.9,47.6,232
+"557",86509,"MI","Michigan","CNN/SSRS",2.8,2024-03-18,1097,"rv",38,45,232
+"558",86510,"PA","Pennsylvania","CNN/SSRS",2.8,2024-03-18,1132,"rv",42,43,232
+"559",86511,"MI","Michigan","Mitchell",2.4,2024-03-16,627,"lv",43,45.5,234
+"560",86528,"AZ","Arizona","Redfield & Wilton Strategies",1.8,2024-03-17,516,"lv",41,44,233
+"561",86529,"FL","Florida","Redfield & Wilton Strategies",1.8,2024-03-17,875,"lv",39,46,233
+"562",86530,"GA","Georgia","Redfield & Wilton Strategies",1.8,2024-03-17,760,"lv",41,44,233
+"563",86531,"MI","Michigan","Redfield & Wilton Strategies",1.8,2024-03-17,616,"lv",39,41,233
+"564",86532,"NC","North Carolina","Redfield & Wilton Strategies",1.8,2024-03-17,642,"lv",39,43,233
+"565",86533,"PA","Pennsylvania","Redfield & Wilton Strategies",1.8,2024-03-17,775,"lv",41,44,233
+"566",86534,"PA","Pennsylvania","Susquehanna",2.3,2024-03-06,450,"lv",50,45,244
+"567",86544,"TX","Texas","Marist",2.9,2024-03-21,1117,"rv",40,51.5,229
+"568",86545,"AZ","Arizona","Morning Consult",1.9,2024-03-14,796,"rv",40,45.5,236
+"569",86546,"GA","Georgia","Morning Consult",1.9,2024-03-12,788,"rv",40,47,238
+"570",86547,"MI","Michigan","Morning Consult",1.9,2024-03-12,698,"rv",42.5,42.5,238
+"571",86548,"NV","Nevada","Morning Consult",1.9,2024-03-15,447,"rv",40,44,235
+"572",86549,"NC","North Carolina","Morning Consult",1.9,2024-03-12,699,"rv",41,47,238
+"573",86550,"PA","Pennsylvania","Morning Consult",1.9,2024-03-12,807,"rv",41.5,44.5,238
+"574",86551,"WI","Wisconsin","Morning Consult",1.9,2024-03-14,697,"rv",42.5,43,236
+"575",86576,"NJ","New Jersey","Emerson",2.9,2024-03-29,1000,"rv",43.35,37.6,221
+"576",86577,"AZ","Arizona","RABA Research",1.3,2024-03-31,503,"rv",36,39,219
+"577",86582,"AZ","Arizona","Fabrizio/GBAO",NA,2024-03-24,600,"rv",37.6666666666667,43,226
+"578",86583,"GA","Georgia","Fabrizio/GBAO",NA,2024-03-24,600,"rv",38.6666666666667,41.3333333333333,226
+"579",86584,"MI","Michigan","Fabrizio/GBAO",NA,2024-03-24,600,"rv",40.6666666666667,44,226
+"580",86585,"NC","North Carolina","Fabrizio/GBAO",NA,2024-03-24,600,"rv",38.3333333333333,45.3333333333333,226
+"581",86586,"NV","Nevada","Fabrizio/GBAO",NA,2024-03-24,600,"rv",38.3333333333333,42.3333333333333,226
+"582",86587,"PA","Pennsylvania","Fabrizio/GBAO",NA,2024-03-24,600,"rv",40.6666666666667,44,226
+"583",86588,"WI","Wisconsin","Fabrizio/GBAO",NA,2024-03-24,600,"rv",43.3333333333333,42,226
+"584",86601,"CO","Colorado","New Bridge Strategy/Aspect Strategic",NA,2024-03-19,632,"lv",49,39,231
+"585",86603,"MI","Michigan","Spry Strategies",1.5,2024-03-28,709,"lv",41.75,45.5,222
+"586",86604,"PA","Pennsylvania","Franklin and Marshall College",2.4,2024-03-31,430,"rv",42,40,219
+"587",86604,"PA","Pennsylvania","Franklin and Marshall College",2.4,2024-03-31,431,"rv",48,38,219
+"588",86605,"WA","Washington","Echelon Insights",2.7,2024-03-21,600,"rv",48,37,229
+"589",86624,"PA","Pennsylvania","Bullfinch",NA,2024-03-26,800,"rv",44,41,224
+"590",86625,"MN","Minnesota","SurveyUSA",2.8,2024-04-07,608,"lv",44,42,212
+"591",86629,"TN","Tennessee","Targoz Market Research",1.8,2024-04-02,955,"lv",28,47,217
+"592",86629,"TN","Tennessee","Targoz Market Research",1.8,2024-04-02,974,"lv",31,55,217
+"593",86629,"TN","Tennessee","Targoz Market Research",1.8,2024-04-02,1139,"rv",31,60,217
+"594",86629,"TN","Tennessee","Targoz Market Research",1.8,2024-04-02,1176,"rv",25,48,217
+"595",86630,"MA","Massachusetts","MassINC Polling Group",2.8,2024-03-29,1002,"rv",46,28,221
+"596",86632,"NC","North Carolina","Quinnipiac",2.8,2024-04-08,1401,"rv",42,44.5,211
+"597",86634,"FL","Florida","Emerson",2.9,2024-04-10,1000,"rv",39.1,52.8,209
+"598",86635,"CA","California","PPIC",2.5,2024-03-25,1084,"lv",54,31,225
+"599",86640,"NC","North Carolina","High Point University",2.5,2024-03-30,829,"rv",42,45,220
+"600",86640,"NC","North Carolina","High Point University",2.5,2024-03-30,1016,"a",38,43,220
+"601",86641,"NC","North Carolina","Cygnal",2.1,2024-04-08,600,"lv",39,43.3,211
+"602",86643,"TX","Texas","Cygnal",2.1,2024-04-06,1000,"lv",39.4,48.25,213
+"603",86656,"FL","Florida","Ipsos",2.8,2024-04-07,1014,"a",31,39,212
+"604",86657,"AZ","Arizona","Fabrizio",1.7,2024-04-11,400,"lv",40,44.6666666666667,208
+"605",86660,"AZ","Arizona","Echelon Insights",2.7,2024-03-19,401,"lv",45,51,231
+"606",86661,"GA","Georgia","Echelon Insights",2.7,2024-03-19,400,"lv",42,52,231
+"607",86662,"MI","Michigan","Echelon Insights",2.7,2024-03-19,400,"lv",45,51,231
+"608",86663,"NV","Nevada","Echelon Insights",2.7,2024-03-19,400,"lv",44,51,231
+"609",86664,"PA","Pennsylvania","Echelon Insights",2.7,2024-03-19,400,"lv",45,49,231
+"610",86665,"WI","Wisconsin","Echelon Insights",2.7,2024-03-19,400,"lv",47,46,231
+"611",86668,"TX","Texas","Texas Hispanic Policy Foundation",NA,2024-04-10,1600,"lv",35,47,209
+"612",86669,"AZ","Arizona","The Tyson Group",1.1,2024-04-11,600,"lv",33,39,208
+"613",86674,"WI","Wisconsin","North Star Opinion Research",1.1,2024-04-09,600,"lv",40.5,41,210
+"614",86675,"MI","Michigan","MRG (Marketing Resource Group)",1.8,2024-04-11,600,"lv",35,39.5,208
+"615",86678,"WI","Wisconsin","Marquette Law School",3,2024-04-10,707,"lv",45,46.5,209
+"616",86678,"WI","Wisconsin","Marquette Law School",3,2024-04-10,814,"rv",44.5,46,209
+"617",86684,"FL","Florida","Florida Atlantic University/Mainstreet Research",NA,2024-04-17,815,"lv",41.4,50.05,202
+"618",86684,"FL","Florida","Florida Atlantic University/Mainstreet Research",NA,2024-04-17,865,"rv",39.9,49.35,202
+"619",86688,"GA","Georgia","Beacon/Shaw",2.8,2024-04-16,1128,"rv",42,48.5,203
+"620",86689,"MI","Michigan","Beacon/Shaw",2.8,2024-04-16,1126,"rv",43,45.5,203
+"621",86690,"PA","Pennsylvania","Beacon/Shaw",2.8,2024-04-16,1141,"rv",45,46,203
+"622",86691,"WI","Wisconsin","Beacon/Shaw",2.8,2024-04-16,1198,"rv",45.5,44.5,203
+"623",86693,"NC","North Carolina","Mason-Dixon",2.6,2024-04-13,635,"rv",43,49,206
+"624",86706,"NY","New York","Siena",2.7,2024-04-17,806,"rv",47,37,202
+"625",86708,"NC","North Carolina","Meredith College",1.6,2024-04-17,711,"lv",39,41,202
+"626",86718,"AZ","Arizona","Morning Consult",1.9,2024-04-13,801,"rv",41,47.5,206
+"627",86719,"GA","Georgia","Morning Consult",1.9,2024-04-15,802,"rv",41,48,204
+"628",86720,"MI","Michigan","Morning Consult",1.9,2024-04-15,708,"rv",45,42.5,204
+"629",86721,"NV","Nevada","Morning Consult",1.9,2024-04-14,450,"rv",40,49.5,205
+"630",86722,"NC","North Carolina","Morning Consult",1.9,2024-04-14,703,"rv",39.5,49.5,205
+"631",86723,"PA","Pennsylvania","Morning Consult",1.9,2024-04-13,803,"rv",44,45,206
+"632",86725,"WI","Wisconsin","Morning Consult",1.9,2024-04-14,702,"rv",42.5,46,205
+"633",86730,"MA","Massachusetts","Suffolk",2.9,2024-04-20,500,"lv",51.6,22,199
+"634",86732,"AZ","Arizona","Kaplan Strategies",2,2024-04-21,874,"rv",43,47,198
+"635",86733,"MI","Michigan","Kaplan Strategies",2,2024-04-21,804,"rv",36,51,198
+"636",86734,"PA","Pennsylvania","Kaplan Strategies",2,2024-04-21,802,"rv",41,46,198
+"637",86735,"WI","Wisconsin","Kaplan Strategies",2,2024-04-21,802,"rv",38,48,198
+"638",86737,"UT","Utah","Noble Predictive Insights",2.4,2024-04-16,600,"rv",24.5,50.5,203
+"639",86739,"PA","Pennsylvania","YouGov",3,2024-04-25,1288,"lv",49,50,194
+"640",86740,"MI","Michigan","YouGov",3,2024-04-25,1262,"lv",48,46,194
+"641",86741,"WI","Wisconsin","YouGov",3,2024-04-25,1226,"lv",46.5,49,194
+"642",86747,"AZ","Arizona","Emerson",2.9,2024-04-29,1000,"rv",43.95,47.95,190
+"643",86748,"GA","Georgia","Emerson",2.9,2024-04-29,1000,"rv",44.1,47.95,190
+"644",86749,"PA","Pennsylvania","Emerson",2.9,2024-04-29,1000,"rv",44.8,48.1,190
+"645",86750,"MI","Michigan","Emerson",2.9,2024-04-29,1000,"rv",45,47.65,190
+"646",86751,"NC","North Carolina","Emerson",2.9,2024-04-29,1000,"rv",42.65,49.1,190
+"647",86752,"NV","Nevada","Emerson",2.9,2024-04-29,1000,"rv",43.2,46.4,190
+"648",86753,"WI","Wisconsin","Emerson",2.9,2024-04-29,1000,"rv",44.4,48.15,190
+"649",86775,"TX","Texas","YouGov",3,2024-04-22,1200,"rv",38,46.5,197
+"650",86778,"OK","Oklahoma","Cygnal",2.1,2024-04-12,615,"lv",26.95,58.5,207
+"651",86779,"AL","Alabama","John Zogby Strategies",1.8,2024-04-21,513,"lv",29.4,55.6,198
+"652",86780,"AK","Alaska","John Zogby Strategies",1.8,2024-04-21,248,"lv",37.1,47.6,198
+"653",86781,"AZ","Arizona","John Zogby Strategies",1.8,2024-04-21,630,"lv",34.1,45.5,198
+"654",86782,"AR","Arkansas","John Zogby Strategies",1.8,2024-04-21,385,"lv",35.2,44.3,198
+"655",86783,"CA","California","John Zogby Strategies",1.8,2024-04-21,740,"lv",51.3,34.5,198
+"656",86784,"CO","Colorado","John Zogby Strategies",1.8,2024-04-21,529,"lv",42.1,35.2,198
+"657",86785,"CT","Connecticut","John Zogby Strategies",1.8,2024-04-21,411,"lv",49.1,33.2,198
+"658",86786,"DE","Delaware","John Zogby Strategies",1.8,2024-04-21,310,"lv",46,36.1,198
+"659",86787,"FL","Florida","John Zogby Strategies",1.8,2024-04-21,749,"lv",40.1,47.8,198
+"660",86788,"GA","Georgia","John Zogby Strategies",1.8,2024-04-21,635,"lv",41,42.7,198
+"661",86789,"HI","Hawaii","John Zogby Strategies",1.8,2024-04-21,301,"lv",41.5,26.6,198
+"662",86790,"ID","Idaho","John Zogby Strategies",1.8,2024-04-21,309,"lv",24.6,53.8,198
+"663",86791,"IL","Illinois","John Zogby Strategies",1.8,2024-04-21,643,"lv",45.6,36.5,198
+"664",86792,"IN","Indiana","John Zogby Strategies",1.8,2024-04-21,418,"lv",38.6,44.6,198
+"665",86793,"IA","Iowa","John Zogby Strategies",1.8,2024-04-21,405,"lv",38.7,38.8,198
+"666",86794,"KS","Kansas","John Zogby Strategies",1.8,2024-04-21,410,"lv",38.8,43.8,198
+"667",86795,"KY","Kentucky","John Zogby Strategies",1.8,2024-04-21,402,"lv",29.4,51.5,198
+"668",86796,"LA","Louisiana","John Zogby Strategies",1.8,2024-04-21,501,"lv",34.6,51.2,198
+"669",86797,"ME","Maine","John Zogby Strategies",1.8,2024-04-21,350,"lv",35.1,37.1,198
+"670",86798,"MD","Maryland","John Zogby Strategies",1.8,2024-04-21,530,"lv",53.4,33.7,198
+"671",86799,"MA","Massachusetts","John Zogby Strategies",1.8,2024-04-21,534,"lv",47.9,33.3,198
+"672",86800,"MI","Michigan","John Zogby Strategies",1.8,2024-04-21,640,"lv",44.6,41.1,198
+"673",86801,"MN","Minnesota","John Zogby Strategies",1.8,2024-04-21,417,"lv",39.5,36,198
+"674",86802,"MS","Mississippi","John Zogby Strategies",1.8,2024-04-21,423,"lv",35.3,50,198
+"675",86803,"MO","Missouri","John Zogby Strategies",1.8,2024-04-21,509,"lv",36.7,45,198
+"676",86804,"MT","Montana","John Zogby Strategies",1.8,2024-04-21,301,"lv",30.3,50,198
+"677",86805,"NE","Nebraska","John Zogby Strategies",1.8,2024-04-21,307,"lv",38.1,46.6,198
+"678",86806,"NV","Nevada","John Zogby Strategies",1.8,2024-04-21,517,"lv",39.3,46.3,198
+"679",86807,"NH","New Hampshire","John Zogby Strategies",1.8,2024-04-21,515,"lv",41.4,39.9,198
+"680",86809,"NJ","New Jersey","John Zogby Strategies",1.8,2024-04-21,530,"lv",48.1,39.8,198
+"681",86810,"NM","New Mexico","John Zogby Strategies",1.8,2024-04-21,505,"lv",41.2,35.8,198
+"682",86811,"NY","New York","John Zogby Strategies",1.8,2024-04-21,749,"lv",43.9,38.9,198
+"683",86812,"NC","North Carolina","John Zogby Strategies",1.8,2024-04-21,641,"lv",40.1,44.6,198
+"684",86813,"ND","North Dakota","John Zogby Strategies",1.8,2024-04-21,300,"lv",29.9,51.2,198
+"685",86814,"OH","Ohio","John Zogby Strategies",1.8,2024-04-21,643,"lv",34.3,47,198
+"686",86815,"OK","Oklahoma","John Zogby Strategies",1.8,2024-04-21,391,"lv",35.6,46.4,198
+"687",86816,"OR","Oregon","John Zogby Strategies",1.8,2024-04-21,419,"lv",39.6,38.6,198
+"688",86817,"PA","Pennsylvania","John Zogby Strategies",1.8,2024-04-21,628,"lv",46.6,41.1,198
+"689",86818,"RI","Rhode Island","John Zogby Strategies",1.8,2024-04-21,398,"lv",39.8,39.3,198
+"690",86819,"SC","South Carolina","John Zogby Strategies",1.8,2024-04-21,501,"lv",35.3,47,198
+"691",86820,"SD","South Dakota","John Zogby Strategies",1.8,2024-04-21,303,"lv",32.8,50.6,198
+"692",86821,"TN","Tennessee","John Zogby Strategies",1.8,2024-04-21,510,"lv",31.3,52.3,198
+"693",86822,"TX","Texas","John Zogby Strategies",1.8,2024-04-21,743,"lv",34.7,44.6,198
+"694",86823,"UT","Utah","John Zogby Strategies",1.8,2024-04-21,414,"lv",35.8,39.7,198
+"695",86824,"VT","Vermont","John Zogby Strategies",1.8,2024-04-21,272,"lv",46.9,29.1,198
+"696",86825,"VA","Virginia","John Zogby Strategies",1.8,2024-04-21,586,"lv",41.8,40.7,198
+"697",86826,"WA","Washington","John Zogby Strategies",1.8,2024-04-21,418,"lv",44.8,30.7,198
+"698",86827,"WV","West Virginia","John Zogby Strategies",1.8,2024-04-21,383,"lv",28.9,58.2,198
+"699",86829,"WI","Wisconsin","John Zogby Strategies",1.8,2024-04-21,518,"lv",42.1,41.4,198
+"700",86830,"WY","Wyoming","John Zogby Strategies",1.8,2024-04-21,249,"lv",20.2,52.6,198
+"701",86839,"AK","Alaska","Bullfinch",NA,2024-04-23,250,"rv",31,52,196
+"702",86840,"CA","California","Bullfinch",NA,2024-04-23,250,"rv",53.5,31,196
+"703",86841,"HI","Hawaii","Bullfinch",NA,2024-04-23,250,"rv",49.5,36,196
+"704",86842,"OR","Oregon","Bullfinch",NA,2024-04-23,250,"rv",46,34.5,196
+"705",86843,"WA","Washington","Bullfinch",NA,2024-04-23,250,"rv",40,43,196
+"706",86852,"NE","Nebraska","PPP",1.4,2024-04-25,737,"v",34,57,194
+"707",86854,"NE","Nebraska CD-2","PPP",1.4,2024-04-25,NA,"v",38.5,41.5,194
+"708",86867,"PA","Pennsylvania","Muhlenberg",2.8,2024-04-25,417,"rv",38,39.5,194
+"709",86868,"PA","Pennsylvania","Fabrizio/Impact",1.7,2024-04-30,600,"lv",43,47.5,189
+"710",86869,"AZ","Arizona","Data Orbital",2.9,2024-04-29,550,"lv",38.8,38.1,190
+"711",86871,"VA","Virginia","McLaughlin",0.5,2024-05-01,800,"lv",43.3333333333333,40.6666666666667,188
+"712",86872,"MN","Minnesota","McLaughlin",0.5,2024-05-01,600,"lv",42.3333333333333,45,188
+"713",86879,"WI","Wisconsin","Quinnipiac",2.8,2024-05-06,1457,"rv",45,41.5,183
+"714",86881,"MD","Maryland","PPP",1.4,2024-05-07,719,"v",60,32,182
+"715",86882,"MD","Maryland","Emerson",2.9,2024-05-08,1115,"rv",52.95,33.5,181
+"716",86883,"NC","North Carolina","Cygnal",2.1,2024-05-05,600,"lv",38.1,42.6,184
+"717",86889,"FL","Florida","Cherry Communications",1,2024-05-07,609,"lv",39.5,48.5,182
+"718",86890,"LA","Louisiana","Faucheux Strategies",NA,2024-04-26,800,"rv",35.5,50,193
+"719",86893,"NY","New York","Slingshot Strategies",1.4,2024-05-03,1059,"rv",56,37,186
+"720",86896,"GA","Georgia","North Star Opinion Research",1.1,2024-05-05,600,"lv",36,45,184
+"721",86897,"AZ","Arizona","Siena/NYT",3,2024-05-09,626,"lv",39,46.5,180
+"722",86897,"AZ","Arizona","Siena/NYT",3,2024-05-09,626,"rv",37.5,45.5,180
+"723",86898,"GA","Georgia","Siena/NYT",3,2024-05-09,604,"lv",37.5,46,180
+"724",86898,"GA","Georgia","Siena/NYT",3,2024-05-09,604,"rv",35,44,180
+"725",86899,"MI","Michigan","Siena/NYT",3,2024-05-09,616,"lv",44.5,42.5,180
+"726",86899,"MI","Michigan","Siena/NYT",3,2024-05-09,616,"rv",39,43.5,180
+"727",86900,"NV","Nevada","Siena/NYT",3,2024-05-09,614,"lv",34,47.5,180
+"728",86900,"NV","Nevada","Siena/NYT",3,2024-05-09,614,"rv",32.5,45.5,180
+"729",86901,"PA","Pennsylvania","Siena/NYT",3,2024-05-09,1023,"lv",41,44.5,180
+"730",86901,"PA","Pennsylvania","Siena/NYT",3,2024-05-09,1023,"rv",40,43.5,180
+"731",86902,"WI","Wisconsin","Siena/NYT",3,2024-05-09,614,"lv",42.5,43.5,180
+"732",86902,"WI","Wisconsin","Siena/NYT",3,2024-05-09,614,"rv",42.5,41.5,180
+"733",86903,"AZ","Arizona","Redfield & Wilton Strategies",1.8,2024-05-04,529,"lv",42,44,185
+"734",86904,"FL","Florida","Redfield & Wilton Strategies",1.8,2024-05-04,586,"lv",38,47,185
+"735",86905,"GA","Georgia","Redfield & Wilton Strategies",1.8,2024-05-04,486,"lv",38,43,185
+"736",86906,"MI","Michigan","Redfield & Wilton Strategies",1.8,2024-05-04,522,"lv",37,43,185
+"737",86907,"NC","North Carolina","Redfield & Wilton Strategies",1.8,2024-05-04,553,"lv",37,44,185
+"738",86908,"PA","Pennsylvania","Redfield & Wilton Strategies",1.8,2024-05-04,509,"lv",41,43,185
+"739",86912,"VA","Virginia","Fabrizio/Impact",1.7,2024-04-28,500,"rv",43,42,191
+"740",86920,"MI","Michigan","Big Data Poll",1.1,2024-03-30,1145,"lv",44.575,46.55,220
+"741",86920,"MI","Michigan","Big Data Poll",1.1,2024-03-30,1218,"rv",43.925,46.2,220
+"742",86921,"PA","Pennsylvania","Big Data Poll",1.1,2024-03-30,1305,"rv",42.875,47.3,220
+"743",86922,"FL","Florida","Big Data Poll",1.1,2024-03-11,1318,"lv",39.2,52.175,239
+"744",86922,"FL","Florida","Big Data Poll",1.1,2024-03-11,1378,"rv",38.525,51.85,239
+"745",86923,"WI","Wisconsin","Big Data Poll",1.1,2023-11-23,817,"lv",38.5,39.4,348
+"746",86923,"WI","Wisconsin","Big Data Poll",1.1,2023-11-23,870,"rv",36.5,38.9,348
+"747",86924,"MN","Minnesota","Big Data Poll",1.1,2023-11-23,784,"lv",38.0333333333333,37.0333333333333,348
+"748",86924,"MN","Minnesota","Big Data Poll",1.1,2023-11-23,854,"rv",35.5,36.0666666666667,348
+"749",86925,"OH","Ohio","Big Data Poll",1.1,2023-11-19,1224,"lv",30.5,43.8,352
+"750",86925,"OH","Ohio","Big Data Poll",1.1,2023-11-19,1352,"rv",28.3666666666667,42.7333333333333,352
+"751",86926,"MI","Michigan","Big Data Poll",1.1,2023-11-19,1200,"lv",36.7666666666667,41.3666666666667,352
+"752",86926,"MI","Michigan","Big Data Poll",1.1,2023-11-19,1273,"rv",35.7666666666667,39.9333333333333,352
+"753",86927,"PA","Pennsylvania","Big Data Poll",1.1,2023-11-19,1284,"lv",38,41,352
+"754",86927,"PA","Pennsylvania","Big Data Poll",1.1,2023-11-19,1382,"rv",36.1333333333333,40.1666666666667,352
+"755",86928,"FL","Florida","Big Data Poll",1.1,2023-08-28,1316,"lv",37.2,41.325,435
+"756",86929,"IA","Iowa","Big Data Poll",1.1,2023-07-12,1057,"lv",36.05,40.2,482
+"757",86948,"MN","Minnesota","SurveyUSA",2.8,2024-05-11,625,"lv",44,42,178
+"758",86961,"WA","Washington","PPP",1.4,2024-05-16,615,"lv",55,39,173
+"759",86963,"FL","Florida","YouGov",3,2024-05-16,1174,"lv",36,49,173
+"760",86963,"FL","Florida","YouGov",3,2024-05-16,1181,"lv",45,54,173
+"761",86964,"AZ","Arizona","YouGov",3,2024-05-16,1192,"lv",40,44,173
+"762",86964,"AZ","Arizona","YouGov",3,2024-05-16,1193,"lv",47,52,173
+"763",86980,"NH","New Hampshire","Praecones Analytica",2,2024-05-20,862,"rv",36.5,36.6,169
+"764",86986,"NC","North Carolina","Change Research",1.4,2024-05-18,835,"lv",40.5,43,171
+"765",86987,"AZ","Arizona","Morning Consult",1.9,2024-05-12,795,"rv",42,48.3333333333333,177
+"766",86988,"AZ","Arizona","Noble Predictive Insights",2.4,2024-05-14,1003,"rv",38.5,43.5,175
+"767",86989,"GA","Georgia","Morning Consult",1.9,2024-05-12,795,"rv",41.3333333333333,46.6666666666667,177
+"768",86990,"MI","Michigan","Morning Consult",1.9,2024-05-12,704,"rv",44,44,177
+"769",86991,"NV","Nevada","Morning Consult",1.9,2024-05-13,459,"rv",43.3333333333333,46,176
+"770",86992,"NC","North Carolina","Morning Consult",1.9,2024-05-12,704,"rv",40,48.3333333333333,177
+"771",86993,"PA","Pennsylvania","Morning Consult",1.9,2024-05-12,812,"rv",43.6666666666667,47.6666666666667,177
+"772",86994,"WI","Wisconsin","Morning Consult",1.9,2024-05-13,693,"rv",43,46.3333333333333,176
+"773",86996,"NY","New York","Siena",2.7,2024-05-15,1191,"rv",47,38,174
+"774",86997,"NH","New Hampshire","University of Massachusetts Lowell/YouGov",2.9,2024-05-14,600,"lv",42,36,175
+"775",86998,"TN","Tennessee","SSRS",2.4,2024-05-09,501,"rv",29,47,180
+"776",87003,"AZ","Arizona","Prime Group",NA,2024-05-16,490,"rv",44.5,47.5,173
+"777",87004,"FL","Florida","Prime Group",NA,2024-05-16,486,"rv",43,50.5,173
+"778",87005,"GA","Georgia","Prime Group",NA,2024-05-16,470,"rv",45,46.5,173
+"779",87006,"MI","Michigan","Prime Group",NA,2024-05-16,482,"rv",48,45,173
+"780",87007,"NV","Nevada","Prime Group",NA,2024-05-16,468,"rv",46.5,47,173
+"781",87008,"NC","North Carolina","Prime Group",NA,2024-05-16,472,"rv",45.5,48,173
+"782",87009,"PA","Pennsylvania","Prime Group",NA,2024-05-16,487,"rv",48,45.5,173
+"783",87010,"WI","Wisconsin","Prime Group",NA,2024-05-16,488,"rv",47.5,46.5,173
+"784",87011,"TX","Texas","Texas Lyceum",NA,2024-04-21,926,"rv",31,41,198
+"785",87012,"NC","North Carolina","High Point University",2.5,2024-05-09,804,"rv",42,44,180
+"786",87012,"NC","North Carolina","High Point University",2.5,2024-05-09,1002,"a",38,43,180
+"787",87015,"AZ","Arizona","Benenson Strategy Group/GS Strategy Group",NA,2024-05-13,527,"lv",40.5,43,176
+"788",87016,"GA","Georgia","Benenson Strategy Group/GS Strategy Group",NA,2024-05-13,600,"lv",41,44.5,176
+"789",87017,"MI","Michigan","Benenson Strategy Group/GS Strategy Group",NA,2024-05-13,606,"lv",42.5,45,176
+"790",87018,"NV","Nevada","Benenson Strategy Group/GS Strategy Group",NA,2024-05-13,402,"lv",37.5,46,176
+"791",87019,"NC","North Carolina","Benenson Strategy Group/GS Strategy Group",NA,2024-05-13,601,"lv",38.5,46,176
+"792",87020,"PA","Pennsylvania","Benenson Strategy Group/GS Strategy Group",NA,2024-05-13,730,"lv",42.5,45.5,176
+"793",87021,"WI","Wisconsin","Benenson Strategy Group/GS Strategy Group",NA,2024-05-13,503,"lv",43,43,176
+"794",87023,"SD","South Dakota","Mason-Dixon",2.6,2024-05-13,500,"rv",31.4,50,176
+"795",87026,"AZ","Arizona","Florida Atlantic University/Mainstreet Research",NA,2024-05-21,501,"lv",42.2,43,168
+"796",87026,"AZ","Arizona","Florida Atlantic University/Mainstreet Research",NA,2024-05-21,609,"rv",38.75,40,168
+"797",87027,"NV","Nevada","Florida Atlantic University/Mainstreet Research",NA,2024-05-21,494,"lv",41.45,48.7,168
+"798",87027,"NV","Nevada","Florida Atlantic University/Mainstreet Research",NA,2024-05-21,522,"rv",40.65,46.8,168
+"799",87028,"MA","Massachusetts","U. New Hampshire",2.6,2024-05-20,526,"lv",61.5,29,169
+"800",87029,"RI","Rhode Island","U. New Hampshire",2.6,2024-05-20,538,"lv",56,36.5,169
+"801",87030,"NH","New Hampshire","U. New Hampshire",2.6,2024-05-20,1140,"lv",48,44.5,169
+"802",87033,"WA","Washington","Elway",1.9,2024-05-16,403,"rv",42,34,173
+"803",87034,"NV","Nevada","The Tyson Group",1.1,2024-05-25,601,"lv",40.5,43.5,164
+"804",87048,"MI","Michigan","Mitchell",2.4,2024-05-21,697,"lv",46,47.5,168
+"805",87049,"NV","Nevada","Iron Light",NA,2024-05-21,600,"lv",34,37,168
+"806",87053,"VA","Virginia","Roanoke College",2.6,2024-05-21,711,"lv",41,40,168
+"807",87054,"NE","Nebraska CD-2","Iron Light",NA,2024-05-22,400,"lv",42,37,167
+"808",87069,"NY","New York","Emerson",2.9,2024-05-29,1000,"rv",49.65,41.2,160
+"809",87072,"NC","North Carolina","Meeting Street Insights",1.4,2024-04-28,500,"rv",35,40,191
+"810",87088,"NC","North Carolina","North Star Opinion Research",1.1,2024-06-02,600,"lv",36.5,46.5,156
+"811",87097,"MI","Michigan","Florida Atlantic University/Mainstreet Research",NA,2024-05-31,636,"lv",45.5,44.5,158
+"812",87097,"MI","Michigan","Florida Atlantic University/Mainstreet Research",NA,2024-05-31,722,"rv",43,42,158
+"813",87098,"PA","Pennsylvania","Florida Atlantic University/Mainstreet Research",NA,2024-05-31,923,"lv",44,44.5,158
+"814",87098,"PA","Pennsylvania","Florida Atlantic University/Mainstreet Research",NA,2024-05-31,1008,"rv",42,42,158
+"815",87099,"WI","Wisconsin","Florida Atlantic University/Mainstreet Research",NA,2024-05-31,290,"lv",40,38,158
+"816",87099,"WI","Wisconsin","Florida Atlantic University/Mainstreet Research",NA,2024-05-31,338,"rv",39,34.5,158
+"817",87105,"MA","Massachusetts","UMass Amherst/YouGov",2.4,2024-05-30,700,"a",48,27,159
+"818",87108,"OH","Ohio","National Public Affairs",NA,2024-05-29,802,"lv",43,51,160
+"819",87109,"GA","Georgia","Quinnipiac",2.8,2024-06-03,1203,"rv",40.5,46,155
+"820",87110,"MI","Michigan","Mitchell",2.4,2024-06-03,710,"lv",46.35,47.25,155
+"821",87119,"NC","North Carolina","East Carolina University",2.6,2024-06-03,1332,"rv",43,48,155
+"822",87120,"WV","West Virginia","Kaplan Strategies",2,2024-06-04,464,"lv",28,55,154
+"823",87122,"VA","Virginia","Beacon/Shaw",2.8,2024-06-03,1107,"rv",45,44.5,155
+"824",87123,"FL","Florida","Beacon/Shaw",2.8,2024-06-03,1075,"rv",43,48.5,155
+"825",87124,"NV","Nevada","Beacon/Shaw",2.8,2024-06-03,1069,"rv",42.5,47.5,155
+"826",87125,"AZ","Arizona","Beacon/Shaw",2.8,2024-06-03,1095,"rv",43.5,48.5,155
+"827",87132,"UT","Utah","HarrisX",1.5,2024-06-07,857,"rv",22.5,53,151
+"828",87134,"MN","Minnesota","Mason-Dixon",2.6,2024-06-05,800,"lv",44.5,40.6,153
+"829",87145,"OH","Ohio","Marist",2.9,2024-06-06,1137,"rv",41,48,152
+"830",87147,"FL","Florida","The Tyson Group",1.1,2024-06-09,1050,"lv",36,46,149
+"831",87152,"PA","Pennsylvania","Marist",2.9,2024-06-06,1181,"rv",45,47,152
+"832",87153,"FL","Florida","Florida Atlantic University/Mainstreet Research",NA,2024-06-09,771,"lv",41.5,47,149
+"833",87153,"FL","Florida","Florida Atlantic University/Mainstreet Research",NA,2024-06-09,883,"rv",39.5,44.5,149
+"834",87159,"ME","Maine","Digital Research",1.4,2024-04-30,609,"rv",43,43.2,189
+"835",87160,"AZ","Arizona","Fabrizio/Impact",1.7,2024-06-04,600,"lv",40.5,47.5,154
+"836",87165,"WI","Wisconsin","J.L. Partners",1.6,2024-06-10,500,"lv",44,44,148
+"837",87166,"VA","Virginia","co/efficient",1.1,2024-06-12,851,"lv",41,41,146
+"838",87167,"CA","California","PPIC",2.5,2024-06-02,1098,"lv",55,31,156
+"839",87173,"MN","Minnesota","McLaughlin",0.5,2024-06-11,600,"lv",40.3333333333333,44,147
+"840",87175,"IA","Iowa","Selzer",2.8,2024-06-14,632,"lv",32,50,144
+"841",87176,"AZ","Arizona","Redfield & Wilton Strategies",1.8,2024-06-11,430,"lv",38,40,147
+"842",87177,"FL","Florida","Redfield & Wilton Strategies",1.8,2024-06-11,432,"lv",37,43,147
+"843",87178,"GA","Georgia","Redfield & Wilton Strategies",1.8,2024-06-11,471,"lv",39,44,147
+"844",87179,"MI","Michigan","Redfield & Wilton Strategies",1.8,2024-06-11,594,"lv",36,37,147
+"845",87180,"NC","North Carolina","Redfield & Wilton Strategies",1.8,2024-06-11,534,"lv",40,43,147
+"846",87181,"PA","Pennsylvania","Redfield & Wilton Strategies",1.8,2024-06-11,456,"lv",42,44,147
+"847",87195,"NM","New Mexico","PPP",1.4,2024-06-14,555,"v",48,41,144
+"848",87196,"NC","North Carolina","Spry Strategies",1.5,2024-06-11,600,"lv",40.5,46.5,147
+"849",87198,"MN","Minnesota","SurveyUSA",2.8,2024-06-16,626,"lv",47,41,142
+"850",87203,"TX","Texas","YouGov",3,2024-06-09,1200,"rv",36.5,44.5,149
+"851",87205,"NY","New York","Siena",2.7,2024-06-17,805,"rv",47,39,141
+"852",87207,"AZ","Arizona","Emerson",2.9,2024-06-18,1000,"rv",43.65,47.35,140
+"853",87208,"NV","Nevada","Emerson",2.9,2024-06-18,1000,"rv",44.7,45.9,140
+"854",87209,"MI","Michigan","Emerson",2.9,2024-06-18,1000,"rv",45.6,47.35,140
+"855",87210,"MN","Minnesota","Emerson",2.9,2024-06-18,1000,"rv",45.95,45.3,140
+"856",87211,"PA","Pennsylvania","Emerson",2.9,2024-06-18,1000,"rv",45.55,47.95,140
+"857",87212,"WI","Wisconsin","Emerson",2.9,2024-06-18,1000,"rv",45.35,47.55,140
+"858",87213,"GA","Georgia","Emerson",2.9,2024-06-18,1000,"rv",42.55,48.6,140
+"859",87214,"MT","Montana","Public Opinion Strategies",1.6,2024-06-13,500,"lv",37,57,145
+"860",87216,"MO","Missouri","Emerson",2.9,2024-06-19,1000,"rv",38.95,53.55,139
+"861",87219,"AZ","Arizona","North Star Opinion Research",1.1,2024-06-20,600,"lv",37,45,138
+"862",87222,"MD","Maryland","PPP",1.4,2024-06-20,635,"v",56,30,138
+"863",87237,"RI","Rhode Island","Embold Research",1.4,2024-06-14,1450,"lv",40,33,144
+"864",87238,"NV","Nevada","Fabrizio/Impact",1.7,2024-06-18,600,"lv",41,46,140
+"865",87239,"GA","Georgia","U. Georgia SPIA",2.2,2024-06-20,1000,"lv",37.6,42.7,138
+"866",87243,"MT","Montana","Fabrizio",1.7,2024-06-05,500,"lv",36,54,153
+"867",87248,"WI","Wisconsin","Marquette Law School",3,2024-06-20,784,"lv",46.5,46.5,138
+"868",87248,"WI","Wisconsin","Marquette Law School",3,2024-06-20,871,"rv",45,46.5,138
+"869",87251,"TX","Texas","University of Texas at Tyler",1.8,2024-06-20,931,"lv",42,47.5,138
+"870",87251,"TX","Texas","University of Texas at Tyler",1.8,2024-06-20,1144,"rv",39,46,138
+"871",87256,"AZ","Arizona","P2 Insights",1.1,2024-06-20,650,"lv",36,47,138
+"872",87257,"GA","Georgia","P2 Insights",1.1,2024-06-20,650,"lv",35,45,138
+"873",87258,"MI","Michigan","P2 Insights",1.1,2024-06-20,650,"lv",40,43,138
+"874",87259,"NV","Nevada","P2 Insights",1.1,2024-06-20,650,"lv",37,40,138
+"875",87260,"WI","Wisconsin","P2 Insights",1.1,2024-06-20,650,"lv",42,45,138
+"876",87261,"AZ","Arizona","P2 Insights",1.1,2024-05-21,650,"lv",38,41,168
+"877",87262,"GA","Georgia","P2 Insights",1.1,2024-05-21,650,"lv",39,43,168
+"878",87263,"MI","Michigan","P2 Insights",1.1,2024-05-21,650,"lv",37,45,168
+"879",87264,"NV","Nevada","P2 Insights",1.1,2024-05-21,650,"lv",40,41,168
+"880",87265,"WI","Wisconsin","P2 Insights",1.1,2024-05-21,650,"lv",42,44,168
+"881",87268,"ND","North Dakota","Public Opinion Strategies",1.6,2024-06-19,500,"lv",28,62,139
+"882",87270,"NJ","New Jersey","co/efficient",1.1,2024-06-27,810,"lv",40,41,131
+"883",87274,"MT","Montana","Torchlight Strategies",NA,2024-06-26,649,"rv",35.2,51.1,132
+"884",87277,"MI","Michigan","EPIC/MRA",1.9,2024-06-26,600,"lv",41.5,45.5,132
+"885",87281,"NM","New Mexico","1892 Polling",1.3,2024-06-24,600,"lv",46,44.5,134
+"886",87282,"NH","New Hampshire","St. Anselm",2.4,2024-06-29,1746,"rv",42,44,129
+"887",87283,"PA","Pennsylvania","Cygnal",2.1,2024-06-28,800,"lv",41.05,45.35,130
+"888",87295,"PA","Pennsylvania","Bullfinch",NA,2024-06-19,800,"rv",45,44,139
+"889",87306,"NV","Nevada","National Public Affairs",NA,2024-07-01,817,"lv",36,45.5,127
+"890",87307,"TX","Texas","Manhattan Institute",NA,2024-06-27,600,"lv",38.5,48.5,131
+"891",87316,"AZ","Arizona","Morning Consult",1.9,2024-07-05,781,"rv",41.5,46.5,123
+"892",87317,"GA","Georgia","Morning Consult",1.9,2024-07-04,790,"rv",44,45.5,124
+"893",87318,"MI","Michigan","Morning Consult",1.9,2024-07-05,694,"rv",46.5,41,123
+"894",87319,"NC","North Carolina","Morning Consult",1.9,2024-07-04,696,"rv",41.5,44,124
+"895",87320,"NV","Nevada","Morning Consult",1.9,2024-07-04,452,"rv",42,46.5,124
+"896",87321,"PA","Pennsylvania","Morning Consult",1.9,2024-07-04,794,"rv",42.5,47.5,124
+"897",87322,"WI","Wisconsin","Morning Consult",1.9,2024-07-05,695,"rv",44,41.5,123
+"898",87325,"WI","Wisconsin","SoCal Research",NA,2024-07-02,490,"rv",43,44,126
+"899",87326,"AZ","Arizona","Remington",2.6,2024-07-01,638,"lv",42,49,127
+"900",87327,"MI","Michigan","Remington",2.6,2024-07-01,584,"lv",42,45,127
+"901",87328,"MT","Montana","Remington",2.6,2024-07-01,570,"lv",36,56,127
+"902",87329,"NV","Nevada","Remington",2.6,2024-07-01,601,"lv",40,47,127
+"903",87330,"OH","Ohio","Remington",2.6,2024-07-01,611,"lv",41,51,127
+"904",87331,"PA","Pennsylvania","Remington",2.6,2024-07-01,673,"lv",43,48,127
+"905",87332,"TX","Texas","Remington",2.6,2024-07-01,589,"lv",39,49,127
+"906",87333,"WI","Wisconsin","Remington",2.6,2024-07-01,593,"lv",43,49,127
+"907",87334,"CO","Colorado","Global Strategy Group",1.8,2024-06-24,800,"rv",46,38,134
+"908",87335,"PA","Pennsylvania","Emerson",2.9,2024-07-02,1000,"rv",43,48,126
+"909",87336,"GA","Georgia","Emerson",2.9,2024-07-02,1000,"rv",42,47,126
+"910",87337,"MI","Michigan","Emerson",2.9,2024-07-02,1000,"rv",44,45,126
+"911",87338,"AZ","Arizona","Emerson",2.9,2024-07-02,1000,"rv",42,46,126
+"912",87339,"WI","Wisconsin","Emerson",2.9,2024-07-02,1000,"rv",44,47,126
+"913",87340,"NV","Nevada","Emerson",2.9,2024-07-02,1000,"rv",41,47,126
+"914",87341,"PA","Pennsylvania","1983 Labs",NA,2024-06-30,741,"lv",41,46,128
+"915",87342,"MI","Michigan","1983 Labs",NA,2024-06-30,563,"lv",41,45,128
+"916",87343,"AZ","Arizona","1983 Labs",NA,2024-06-30,492,"lv",33,48,128
+"917",87360,"WI","Wisconsin","Fabrizio/Impact",1.7,2024-07-02,600,"lv",41.5,47,126
+"918",87368,"TX","Texas","University of Houston/Texas Southern University",2.2,2024-07-01,1484,"lv",40,49,127
+"919",87369,"VA","Virginia","SoCal Research",NA,2024-07-11,1000,"a",47,45.5,117
+"920",87380,"WI","Wisconsin","North Star Opinion Research",1.1,2024-07-10,600,"lv",42.3333333333333,44,118
+"921",87398,"TN","Tennessee","Targoz Market Research",1.8,2024-07-01,962,"lv",28,58,127
+"922",87398,"TN","Tennessee","Targoz Market Research",1.8,2024-07-01,1152,"rv",28,55,127
+"923",87399,"MI","Michigan","MRG (Marketing Resource Group)",1.8,2024-07-13,600,"rv",36,39,115
+"924",87403,"PA","Pennsylvania","Siena/NYT",3,2024-07-11,872,"lv",43.5,45.25,117
+"925",87403,"PA","Pennsylvania","Siena/NYT",3,2024-07-11,872,"rv",42,44.75,117
+"926",87404,"VA","Virginia","Siena/NYT",3,2024-07-12,661,"lv",45,41.5,116
+"927",87404,"VA","Virginia","Siena/NYT",3,2024-07-12,661,"rv",43.25,40.5,116
+"928",87414,"IA","Iowa","Cygnal",2.1,2024-07-09,600,"lv",39.4,51.4,119
+"929",87416,"VA","Virginia","Virginia Commonwealth U.",2.1,2024-07-03,755,"rv",37.1,38.6,125
+"930",87416,"VA","Virginia","Virginia Commonwealth U.",2.1,2024-07-03,809,"a",36,39,125
+"931",87417,"AZ","Arizona","Redfield & Wilton Strategies",1.8,2024-07-10,419,"lv",39,43,118
+"932",87418,"FL","Florida","Redfield & Wilton Strategies",1.8,2024-07-10,465,"lv",41,45,118
+"933",87419,"GA","Georgia","Redfield & Wilton Strategies",1.8,2024-07-10,433,"lv",40,46,118
+"934",87420,"MI","Michigan","Redfield & Wilton Strategies",1.8,2024-07-10,465,"lv",43,42,118
+"935",87421,"NC","North Carolina","Redfield & Wilton Strategies",1.8,2024-07-10,420,"lv",42,44,118
+"936",87422,"PA","Pennsylvania","Redfield & Wilton Strategies",1.8,2024-07-10,719,"lv",40,45,118
+"937",87426,"MI","Michigan","KAConsulting LLC",1.5,2024-05-19,600,"rv",42.5,43.5,170
+"938",87427,"PA","Pennsylvania","KAConsulting LLC",1.5,2024-05-19,600,"rv",41.5,42.5,170
+"939",87428,"WI","Wisconsin","KAConsulting LLC",1.5,2024-05-19,600,"rv",43.5,43.5,170
+"940",87429,"GA","Georgia","InsiderAdvantage",2,2024-07-16,800,"lv",40.35,47.15,112
+"941",87430,"WA","Washington","SurveyUSA",2.8,2024-07-13,708,"lv",50.5,36,115
+"942",87438,"WI","Wisconsin","PPP",1.4,2024-07-12,653,"v",47,46,116
+"943",87440,"VA","Virginia","Florida Atlantic University/Mainstreet Research",NA,2024-07-13,544,"lv",44.5,40.25,115
+"944",87440,"VA","Virginia","Florida Atlantic University/Mainstreet Research",NA,2024-07-13,617,"rv",43,39.25,115
+"945",87441,"GA","Georgia","Florida Atlantic University/Mainstreet Research",NA,2024-07-13,549,"lv",41,48.25,115
+"946",87441,"GA","Georgia","Florida Atlantic University/Mainstreet Research",NA,2024-07-13,640,"rv",40.25,45.25,115
+"947",87452,"CA","California","PPIC",2.5,2024-07-02,1261,"lv",55,30,126
+"948",87453,"AZ","Arizona","Emerson",2.9,2024-07-16,1000,"rv",38.15,46.25,112
+"949",87454,"GA","Georgia","Emerson",2.9,2024-07-16,1000,"rv",39.85,45.5,112
+"950",87455,"MI","Michigan","Emerson",2.9,2024-07-16,1000,"rv",41,43.85,112
+"951",87456,"NV","Nevada","Emerson",2.9,2024-07-16,1000,"rv",40.45,44.25,112
+"952",87457,"NC","North Carolina","Emerson",2.9,2024-07-16,1000,"rv",39.15,47.35,112
+"953",87458,"PA","Pennsylvania","Emerson",2.9,2024-07-16,1000,"rv",41.2,46.75,112
+"954",87459,"WI","Wisconsin","Emerson",2.9,2024-07-16,1000,"rv",43,46.55,112
+"955",87460,"AZ","Arizona","Emerson",2.9,2024-03-20,1000,"rv",42.1,45,230
+"956",87461,"GA","Georgia","Emerson",2.9,2024-03-20,1000,"rv",41.7,46,230
+"957",87462,"MI","Michigan","Emerson",2.9,2024-03-20,1000,"rv",43.6,45.5,230
+"958",87463,"NV","Nevada","Emerson",2.9,2024-03-20,1000,"rv",41.7,45.1,230
+"959",87464,"NC","North Carolina","Emerson",2.9,2024-03-20,1000,"rv",44.7,46.9,230
+"960",87465,"PA","Pennsylvania","Emerson",2.9,2024-03-20,1000,"rv",43.8,46.6,230
+"961",87466,"WI","Wisconsin","Emerson",2.9,2024-03-20,1000,"rv",45.3,46.7,230
+"962",87467,"FL","Florida","InsiderAdvantage",2,2024-07-16,800,"lv",41.35,49.5,112
+"963",87468,"VA","Virginia","Emerson",2.9,2024-07-15,1000,"rv",44.0333333333333,46.6666666666667,113
+"964",87469,"AZ","Arizona","J.L. Partners",1.6,2024-07-11,513,"lv",40,46,117
+"965",87471,"GA","Georgia","Florida Atlantic University/Mainstreet Research",NA,2024-07-15,312,"lv",40.75,47,113
+"966",87471,"GA","Georgia","Florida Atlantic University/Mainstreet Research",NA,2024-07-15,341,"rv",39.5,45.25,113
+"967",87473,"VA","Virginia","Florida Atlantic University/Mainstreet Research",NA,2024-07-15,265,"lv",42.75,44.5,113
+"968",87473,"VA","Virginia","Florida Atlantic University/Mainstreet Research",NA,2024-07-15,301,"rv",41,42.25,113
+"969",87475,"PA","Pennsylvania","InsiderAdvantage",2,2024-07-16,800,"lv",42.5,48,112
+"970",87476,"NV","Nevada","InsiderAdvantage",2,2024-07-16,800,"lv",41,49.5,112
+"971",87477,"AZ","Arizona","InsiderAdvantage",2,2024-07-16,800,"lv",43,48.5,112
+"972",87485,"PA","Pennsylvania","PPP",1.4,2024-07-18,624,"rv",44,45.75,110
+"973",87486,"MI","Michigan","PPP",1.4,2024-07-18,650,"rv",44.25,46.25,110
+"974",87487,"NE","Nebraska","Torchlight Strategies",NA,2024-07-11,698,"lv",33,52,117
+"975",87488,"NE","Nebraska CD-2","Torchlight Strategies",NA,2024-07-11,300,"lv",42,42,117
+"976",87489,"MI","Michigan","Trafalgar Group",0.7,2024-07-17,1091,"lv",43,45.1,111
+"977",87490,"WI","Wisconsin","Trafalgar Group",0.7,2024-07-17,1087,"lv",43,45.6,111
+"978",87491,"MA","Massachusetts","Suffolk",2.9,2024-07-18,500,"rv",47.2,29,110
+"979",87492,"PA","Pennsylvania","Civiqs",2.4,2024-07-16,536,"rv",43,46,112
+"980",87493,"WI","Wisconsin","Civiqs",2.4,2024-07-16,514,"rv",47.5,47.5,112
+"981",87494,"MI","Michigan","Civiqs",2.4,2024-07-16,532,"rv",44.5,46,112
+"982",87496,"NY","New York","SoCal Research",NA,2024-07-18,500,"lv",52,41,110
+"983",87498,"NV","Nevada","Redfield & Wilton Strategies",1.8,2024-07-18,412,"lv",41,44,110
+"984",87499,"PA","Pennsylvania","Redfield & Wilton Strategies",1.8,2024-07-18,688,"lv",41,45,110
+"985",87500,"MI","Michigan","EPIC/MRA",1.9,2024-07-17,600,"rv",39,46,111
+"986",87501,"TX","Texas","ActiVote",NA,2024-07-18,400,"lv",45.6,54.4,110
+"987",87502,"NC","North Carolina","Redfield & Wilton Strategies",1.8,2024-07-18,461,"lv",39,45,110
+"988",87503,"AZ","Arizona","Redfield & Wilton Strategies",1.8,2024-07-18,454,"lv",40,44,110
+"989",87504,"FL","Florida","Redfield & Wilton Strategies",1.8,2024-07-18,471,"lv",39,46,110
+"990",87505,"GA","Georgia","Redfield & Wilton Strategies",1.8,2024-07-18,618,"lv",40,45,110
+"991",87506,"MI","Michigan","Redfield & Wilton Strategies",1.8,2024-07-18,437,"lv",41,42,110
+"992",87507,"WI","Wisconsin","Redfield & Wilton Strategies",1.8,2024-07-18,470,"lv",42,42,110
+"993",87509,"NH","New Hampshire","Praecones Analytica",2,2024-07-21,601,"rv",39.35,39.95,107
+"994",87510,"GA","Georgia","U. Georgia SPIA",2.2,2024-07-18,1000,"lv",44.1666666666667,48.0666666666667,110
+"995",87512,"AZ","Arizona","PPP",1.4,2024-07-11,596,"rv",43.7142857142857,49.2857142857143,117
+"996",87513,"MI","Michigan","PPP",1.4,2024-07-12,568,"rv",44.2857142857143,45.7142857142857,116
+"997",87514,"PA","Pennsylvania","PPP",1.4,2024-07-12,537,"rv",42.5714285714286,49.2857142857143,116
+"998",87515,"WI","Wisconsin","PPP",1.4,2024-07-11,548,"rv",47.1428571428571,46.7142857142857,117
+"999",87518,"PA","Pennsylvania","SoCal Research",NA,2024-07-21,500,"lv",46,50,107
+"1000",87525,"AZ","Arizona","PPP",1.4,2024-07-20,736,"rv",41.75,46.5,108
+"1001",87526,"NC","North Carolina","PPP",1.4,2024-07-20,573,"rv",43.25,47.75,108
+"1002",87533,"NE","Nebraska","Global Strategy Group",1.8,2024-06-05,600,"lv",34,42,153
+"1003",87534,"GA","Georgia","Landmark Communications",2.1,2024-07-22,400,"lv",45.5,46.9,106
+"1004",87540,"PA","Pennsylvania","North Star Opinion Research",1.1,2024-07-23,147,"lv",37,45,105
+"1005",87540,"PA","Pennsylvania","North Star Opinion Research",1.1,2024-07-23,600,"lv",45,47,105
+"1006",87542,"AZ","Arizona","Emerson",2.9,2024-07-23,800,"rv",43.6,50.05,105
+"1007",87543,"GA","Georgia","Emerson",2.9,2024-07-23,800,"rv",46.1,48.5,105
+"1008",87544,"MI","Michigan","Emerson",2.9,2024-07-23,800,"rv",46.45,47.5,105
+"1009",87545,"WI","Wisconsin","Emerson",2.9,2024-07-23,845,"rv",48,47.15,105
+"1010",87546,"PA","Pennsylvania","Emerson",2.9,2024-07-23,850,"rv",46.6,48.6,105
+"1011",87558,"ME","Maine","U. New Hampshire",2.6,2024-07-25,1445,"lv",51,42.5,103
+"1012",87559,"NH","New Hampshire","U. New Hampshire",2.6,2024-07-25,2875,"lv",51,44.5,103
+"1013",87560,"NH","New Hampshire","St. Anselm",2.4,2024-07-25,2083,"rv",50,44,103
+"1014",87562,"NV","Nevada","Redfield & Wilton Strategies",1.8,2024-07-24,435,"lv",43,45,104
+"1015",87563,"PA","Pennsylvania","Redfield & Wilton Strategies",1.8,2024-07-24,851,"lv",42,46,104
+"1016",87564,"NC","North Carolina","Redfield & Wilton Strategies",1.8,2024-07-24,586,"lv",43,46,104
+"1017",87566,"AZ","Arizona","Redfield & Wilton Strategies",1.8,2024-07-24,510,"lv",43,46,104
+"1018",87567,"FL","Florida","Redfield & Wilton Strategies",1.8,2024-07-24,572,"lv",39,47,104
+"1019",87568,"GA","Georgia","Redfield & Wilton Strategies",1.8,2024-07-24,1180,"lv",42,47,104
+"1020",87569,"MI","Michigan","Redfield & Wilton Strategies",1.8,2024-07-24,512,"lv",41,44,104
+"1021",87570,"MN","Minnesota","Redfield & Wilton Strategies",1.8,2024-07-24,475,"lv",44,41,104
+"1022",87571,"WI","Wisconsin","Redfield & Wilton Strategies",1.8,2024-07-24,523,"lv",44,44,104
+"1023",87572,"MI","Michigan","Glengariff Group Inc.",1.5,2024-07-24,600,"lv",39.2,41.4666666666667,104
+"1024",87575,"PA","Pennsylvania","Bullfinch",NA,2024-07-25,800,"rv",46,45.5,103
+"1025",87576,"WA","Washington","PPP",1.4,2024-07-25,581,"lv",52,38,103
+"1026",87577,"MI","Michigan","SoCal Research",NA,2024-07-26,500,"rv",46,49,102
+"1027",87581,"MN","Minnesota","SurveyUSA",2.8,2024-07-25,656,"lv",50,40,103
+"1028",87582,"WI","Wisconsin","Beacon/Shaw",2.8,2024-07-24,1046,"rv",46.75,48.75,104
+"1029",87583,"PA","Pennsylvania","Beacon/Shaw",2.8,2024-07-24,1034,"rv",49,46.25,104
+"1030",87584,"MN","Minnesota","Beacon/Shaw",2.8,2024-07-24,1071,"rv",49.25,44.5,104
+"1031",87585,"MI","Michigan","Beacon/Shaw",2.8,2024-07-24,1012,"rv",47.75,47,104
+"1032",87588,"GA","Georgia","SoCal Research",NA,2024-07-26,505,"rv",46.4,49.9,102
+"1033",87601,"AZ","Arizona","Echelon Insights",2.7,2024-07-08,601,"lv",41.5,44.5,120
+"1034",87602,"GA","Georgia","Echelon Insights",2.7,2024-07-08,608,"lv",42,47,120
+"1035",87603,"MI","Michigan","Echelon Insights",2.7,2024-07-08,607,"lv",42.5,45.5,120
+"1036",87604,"NC","North Carolina","Echelon Insights",2.7,2024-07-08,610,"lv",43,45,120
+"1037",87605,"PA","Pennsylvania","Echelon Insights",2.7,2024-07-08,612,"lv",46,44.5,120
+"1038",87606,"WI","Wisconsin","Echelon Insights",2.7,2024-07-08,617,"lv",43.5,45,120
+"1039",87607,"NV","Nevada","Echelon Insights",2.7,2024-07-08,402,"lv",38,47.5,120
+"1040",87608,"CA","California","Capitol Weekly",NA,2024-07-14,1044,"lv",52.5,33,114
+"1041",87609,"CA","California","Capitol Weekly",NA,2024-07-22,2121,"lv",53,35,106
+"1042",87612,"FL","Florida","U. North Florida",2.8,2024-07-27,774,"lv",42,49,101
+"1043",87618,"PA","Pennsylvania","Susquehanna",2.3,2024-07-28,600,"lv",47,43,100
+"1044",87620,"CA","California","Capitol Weekly",NA,2024-07-27,1904,"lv",59,35,101
+"1045",87621,"AZ","Arizona","Morning Consult",1.9,2024-07-28,804,"rv",48.5,45.5,100
+"1046",87622,"GA","Georgia","Morning Consult",1.9,2024-07-28,799,"rv",46,46,100
+"1047",87623,"MI","Michigan","Morning Consult",1.9,2024-07-28,706,"rv",52,40.5,100
+"1048",87624,"NV","Nevada","Morning Consult",1.9,2024-07-28,454,"rv",45,44,100
+"1049",87625,"NC","North Carolina","Morning Consult",1.9,2024-07-28,706,"rv",45,46.5,100
+"1050",87626,"PA","Pennsylvania","Morning Consult",1.9,2024-07-28,804,"rv",45,48,100
+"1051",87627,"WI","Wisconsin","Morning Consult",1.9,2024-07-28,700,"rv",46.5,46,100
+"1052",87631,"AZ","Arizona","PPP",1.4,2024-07-30,618,"rv",47,49,98
+"1053",87632,"PA","Pennsylvania","PPP",1.4,2024-07-30,627,"rv",47,48,98
+"1054",87633,"GA","Georgia","PPP",1.4,2024-07-30,662,"rv",48,47,98
+"1055",87634,"OR","Oregon","Hoffman Research",1.7,2024-07-26,700,"lv",47,42,102
+"1056",87635,"NH","New Hampshire","Emerson",2.9,2024-07-28,1000,"rv",50.05,44.5,100
+"1057",87638,"PA","Pennsylvania","Quantus Polls and News",NA,2024-07-28,500,"rv",46.4,47.6,100
+"1058",87644,"AZ","Arizona","Public Opinion Strategies",1.6,2024-07-29,400,"lv",43,48,99
+"1059",87645,"MI","Michigan","Public Opinion Strategies",1.6,2024-07-29,400,"lv",45,45,99
+"1060",87646,"NV","Nevada","Public Opinion Strategies",1.6,2024-07-29,400,"lv",45,46,99
+"1061",87647,"PA","Pennsylvania","Public Opinion Strategies",1.6,2024-07-29,400,"lv",48,45,99
+"1062",87648,"WI","Wisconsin","Public Opinion Strategies",1.6,2024-07-29,400,"lv",48,46,99
+"1063",87650,"OH","Ohio","Fabrizio/Impact",1.7,2024-07-28,600,"lv",40.5,50,100
+"1064",87658,"GA","Georgia","Trafalgar Group/InsiderAdvantage",NA,2024-07-30,NA,"lv",47,49,98
+"1065",87667,"PA","Pennsylvania","Fabrizio",1.7,2024-08-01,600,"lv",46.5,46.5,96
+"1066",87668,"PA","Pennsylvania","GQR",2,2024-07-30,500,"lv",50,46,98
+"1067",87678,"NY","New York","Siena",2.7,2024-08-01,1199,"lv",51,38,96
+"1068",87682,"AZ","Arizona","Redfield & Wilton Strategies",1.8,2024-08-03,567,"lv",44,43,94
+"1069",87683,"FL","Florida","Redfield & Wilton Strategies",1.8,2024-08-03,976,"lv",41,47,94
+"1070",87684,"GA","Georgia","Redfield & Wilton Strategies",1.8,2024-08-03,1128,"lv",44,46,94
+"1071",87685,"MI","Michigan","Redfield & Wilton Strategies",1.8,2024-08-03,771,"lv",41,42,94
+"1072",87686,"MN","Minnesota","Redfield & Wilton Strategies",1.8,2024-08-03,538,"lv",46,41,94
+"1073",87687,"NV","Nevada","Redfield & Wilton Strategies",1.8,2024-08-03,470,"lv",40,40,94
+"1074",87688,"NM","New Mexico","Redfield & Wilton Strategies",1.8,2024-08-03,493,"lv",44,37,94
+"1075",87689,"NC","North Carolina","Redfield & Wilton Strategies",1.8,2024-08-03,714,"lv",41,44,94
+"1076",87690,"PA","Pennsylvania","Redfield & Wilton Strategies",1.8,2024-08-03,743,"lv",44,46,94
+"1077",87691,"WI","Wisconsin","Redfield & Wilton Strategies",1.8,2024-08-03,597,"lv",43,43,94
+"1078",87698,"WI","Wisconsin","Marquette Law School",3,2024-08-01,801,"lv",48,47,96
+"1079",87698,"WI","Wisconsin","Marquette Law School",3,2024-08-01,877,"rv",47,46.5,96
+"1080",87700,"MT","Montana","Emerson",2.9,2024-08-06,1000,"lv",40.75,55.5,91
+"1081",87702,"WI","Wisconsin","RMG Research",2.3,2024-08-05,800,"rv",48,45,92
+"1082",87704,"GA","Georgia","Fabrizio/Impact",1.7,2024-07-31,600,"lv",46,47,97
+"1083",87706,"AZ","Arizona","HighGround",1.8,2024-08-05,500,"lv",44.4,41.6,92
+"1084",87711,"NC","North Carolina","Cygnal",2.1,2024-08-05,600,"lv",44.1,47.2,92
+"1085",87713,"MI","Michigan","InsiderAdvantage",2,2024-08-08,800,"lv",49,47,89
+"1086",87714,"WI","Wisconsin","InsiderAdvantage",2,2024-08-07,800,"lv",48.3,48.6,90
+"1087",87715,"PA","Pennsylvania","Trafalgar Group",0.7,2024-08-08,1078,"lv",44.4,45.9,89
+"1088",87716,"AZ","Arizona","Trafalgar Group",0.7,2024-08-08,1092,"lv",46.5,47.7,89
+"1089",87717,"NV","Nevada","Trafalgar Group",0.7,2024-08-08,1087,"lv",44.8,48.2,89
+"1090",87718,"NC","North Carolina","Trafalgar Group",0.7,2024-08-08,1082,"lv",45.2,48.9,89
+"1091",87719,"MI","Michigan","Siena/NYT",3,2024-08-08,619,"lv",49,44.5,89
+"1092",87719,"MI","Michigan","Siena/NYT",3,2024-08-08,619,"rv",44.5,45.5,89
+"1093",87720,"WI","Wisconsin","Siena/NYT",3,2024-08-08,661,"lv",49.5,44.5,89
+"1094",87720,"WI","Wisconsin","Siena/NYT",3,2024-08-08,661,"rv",49.5,44,89
+"1095",87721,"PA","Pennsylvania","Siena/NYT",3,2024-08-09,693,"lv",48,45,88
+"1096",87721,"PA","Pennsylvania","Siena/NYT",3,2024-08-09,693,"rv",47,44.5,88
+"1097",87723,"NC","North Carolina","YouGov Blue",3,2024-08-09,802,"rv",46,46,88
+"1098",87724,"ME","Maine CD-1","U. New Hampshire",2.6,2024-07-25,732,"lv",58,37.5,103
+"1099",87725,"ME","Maine CD-2","U. New Hampshire",2.6,2024-07-25,701,"lv",44.5,47.5,103
+"1100",87729,"MI","Michigan","Bullfinch",NA,2024-08-11,500,"rv",47,41.5,86
+"1101",87730,"PA","Pennsylvania","Bullfinch",NA,2024-08-11,500,"rv",47,43,86
+"1102",87731,"WI","Wisconsin","Bullfinch",NA,2024-08-11,500,"rv",50,41,86
+"1103",87744,"FL","Florida","Suffolk",2.9,2024-08-11,500,"lv",41.8,46.8,86
+"1104",87747,"TX","Texas","ActiVote",NA,2024-08-13,400,"lv",46.7,53.3,84
+"1105",87748,"FL","Florida","McLaughlin",0.5,2024-08-08,800,"lv",44,52,89
+"1106",87758,"MT","Montana","American Pulse",NA,2024-08-12,538,"rv",37.8,51.7,85
+"1107",87761,"FL","Florida","Florida Atlantic University/Mainstreet Research",NA,2024-08-11,1040,"lv",46,48.5,86
+"1108",87761,"FL","Florida","Florida Atlantic University/Mainstreet Research",NA,2024-08-11,1055,"rv",45,48,86
+"1109",87763,"AZ","Arizona","Benenson Strategy Group/GS Strategy Group",NA,2024-08-02,435,"lv",47,44,95
+"1110",87764,"GA","Georgia","Benenson Strategy Group/GS Strategy Group",NA,2024-08-02,405,"lv",47,47,95
+"1111",87765,"MI","Michigan","Benenson Strategy Group/GS Strategy Group",NA,2024-08-02,406,"lv",47.5,45,95
+"1112",87766,"NV","Nevada","Benenson Strategy Group/GS Strategy Group",NA,2024-08-02,403,"lv",43.5,47.5,95
+"1113",87767,"NC","North Carolina","Benenson Strategy Group/GS Strategy Group",NA,2024-08-02,403,"lv",47,45.5,95
+"1114",87768,"PA","Pennsylvania","Benenson Strategy Group/GS Strategy Group",NA,2024-08-02,411,"lv",48.5,45.5,95
+"1115",87769,"WI","Wisconsin","Benenson Strategy Group/GS Strategy Group",NA,2024-08-02,404,"lv",48.5,44.5,95
+"1116",87773,"CA","California","UC Berkeley",2.5,2024-08-11,3765,"lv",59,34,86
+"1117",87777,"PA","Pennsylvania","Quinnipiac",2.8,2024-08-12,1738,"lv",49,46,85
+"1118",87782,"PA","Pennsylvania","Franklin and Marshall College",2.4,2024-08-11,920,"rv",46,43,86
+"1119",87784,"AZ","Arizona","Peak Insights",0.6,2024-08-05,800,"lv",42,44,92
+"1120",87785,"MI","Michigan","Fabrizio/Impact",1.7,2024-08-11,600,"lv",45.5,46.5,86
+"1121",87786,"AZ","Arizona","Iron Light",NA,2024-08-05,600,"lv",43,43,92
+"1122",87787,"FL","Florida","ActiVote",NA,2024-08-15,400,"lv",45.9,54.1,82
+"1123",87789,"NH","New Hampshire","St. Anselm",2.4,2024-08-14,1656,"rv",51,44,83
+"1124",87790,"WI","Wisconsin","TIPP",1.8,2024-08-14,976,"lv",46.7,45.9,83
+"1125",87790,"WI","Wisconsin","TIPP",1.8,2024-08-14,1015,"rv",46.15,44.6,83
+"1126",87792,"MT","Montana","RMG Research",2.3,2024-08-14,540,"rv",39,57,83
+"1127",87797,"PA","Pennsylvania","Emerson",2.9,2024-08-14,1000,"lv",48.05,49.05,83
+"1128",87798,"WA","Washington","DHM Research",2.1,2024-07-17,500,"rv",42.4,38.2,111
+"1129",87800,"PA","Pennsylvania","Cygnal",2.1,2024-08-15,800,"lv",45.6,45.7,82
+"1130",87802,"WI","Wisconsin","Quantus Polls and News",NA,2024-08-15,601,"rv",47.8,46.9,82
+"1131",87806,"AZ","Arizona","Siena/NYT",3,2024-08-15,677,"lv",48.5,44,82
+"1132",87806,"AZ","Arizona","Siena/NYT",3,2024-08-15,677,"rv",47,43.5,82
+"1133",87807,"NV","Nevada","Siena/NYT",3,2024-08-15,677,"lv",45.5,47,82
+"1134",87807,"NV","Nevada","Siena/NYT",3,2024-08-15,677,"rv",44,46.5,82
+"1135",87808,"NC","North Carolina","Siena/NYT",3,2024-08-14,655,"lv",47.5,45.5,83
+"1136",87808,"NC","North Carolina","Siena/NYT",3,2024-08-14,655,"rv",47,44,83
+"1137",87809,"GA","Georgia","Siena/NYT",3,2024-08-14,661,"lv",45,48.5,83
+"1138",87809,"GA","Georgia","Siena/NYT",3,2024-08-14,661,"rv",42.5,49,83
+"1139",87812,"PA","Pennsylvania","Focaldata",NA,2024-08-16,719,"a",47,47,81
+"1140",87812,"PA","Pennsylvania","Focaldata",NA,2024-08-16,719,"lv",49.2,48.35,81
+"1141",87812,"PA","Pennsylvania","Focaldata",NA,2024-08-16,NA,"rv",49,46,81
+"1142",87813,"MI","Michigan","Focaldata",NA,2024-08-16,702,"a",50,42,81
+"1143",87813,"MI","Michigan","Focaldata",NA,2024-08-16,702,"lv",51.95,45.35,81
+"1144",87813,"MI","Michigan","Focaldata",NA,2024-08-16,NA,"rv",50,44,81
+"1145",87814,"GA","Georgia","Focaldata",NA,2024-08-16,651,"a",46,47,81
+"1146",87814,"GA","Georgia","Focaldata",NA,2024-08-16,651,"lv",46.65,50.7,81
+"1147",87814,"GA","Georgia","Focaldata",NA,2024-08-16,NA,"rv",46,47,81
+"1148",87815,"AZ","Arizona","Focaldata",NA,2024-08-16,702,"a",42,46,81
+"1149",87815,"AZ","Arizona","Focaldata",NA,2024-08-16,702,"lv",46.75,48.65,81
+"1150",87815,"AZ","Arizona","Focaldata",NA,2024-08-16,NA,"rv",45,45,81
+"1151",87816,"NC","North Carolina","Focaldata",NA,2024-08-16,702,"a",47,43,81
+"1152",87816,"NC","North Carolina","Focaldata",NA,2024-08-16,702,"lv",48.4,47.9,81
+"1153",87816,"NC","North Carolina","Focaldata",NA,2024-08-16,NA,"rv",47,44,81
+"1154",87817,"WI","Wisconsin","Focaldata",NA,2024-08-16,700,"a",50,43,81
+"1155",87817,"WI","Wisconsin","Focaldata",NA,2024-08-16,700,"lv",51.05,45.75,81
+"1156",87817,"WI","Wisconsin","Focaldata",NA,2024-08-16,NA,"rv",50,42,81
+"1157",87818,"NV","Nevada","Focaldata",NA,2024-08-16,678,"a",49,39,81
+"1158",87818,"NV","Nevada","Focaldata",NA,2024-08-16,678,"lv",50.75,44.35,81
+"1159",87818,"NV","Nevada","Focaldata",NA,2024-08-16,NA,"rv",49,39,81
+"1160",87821,"AZ","Arizona","Redfield & Wilton Strategies",1.8,2024-08-15,592,"lv",43,44,82
+"1161",87822,"FL","Florida","Redfield & Wilton Strategies",1.8,2024-08-15,1296,"lv",43,48,82
+"1162",87823,"GA","Georgia","Redfield & Wilton Strategies",1.8,2024-08-15,692,"lv",46,46,82
+"1163",87824,"MI","Michigan","Redfield & Wilton Strategies",1.8,2024-08-15,530,"lv",44,45,82
+"1164",87825,"MN","Minnesota","Redfield & Wilton Strategies",1.8,2024-08-15,475,"lv",47,40,82
+"1165",87826,"NV","Nevada","Redfield & Wilton Strategies",1.8,2024-08-15,536,"lv",42,43,82
+"1166",87827,"NM","New Mexico","Redfield & Wilton Strategies",1.8,2024-08-15,453,"lv",47,41,82
+"1167",87828,"NC","North Carolina","Redfield & Wilton Strategies",1.8,2024-08-15,601,"lv",44,47,82
+"1168",87829,"PA","Pennsylvania","Redfield & Wilton Strategies",1.8,2024-08-15,825,"lv",46,44,82
+"1169",87830,"WI","Wisconsin","Redfield & Wilton Strategies",1.8,2024-08-15,469,"lv",48,44,82
+"1170",87834,"CA","California","ActiVote",NA,2024-08-19,400,"lv",65.3,34.7,78
+"1171",87841,"PA","Pennsylvania","InsiderAdvantage",2,2024-08-19,800,"lv",46,46.6,78
+"1172",87844,"NE","Nebraska CD-2","Remington",2.6,2024-08-17,656,"lv",50,42,80
+"1173",87845,"VA","Virginia","Roanoke College",2.6,2024-08-16,691,"lv",46,43,81
+"1174",87848,"AZ","Arizona","Navigator",1.3,2024-08-08,600,"lv",45.5,47.5,89
+"1175",87849,"MI","Michigan","Navigator",1.3,2024-08-08,600,"lv",45.5,45,89
+"1176",87850,"NC","North Carolina","Navigator",1.3,2024-08-08,600,"lv",46,47,89
+"1177",87851,"PA","Pennsylvania","Navigator",1.3,2024-08-08,600,"lv",45,47,89
+"1178",87852,"WI","Wisconsin","Navigator",1.3,2024-08-08,600,"lv",46.5,46.5,89
+"1179",87856,"NH","New Hampshire","U. New Hampshire",2.6,2024-08-19,2048,"lv",51,45,78
+"1180",87857,"VT","Vermont","U. New Hampshire",2.6,2024-08-19,924,"lv",68.5,28,78
+"1181",87858,"ME","Maine","U. New Hampshire",2.6,2024-08-19,951,"lv",56.5,39.5,78
+"1182",87859,"ME","Maine CD-1","U. New Hampshire",2.6,2024-08-19,476,"lv",64,36,78
+"1183",87859,"ME","Maine CD-1","U. New Hampshire",2.6,2024-08-19,490,"lv",62,33,78
+"1184",87860,"ME","Maine CD-2","U. New Hampshire",2.6,2024-08-19,432,"lv",52,47,78
+"1185",87860,"ME","Maine CD-2","U. New Hampshire",2.6,2024-08-19,443,"lv",49,44,78
+"1186",87861,"TX","Texas","University of Houston/Texas Southern University",2.2,2024-08-16,1365,"lv",44.6,49.5,81
+"1187",87862,"NY","New York","ActiVote",NA,2024-08-21,400,"lv",58.3,41.7,76
+"1188",87869,"NE","Nebraska CD-2","Change Research",1.4,2024-08-17,437,"lv",47,42,80
+"1189",87870,"NC","North Carolina","SurveyUSA/High Point University",2.8,2024-08-21,941,"lv",47,47,76
+"1190",87870,"NC","North Carolina","SurveyUSA/High Point University",2.8,2024-08-21,1053,"rv",46,45,76
+"1191",87876,"UT","Utah","HarrisX",1.5,2024-08-09,800,"rv",26.5,55.5,88
+"1192",87877,"PA","Pennsylvania","ActiVote",NA,2024-08-22,400,"lv",51.1,48.9,75
+"1193",87878,"OH","Ohio","ActiVote",NA,2024-08-22,400,"lv",43.8,56.2,75
+"1194",87879,"MO","Missouri","ActiVote",NA,2024-08-22,400,"lv",41.3,58.7,75
+"1195",87882,"NM","New Mexico","Emerson",2.9,2024-08-22,965,"rv",52.3,43.3,75
+"1196",87888,"VA","Virginia","Quantus Polls and News",NA,2024-08-22,629,"rv",48.6,45.8,75
+"1197",87891,"CA","California","Capitol Weekly",NA,2024-08-15,1738,"lv",54,36.5,82
+"1198",87893,"MI","Michigan","TIPP",1.8,2024-08-22,741,"lv",47.6,45.4,75
+"1199",87893,"MI","Michigan","TIPP",1.8,2024-08-22,1001,"rv",45.05,43,75
+"1200",87894,"PA","Pennsylvania","SoCal Strategies",NA,2024-08-23,713,"lv",45,47.5,74
+"1201",87894,"PA","Pennsylvania","SoCal Strategies",NA,2024-08-23,800,"rv",44,46.5,74
+"1202",87910,"TX","Texas","PPP",1.4,2024-08-22,725,"rv",43,47,75
+"1203",87911,"FL","Florida","PPP",1.4,2024-08-22,837,"rv",46,49.5,75
+"1204",87912,"AZ","Arizona","Noble Predictive Insights",2.4,2024-08-16,1003,"rv",43.5,45.5,81
+"1205",87915,"MD","Maryland","Fabrizio/Impact",1.7,2024-08-20,600,"lv",61.5,30.5,77
+"1206",87917,"NC","North Carolina","SoCal Strategies",NA,2024-08-27,612,"lv",46,50,70
+"1207",87921,"AZ","Arizona","Strategies 360",1.3,2024-08-14,400,"rv",47,46,83
+"1208",87922,"NV","Nevada","Strategies 360",1.3,2024-08-14,350,"rv",48,42,83
+"1209",87926,"MI","Michigan","ActiVote",NA,2024-08-28,400,"lv",50.1,49.9,69
+"1210",87930,"AZ","Arizona","Beacon/Shaw",2.8,2024-08-26,1014,"rv",49,48,71
+"1211",87931,"GA","Georgia","Beacon/Shaw",2.8,2024-08-26,1014,"rv",49,47,71
+"1212",87932,"NV","Nevada","Beacon/Shaw",2.8,2024-08-26,1026,"rv",49,47,71
+"1213",87933,"NC","North Carolina","Beacon/Shaw",2.8,2024-08-26,999,"rv",48,49,71
+"1214",87934,"MO","Missouri","YouGov",3,2024-08-16,900,"lv",41,54,81
+"1215",87935,"AZ","Arizona","Emerson",2.9,2024-08-28,720,"lv",47.5,51.2,69
+"1216",87936,"MI","Michigan","Emerson",2.9,2024-08-28,800,"lv",51.2,47.6,69
+"1217",87937,"NV","Nevada","Emerson",2.9,2024-08-28,1168,"lv",49.4,48.8,69
+"1218",87938,"PA","Pennsylvania","Emerson",2.9,2024-08-28,950,"lv",49.4,49.4,69
+"1219",87939,"WI","Wisconsin","Emerson",2.9,2024-08-28,850,"lv",49.1,49.8,69
+"1220",87940,"MI","Michigan","Fabrizio Ward",1.7,2024-08-21,400,"lv",45,45.5,76
+"1221",87941,"PA","Pennsylvania","Fabrizio Ward",1.7,2024-08-21,400,"lv",44.5,45,76
+"1222",87942,"WI","Wisconsin","Fabrizio Ward",1.7,2024-08-21,400,"lv",48,43.5,76
+"1223",87943,"NC","North Carolina","Emerson",2.9,2024-08-28,775,"lv",49,49.9,69
+"1224",87944,"GA","Georgia","Emerson",2.9,2024-08-28,800,"lv",50.1,49,69
+"1225",87947,"FL","Florida","Targoz Market Research",1.8,2024-07-24,988,"lv",40.5,46.5,104
+"1226",87947,"FL","Florida","Targoz Market Research",1.8,2024-07-24,1200,"rv",37,46.5,104
+"1227",87951,"AZ","Arizona","Morning Consult",1.9,2024-08-27,776,"lv",48.5,47.5,70
+"1228",87951,"AZ","Arizona","Morning Consult",1.9,2024-08-27,805,"rv",48.5,47.5,70
+"1229",87952,"GA","Georgia","Morning Consult",1.9,2024-08-26,737,"lv",49,46.5,71
+"1230",87952,"GA","Georgia","Morning Consult",1.9,2024-08-26,801,"rv",48,46.5,71
+"1231",87953,"MI","Michigan","Morning Consult",1.9,2024-08-26,651,"lv",49,47,71
+"1232",87953,"MI","Michigan","Morning Consult",1.9,2024-08-26,702,"rv",48.5,46,71
+"1233",87954,"NV","Nevada","Morning Consult",1.9,2024-08-26,416,"lv",49,46,71
+"1234",87954,"NV","Nevada","Morning Consult",1.9,2024-08-26,450,"rv",48.5,45,71
+"1235",87955,"NC","North Carolina","Morning Consult",1.9,2024-08-26,645,"lv",48.5,48.5,71
+"1236",87955,"NC","North Carolina","Morning Consult",1.9,2024-08-26,700,"rv",48.5,47,71
+"1237",87956,"PA","Pennsylvania","Morning Consult",1.9,2024-08-26,758,"lv",51,47,71
+"1238",87956,"PA","Pennsylvania","Morning Consult",1.9,2024-08-26,803,"rv",51,46,71
+"1239",87957,"WI","Wisconsin","Morning Consult",1.9,2024-08-26,648,"lv",52.5,44,71
+"1240",87957,"WI","Wisconsin","Morning Consult",1.9,2024-08-26,701,"rv",51.5,44,71
+"1241",87959,"AZ","Arizona","Spry Strategies",1.5,2024-08-20,600,"lv",46.85,47.55,77
+"1242",87960,"GA","Georgia","Spry Strategies",1.5,2024-08-20,600,"lv",47.85,48.7,77
+"1243",87961,"NC","North Carolina","Spry Strategies",1.5,2024-08-20,600,"lv",46.85,46.25,77
+"1244",87962,"PA","Pennsylvania","Spry Strategies",1.5,2024-08-20,600,"lv",47.25,46.1,77
+"1245",87963,"WI","Wisconsin","Spry Strategies",1.5,2024-08-20,600,"lv",47.1,43.8,77
+"1246",87964,"FL","Florida","Cherry Communications",1,2024-08-26,600,"lv",45,52,71
+"1247",87966,"TN","Tennessee","ActiVote",NA,2024-08-29,400,"lv",36.9,63.1,68
+"1248",87967,"IL","Illinois","ActiVote",NA,2024-08-29,400,"lv",57.8,42.2,68
+"1249",87970,"MI","Michigan","EPIC/MRA",1.9,2024-08-26,600,"lv",45.5,46.5,71
+"1250",87971,"NC","North Carolina","Redfield & Wilton Strategies",1.8,2024-08-28,812,"lv",44,45,69
+"1251",87972,"AZ","Arizona","Redfield & Wilton Strategies",1.8,2024-08-28,530,"lv",45,46,69
+"1252",87973,"FL","Florida","Redfield & Wilton Strategies",1.8,2024-08-28,850,"lv",43,48,69
+"1253",87974,"GA","Georgia","Redfield & Wilton Strategies",1.8,2024-08-28,699,"lv",42,44,69
+"1254",87975,"MI","Michigan","Redfield & Wilton Strategies",1.8,2024-08-28,761,"lv",47,44,69
+"1255",87976,"MN","Minnesota","Redfield & Wilton Strategies",1.8,2024-08-28,426,"lv",51,42,69
+"1256",87977,"NV","Nevada","Redfield & Wilton Strategies",1.8,2024-08-28,490,"lv",47,47,69
+"1257",87978,"NM","New Mexico","Redfield & Wilton Strategies",1.8,2024-08-28,488,"lv",47,40,69
+"1258",87979,"PA","Pennsylvania","Redfield & Wilton Strategies",1.8,2024-08-28,1071,"lv",46,45,69
+"1259",87980,"WI","Wisconsin","Redfield & Wilton Strategies",1.8,2024-08-28,672,"lv",48,44,69
+"1260",87984,"WV","West Virginia","Research America",0.7,2024-08-27,400,"rv",34,61,70
+"1261",87986,"PA","Pennsylvania","Wick",1.4,2024-08-29,1607,"lv",48,48.5,68
+"1262",87988,"MN","Minnesota","SurveyUSA",2.8,2024-08-29,635,"lv",48,43,68
+"1263",87989,"NV","Nevada","InsiderAdvantage",2,2024-08-31,800,"lv",46.5,47.9,66
+"1264",87990,"AZ","Arizona","InsiderAdvantage",2,2024-08-31,800,"lv",48.4,48.6,66
+"1265",87991,"WI","Wisconsin","Trafalgar Group",0.7,2024-08-30,1083,"lv",46.2,47.3,67
+"1266",87992,"MI","Michigan","Trafalgar Group",0.7,2024-08-30,1089,"lv",46.6,47,67
+"1267",87993,"PA","Pennsylvania","Trafalgar Group",0.7,2024-08-30,1082,"lv",44.9,47,67
+"1268",87994,"NC","North Carolina","InsiderAdvantage",2,2024-08-31,800,"lv",48.4,49.2,66
+"1269",87995,"GA","Georgia","InsiderAdvantage",2,2024-08-31,800,"lv",48.3,47.6,66
+"1270",87996,"NC","North Carolina","ActiVote",NA,2024-08-31,400,"lv",50,50,66
+"1271",87997,"FL","Florida","ActiVote",NA,2024-08-31,400,"lv",46.6,53.4,66
+"1272",87998,"TX","Texas","ActiVote",NA,2024-08-31,400,"lv",45.5,54.5,66
+"1273",88000,"NE","Nebraska","SurveyUSA",2.8,2024-08-27,1293,"rv",37,54,70
+"1274",88001,"NE","Nebraska CD-2","SurveyUSA",2.8,2024-08-27,507,"rv",47,42,70
+"1275",88002,"OH","Ohio","SoCal Strategies",NA,2024-09-01,600,"lv",43,52,65
+"1276",88006,"CA","California","Capitol Weekly",NA,2024-08-26,3154,"lv",55,35.5,71
+"1277",88010,"MD","Maryland","Gonzales Research & Media Services",1.2,2024-08-30,820,"rv",56,35,67
+"1278",88011,"NC","North Carolina","East Carolina University",2.6,2024-08-28,920,"lv",46.9,47.6,69
+"1279",88014,"MI","Michigan","Glengariff Group Inc.",1.5,2024-08-28,600,"lv",43.5,44.7,69
+"1280",88015,"AZ","Arizona","CNN/SSRS",2.8,2024-08-29,682,"lv",44,49,68
+"1281",88016,"GA","Georgia","CNN/SSRS",2.8,2024-08-29,617,"lv",48,47,68
+"1282",88017,"MI","Michigan","CNN/SSRS",2.8,2024-08-29,708,"lv",48,43,68
+"1283",88018,"NV","Nevada","CNN/SSRS",2.8,2024-08-29,626,"lv",48,47,68
+"1284",88019,"PA","Pennsylvania","CNN/SSRS",2.8,2024-08-29,789,"lv",47,47,68
+"1285",88020,"WI","Wisconsin","CNN/SSRS",2.8,2024-08-29,976,"lv",50,44,68
+"1286",88028,"OK","Oklahoma","SoonerPoll.com",1.8,2024-08-31,323,"lv",39.9,56,66
+"1287",88032,"MI","Michigan","Z to A Research",NA,2024-08-26,500,"lv",47,47,71
+"1288",88033,"PA","Pennsylvania","Z to A Research",NA,2024-08-26,613,"lv",46,46,71
+"1289",88034,"WI","Wisconsin","Z to A Research",NA,2024-08-26,518,"lv",47,47,71
+"1290",88036,"MT","Montana","Fabrizio/David Binder Research",NA,2024-08-29,600,"lv",41,56,68
+"1291",88037,"AK","Alaska","Cygnal",2.1,2024-09-01,400,"lv",43.1,53,65
+"1292",88044,"PA","Pennsylvania","Patriot Polling",1.1,2024-09-03,857,"rv",47.9,49,63
+"1293",88045,"MI","Michigan","Patriot Polling",1.1,2024-09-03,822,"rv",48.4,47.6,63
+"1294",88046,"WI","Wisconsin","Patriot Polling",1.1,2024-09-03,826,"rv",47.9,47.7,63
+"1295",88047,"NC","North Carolina","Patriot Polling",1.1,2024-09-03,804,"rv",47.5,50,63
+"1296",88048,"GA","Georgia","Patriot Polling",1.1,2024-09-03,814,"rv",48.3,48.9,63
+"1297",88049,"AZ","Arizona","Patriot Polling",1.1,2024-09-03,804,"rv",46.9,48.5,63
+"1298",88050,"NV","Nevada","Patriot Polling",1.1,2024-09-03,788,"rv",46.8,47,63
+"1299",88063,"CA","California","Emerson",2.9,2024-09-05,815,"lv",60.8,38,61
+"1300",88064,"FL","Florida","Emerson",2.9,2024-09-05,815,"lv",47.6,51.1,61
+"1301",88065,"TX","Texas","Emerson",2.9,2024-09-05,845,"lv",48,50.9,61
+"1302",88066,"OH","Ohio","Emerson",2.9,2024-09-05,945,"lv",44.7,54.3,61
+"1303",88067,"TX","Texas","YouGov",3,2024-08-31,1200,"rv",44,49,66
+"1304",88069,"AZ","Arizona","TIPP",1.8,2024-09-05,949,"lv",47.4,47.25,61
+"1305",88069,"AZ","Arizona","TIPP",1.8,2024-09-05,1015,"rv",45.9,45.85,61
+"1306",88070,"MI","Michigan","YouGov",3,2024-09-06,1077,"lv",50,49,60
+"1307",88071,"PA","Pennsylvania","YouGov",3,2024-09-06,1078,"lv",50,50,60
+"1308",88072,"WI","Wisconsin","YouGov",3,2024-09-06,946,"lv",51,49,60
+"1309",88076,"WI","Wisconsin","BK Strategies",1.3,2024-08-21,600,"lv",48,45,76
+"1310",88077,"NC","North Carolina","Florida Atlantic University/Mainstreet Research",NA,2024-09-06,619,"lv",47,48,60
+"1311",88077,"NC","North Carolina","Florida Atlantic University/Mainstreet Research",NA,2024-09-06,692,"rv",46,47,60
+"1312",88078,"GA","Georgia","Florida Atlantic University/Mainstreet Research",NA,2024-09-06,567,"lv",45,47,60
+"1313",88078,"GA","Georgia","Florida Atlantic University/Mainstreet Research",NA,2024-09-06,647,"rv",44,47,60
+"1314",88080,"PA","Pennsylvania","YouGov",3,2024-08-23,500,"a",43,41.75,74
+"1315",88080,"PA","Pennsylvania","YouGov",3,2024-08-23,NA,"lv",47.5,46.5,74
+"1316",88081,"WI","Wisconsin","YouGov",3,2024-08-23,500,"a",46.5,41,74
+"1317",88081,"WI","Wisconsin","YouGov",3,2024-08-23,NA,"lv",50,45.5,74
+"1318",88082,"MI","Michigan","YouGov",3,2024-08-23,500,"a",44,42.5,74
+"1319",88082,"MI","Michigan","YouGov",3,2024-08-23,NA,"lv",47,47,74
+"1320",88083,"NC","North Carolina","SurveyUSA",2.8,2024-09-07,676,"lv",49,46,59
+"1321",88085,"AZ","Arizona","Morning Consult",1.9,2024-09-08,901,"lv",46.89,49.05,58
+"1322",88086,"FL","Florida","Morning Consult",1.9,2024-09-08,3182,"lv",47.05,49.12,58
+"1323",88087,"MD","Maryland","Morning Consult",1.9,2024-09-08,640,"lv",62.23,34.13,58
+"1324",88088,"MI","Michigan","Morning Consult",1.9,2024-09-08,1368,"lv",49.19,46.12,58
+"1325",88089,"NV","Nevada","Morning Consult",1.9,2024-09-08,516,"lv",47.58,48.45,58
+"1326",88090,"OH","Ohio","Morning Consult",1.9,2024-09-08,1558,"lv",43.58,51.92,58
+"1327",88091,"PA","Pennsylvania","Morning Consult",1.9,2024-09-08,1910,"lv",49.34,46.34,58
+"1328",88092,"TX","Texas","Morning Consult",1.9,2024-09-08,2940,"lv",43.43,51.75,58
+"1329",88093,"WI","Wisconsin","Morning Consult",1.9,2024-09-08,638,"lv",49.48,46.19,58
+"1330",88094,"NC","North Carolina","Morning Consult",1.9,2024-09-08,1369,"lv",48.22,47.82,58
+"1331",88095,"NC","North Carolina","Quinnipiac",2.8,2024-09-08,940,"lv",49.5,46.5,58
+"1332",88097,"CO","Colorado","Morning Consult",1.9,2024-09-08,498,"lv",54.8,40.08,58
+"1333",88098,"GA","Georgia","Morning Consult",1.9,2024-09-08,1405,"lv",48.39,47.51,58
+"1334",88099,"MN","Minnesota","Morning Consult",1.9,2024-09-08,501,"lv",50.92,44.28,58
+"1335",88100,"VA","Virginia","Morning Consult",1.9,2024-09-08,873,"lv",51.97,42.24,58
+"1336",88101,"GA","Georgia","Quinnipiac",2.8,2024-09-08,969,"lv",45.5,49,58
+"1337",88105,"VA","Virginia","Washington Post/George Mason University",2.7,2024-09-08,1005,"lv",50.5,42.5,58
+"1338",88105,"VA","Virginia","Washington Post/George Mason University",2.7,2024-09-08,1005,"rv",50,42.5,58
+"1339",88113,"NC","North Carolina","Redfield & Wilton Strategies",1.8,2024-09-09,495,"lv",45,44,57
+"1340",88114,"AZ","Arizona","Redfield & Wilton Strategies",1.8,2024-09-09,765,"lv",46,47,57
+"1341",88115,"FL","Florida","Redfield & Wilton Strategies",1.8,2024-09-09,1465,"lv",44,50,57
+"1342",88116,"GA","Georgia","Redfield & Wilton Strategies",1.8,2024-09-09,562,"lv",47,49,57
+"1343",88117,"MI","Michigan","Redfield & Wilton Strategies",1.8,2024-09-09,556,"lv",48,45,57
+"1344",88118,"MN","Minnesota","Redfield & Wilton Strategies",1.8,2024-09-09,617,"lv",51,44,57
+"1345",88119,"NV","Nevada","Redfield & Wilton Strategies",1.8,2024-09-09,698,"lv",45,46,57
+"1346",88120,"NM","New Mexico","Redfield & Wilton Strategies",1.8,2024-09-09,521,"lv",49,44,57
+"1347",88121,"PA","Pennsylvania","Redfield & Wilton Strategies",1.8,2024-09-09,801,"lv",45,45,57
+"1348",88122,"WI","Wisconsin","Redfield & Wilton Strategies",1.8,2024-09-09,626,"lv",49,46,57
+"1349",88125,"MI","Michigan","co/efficient",1.1,2024-09-06,931,"lv",47,47,60
+"1350",88126,"WI","Wisconsin","co/efficient",1.1,2024-09-06,917,"lv",47,47,60
+"1351",88127,"PA","Pennsylvania","co/efficient",1.1,2024-09-06,889,"lv",46,48,60
+"1352",88128,"GA","Georgia","ActiVote",NA,2024-09-10,400,"lv",49.8,50.2,56
+"1353",88134,"VA","Virginia","Virginia Commonwealth U.",2.1,2024-09-06,749,"rv",49.4,35.7,60
+"1354",88134,"VA","Virginia","Virginia Commonwealth U.",2.1,2024-09-06,813,"a",46,36,60
+"1355",88135,"WI","Wisconsin","Marquette Law School",3,2024-09-05,738,"lv",50,45.5,61
+"1356",88135,"WI","Wisconsin","Marquette Law School",3,2024-09-05,822,"rv",49.5,45.5,61
+"1357",88143,"MI","Michigan","InsiderAdvantage",2,2024-09-12,800,"lv",48,48.6,54
+"1358",88149,"WA","Washington","Elway",1.9,2024-09-06,403,"rv",53,32,60
+"1359",88150,"MI","Michigan","Cygnal",2.1,2024-09-01,600,"lv",47,46,65
+"1360",88151,"IN","Indiana","Lake Research",1.2,2024-09-02,600,"lv",42,52,64
+"1361",88155,"MN","Minnesota","Embold Research",1.4,2024-09-08,1616,"lv",48.8,44.6,58
+"1362",88159,"AR","Arkansas","Hendrix College",0.9,2024-09-06,696,"lv",40,55,60
+"1363",88160,"MI","Michigan","Mitchell",2.4,2024-09-11,580,"lv",47.5,47,55
+"1364",88161,"NC","North Carolina","Quantus Polls and News",NA,2024-09-12,815,"lv",46.8,48.4,54
+"1365",88162,"TX","Texas","Lake Research",1.2,2024-08-29,800,"rv",43,51,68
+"1366",88163,"NH","New Hampshire","St. Anselm",2.4,2024-09-12,2241,"lv",51,43,54
+"1367",88165,"AK","Alaska","Alaska Survey Research",1.9,2024-09-12,1254,"lv",42,47,54
+"1368",88166,"MO","Missouri","GQR",2,2024-09-12,645,"lv",44,55,54
+"1369",88169,"NC","North Carolina","Trafalgar Group",0.7,2024-09-12,1094,"lv",46,48.4,54
+"1370",88172,"NC","North Carolina","TIPP",1.8,2024-09-13,973,"lv",45.9,48.9,53
+"1371",88173,"WI","Wisconsin","InsiderAdvantage",2,2024-09-12,800,"lv",49,46.6,54
+"1372",88175,"AZ","Arizona","Trafalgar Group",0.7,2024-09-12,1088,"lv",45.5,47.1,54
+"1373",88178,"NM","New Mexico","Research & Polling",2.1,2024-09-13,532,"lv",49,39,53
+"1374",88179,"IA","Iowa","Selzer",2.8,2024-09-11,656,"lv",43,47,55
+"1375",88180,"NV","Nevada","Trafalgar Group",0.7,2024-09-13,1079,"lv",45.3,43.5,53
+"1376",88184,"PA","Pennsylvania","Suffolk",2.9,2024-09-14,500,"lv",48.6,45.6,52
+"1377",88186,"PA","Pennsylvania","InsiderAdvantage",2,2024-09-15,800,"lv",48.4,49.8,51
+"1378",88187,"MD","Maryland","Emerson",2.9,2024-09-13,890,"lv",65.3,33.3,53
+"1379",88188,"MO","Missouri","Emerson",2.9,2024-09-13,850,"lv",43.4,55.2,53
+"1380",88189,"IN","Indiana","Emerson",2.9,2024-09-13,1000,"lv",40.7,57.9,53
+"1381",88197,"GA","Georgia","Trafalgar Group",0.7,2024-09-15,1098,"lv",44.5,46.2,51
+"1382",88202,"MO","Missouri","Change Research",1.4,2024-09-13,1237,"rv",41,50,53
+"1383",88203,"AZ","Arizona","Data Orbital",2.9,2024-09-09,550,"lv",46,46.2,57
+"1384",88204,"CA","California","Capitol Weekly",NA,2024-09-16,1054,"lv",55,34,50
+"1385",88206,"GA","Georgia","U. Georgia SPIA",2.2,2024-09-15,1000,"lv",44.4,46.9,51
+"1386",88207,"VA","Virginia","ActiVote",NA,2024-09-17,400,"lv",55.2,44.8,49
+"1387",88209,"WI","Wisconsin","Fabrizio/Impact",1.7,2024-09-14,600,"lv",48.5,46.5,52
+"1388",88211,"PA","Pennsylvania","Quinnipiac",2.8,2024-09-16,1331,"lv",51,45.5,50
+"1389",88212,"MI","Michigan","Quinnipiac",2.8,2024-09-16,905,"lv",50.5,45.5,50
+"1390",88213,"WI","Wisconsin","Quinnipiac",2.8,2024-09-16,1075,"lv",48.5,47.5,50
+"1391",88217,"RI","Rhode Island","U. New Hampshire",2.6,2024-09-16,683,"lv",58,38,50
+"1392",88218,"MA","Massachusetts","U. New Hampshire",2.6,2024-09-16,564,"lv",62,31,50
+"1393",88219,"NH","New Hampshire","U. New Hampshire",2.6,2024-09-16,1695,"lv",54,43,50
+"1394",88220,"ME","Maine","Pan Atlantic Research",2.1,2024-09-15,812,"lv",50,41,51
+"1395",88221,"ME","Maine CD-1","Pan Atlantic Research",2.1,2024-09-15,414,"lv",58,32,51
+"1396",88222,"ME","Maine CD-2","Pan Atlantic Research",2.1,2024-09-15,398,"lv",42,49,51
+"1397",88225,"CA","California","PPIC",2.5,2024-09-09,1071,"lv",60,29,57
+"1398",88227,"PA","Pennsylvania","Franklin and Marshall College",2.4,2024-09-15,890,"rv",49,46,51
+"1399",88229,"NY","New York","Siena",2.7,2024-09-16,1003,"lv",53.5,41,50
+"1400",88230,"MD","Maryland","PPP",1.4,2024-09-17,543,"v",64,33,49
+"1401",88231,"PA","Pennsylvania","The Washington Post",3,2024-09-16,1003,"lv",48,47.5,50
+"1402",88232,"PA","Pennsylvania","Marist",2.9,2024-09-17,1476,"lv",49,49,49
+"1403",88232,"PA","Pennsylvania","Marist",2.9,2024-09-17,1663,"rv",49,48,49
+"1404",88233,"WI","Wisconsin","Marist",2.9,2024-09-17,1194,"lv",50,49,49
+"1405",88233,"WI","Wisconsin","Marist",2.9,2024-09-17,1312,"rv",50,47,49
+"1406",88234,"MI","Michigan","Marist",2.9,2024-09-17,1138,"lv",52,47,49
+"1407",88234,"MI","Michigan","Marist",2.9,2024-09-17,1282,"rv",50,47,49
+"1408",88235,"AZ","Arizona","Emerson",2.9,2024-09-18,868,"lv",48.7,49.8,48
+"1409",88236,"GA","Georgia","Emerson",2.9,2024-09-18,975,"lv",48.2,50.3,48
+"1410",88237,"MI","Michigan","Emerson",2.9,2024-09-18,875,"lv",50,49.1,48
+"1411",88238,"NV","Nevada","Emerson",2.9,2024-09-18,895,"lv",48.8,49,48
+"1412",88239,"PA","Pennsylvania","Emerson",2.9,2024-09-18,880,"lv",49.6,49.3,48
+"1413",88240,"NC","North Carolina","Emerson",2.9,2024-09-18,1000,"lv",49.7,49.3,48
+"1414",88241,"WI","Wisconsin","Emerson",2.9,2024-09-18,1000,"lv",48.7,50.3,48
+"1415",88242,"PA","Pennsylvania","Siena/NYT",3,2024-09-16,1082,"lv",49.5,45.5,50
+"1416",88242,"PA","Pennsylvania","Siena/NYT",3,2024-09-16,1082,"rv",49,45.5,50
+"1417",88243,"NC","North Carolina","Cygnal",2.1,2024-09-16,600,"lv",45.3,45.6,50
+"1418",88244,"NC","North Carolina","Victory Insights",1.3,2024-09-18,600,"lv",44.9,48.5,48
+"1419",88248,"AZ","Arizona","Morning Consult",1.9,2024-09-18,862,"lv",48.37,47.35,48
+"1420",88249,"FL","Florida","Morning Consult",1.9,2024-09-18,2948,"lv",46.8,49.52,48
+"1421",88250,"MD","Maryland","Morning Consult",1.9,2024-09-18,578,"lv",61.41,33.04,48
+"1422",88251,"MI","Michigan","Morning Consult",1.9,2024-09-18,1297,"lv",51.97,44.46,48
+"1423",88252,"NV","Nevada","Morning Consult",1.9,2024-09-18,474,"lv",50.87,46.53,48
+"1424",88253,"OH","Ohio","Morning Consult",1.9,2024-09-18,1488,"lv",43.02,52.16,48
+"1425",88254,"PA","Pennsylvania","Morning Consult",1.9,2024-09-18,1756,"lv",48.74,46.7,48
+"1426",88255,"TX","Texas","Morning Consult",1.9,2024-09-18,2716,"lv",45.77,49.58,48
+"1427",88256,"WI","Wisconsin","Morning Consult",1.9,2024-09-18,600,"lv",50.22,44.3,48
+"1428",88257,"NC","North Carolina","Morning Consult",1.9,2024-09-18,1314,"lv",49.33,47.16,48
+"1429",88258,"CO","Colorado","Morning Consult",1.9,2024-09-18,512,"lv",52.5,42.42,48
+"1430",88259,"GA","Georgia","Morning Consult",1.9,2024-09-18,1347,"lv",47.68,48.63,48
+"1431",88260,"MN","Minnesota","Morning Consult",1.9,2024-09-18,517,"lv",49.56,43,48
+"1432",88261,"VA","Virginia","Morning Consult",1.9,2024-09-18,899,"lv",50.76,44.44,48
+"1433",88262,"GA","Georgia","TIPP",1.8,2024-09-18,835,"lv",47.7,47.95,48
+"1434",88262,"GA","Georgia","TIPP",1.8,2024-09-18,1046,"rv",46.95,44.9,48
+"1435",88265,"VA","Virginia","Research America",0.7,2024-09-09,756,"lv",47.5,46,57
+"1436",88265,"VA","Virginia","Research America",0.7,2024-09-09,1000,"a",44.5,44.5,57
+"1437",88266,"NE","Nebraska","Global Strategy Group",1.8,2024-08-29,600,"lv",37,54,68
+"1438",88267,"PA","Pennsylvania","MassINC Polling Group",2.8,2024-09-18,800,"lv",51,46.5,48
+"1439",88269,"CA","California","ActiVote",NA,2024-09-21,400,"lv",64,36,45
+"1440",88275,"MA","Massachusetts","MassINC Polling Group",2.8,2024-09-18,800,"lv",61.5,33.5,48
+"1441",88276,"AZ","Arizona","Siena/NYT",3,2024-09-21,713,"lv",44,49,45
+"1442",88276,"AZ","Arizona","Siena/NYT",3,2024-09-21,713,"rv",43.5,48,45
+"1443",88277,"GA","Georgia","Siena/NYT",3,2024-09-21,682,"lv",44.5,48,45
+"1444",88277,"GA","Georgia","Siena/NYT",3,2024-09-21,682,"rv",43.5,47,45
+"1445",88278,"NC","North Carolina","Siena/NYT",3,2024-09-21,682,"lv",46,48,45
+"1446",88278,"NC","North Carolina","Siena/NYT",3,2024-09-21,682,"rv",46.5,47,45
+"1447",88279,"MN","Minnesota","Mason-Dixon",2.6,2024-09-18,800,"lv",48,43,48
+"1448",88280,"NM","New Mexico","SurveyUSA",2.8,2024-09-18,619,"lv",50,42,48
+"1449",88285,"TX","Texas","Texas Hispanic Policy Foundation",NA,2024-09-18,1200,"lv",44,50,48
+"1450",88286,"WI","Wisconsin","MassINC Polling Group",2.8,2024-09-18,800,"lv",52,45.5,48
+"1451",88288,"AZ","Arizona","Redfield & Wilton Strategies",1.8,2024-09-19,789,"lv",47,47,47
+"1452",88289,"FL","Florida","Redfield & Wilton Strategies",1.8,2024-09-19,1602,"lv",45,50,47
+"1453",88290,"MI","Michigan","Redfield & Wilton Strategies",1.8,2024-09-19,993,"lv",46,45,47
+"1454",88291,"MN","Minnesota","Redfield & Wilton Strategies",1.8,2024-09-19,703,"lv",50,44,47
+"1455",88292,"NV","Nevada","Redfield & Wilton Strategies",1.8,2024-09-19,652,"lv",45,45,47
+"1456",88293,"PA","Pennsylvania","Redfield & Wilton Strategies",1.8,2024-09-19,1086,"lv",47,47,47
+"1457",88294,"WI","Wisconsin","Redfield & Wilton Strategies",1.8,2024-09-19,600,"lv",47,47,47
+"1458",88295,"GA","Georgia","Redfield & Wilton Strategies",1.8,2024-09-19,1043,"lv",46,48,47
+"1459",88296,"NC","North Carolina","Redfield & Wilton Strategies",1.8,2024-09-19,868,"lv",47,48,47
+"1460",88297,"MT","Montana","RMG Research",2.3,2024-09-19,491,"lv",38,59,47
+"1461",88298,"CT","Connecticut","MassINC Polling Group",2.8,2024-09-18,800,"lv",53,37,48
+"1462",88301,"MI","Michigan","Suffolk",2.9,2024-09-18,500,"lv",47.6,45.4,48
+"1463",88302,"NC","North Carolina","Elon U.",2.5,2024-09-13,800,"rv",46,45,53
+"1464",88303,"DE","Delaware","Slingshot Strategies",1.4,2024-09-21,500,"rv",54,37,45
+"1465",88311,"RI","Rhode Island","MassINC Polling Group",2.8,2024-09-18,800,"lv",54.5,41.5,48
+"1466",88313,"NV","Nevada","Noble Predictive Insights",2.4,2024-09-16,692,"lv",47.5,47,50
+"1467",88313,"NV","Nevada","Noble Predictive Insights",2.4,2024-09-16,812,"rv",47,44,50
+"1468",88327,"OH","Ohio","RMG Research",2.3,2024-09-20,781,"lv",43,54,46
+"1469",88331,"FL","Florida","Bullfinch",NA,2024-09-23,600,"rv",47,48,43
+"1470",88332,"GA","Georgia","Bullfinch",NA,2024-09-23,600,"rv",49,47,43
+"1471",88333,"NC","North Carolina","Bullfinch",NA,2024-09-23,600,"rv",49,48,43
+"1472",88338,"NE","Nebraska","SurveyUSA",2.8,2024-09-23,558,"lv",40,56,43
+"1473",88339,"PA","Pennsylvania","Muhlenberg",2.8,2024-09-19,450,"lv",48,48,47
+"1474",88341,"TX","Texas","ActiVote",NA,2024-09-24,400,"lv",45.7,54.3,42
+"1475",88342,"AZ","Arizona","Focaldata",NA,2024-09-16,1097,"a",50.8,46,50
+"1476",88342,"AZ","Arizona","Focaldata",NA,2024-09-16,1097,"lv",50.25,48.75,50
+"1477",88342,"AZ","Arizona","Focaldata",NA,2024-09-16,1097,"rv",50.8,46.4,50
+"1478",88343,"GA","Georgia","Focaldata",NA,2024-09-16,1081,"a",51.6,45.2,50
+"1479",88343,"GA","Georgia","Focaldata",NA,2024-09-16,1081,"lv",50,48.9,50
+"1480",88343,"GA","Georgia","Focaldata",NA,2024-09-16,1081,"rv",52.1,45.46,50
+"1481",88344,"MI","Michigan","Focaldata",NA,2024-09-16,1114,"a",49.2,46.7,50
+"1482",88344,"MI","Michigan","Focaldata",NA,2024-09-16,1114,"lv",49.65,48.7,50
+"1483",88344,"MI","Michigan","Focaldata",NA,2024-09-16,1114,"rv",49.9,46.47,50
+"1484",88345,"NV","Nevada","Focaldata",NA,2024-09-16,1038,"a",50.4,46,50
+"1485",88345,"NV","Nevada","Focaldata",NA,2024-09-16,1038,"lv",50.4,48.25,50
+"1486",88345,"NV","Nevada","Focaldata",NA,2024-09-16,1038,"rv",50.8,46.2,50
+"1487",88346,"NC","North Carolina","Focaldata",NA,2024-09-16,1094,"a",48.2,48.4,50
+"1488",88346,"NC","North Carolina","Focaldata",NA,2024-09-16,1094,"lv",46.45,52.15,50
+"1489",88346,"NC","North Carolina","Focaldata",NA,2024-09-16,1094,"rv",47.48,49.2,50
+"1490",88347,"OH","Ohio","Focaldata",NA,2024-09-16,1115,"a",44.51,52.2,50
+"1491",88347,"OH","Ohio","Focaldata",NA,2024-09-16,1115,"lv",46.15,52.75,50
+"1492",88347,"OH","Ohio","Focaldata",NA,2024-09-16,1115,"rv",45.9,51.48,50
+"1493",88348,"PA","Pennsylvania","Focaldata",NA,2024-09-16,1120,"a",50.2,47.1,50
+"1494",88348,"PA","Pennsylvania","Focaldata",NA,2024-09-16,1120,"lv",50.35,48.6,50
+"1495",88348,"PA","Pennsylvania","Focaldata",NA,2024-09-16,1120,"rv",50.9,46.6,50
+"1496",88349,"WI","Wisconsin","Focaldata",NA,2024-09-16,1019,"a",51.3,45.6,50
+"1497",88349,"WI","Wisconsin","Focaldata",NA,2024-09-16,1019,"lv",52.3,46.5,50
+"1498",88349,"WI","Wisconsin","Focaldata",NA,2024-09-16,1019,"rv",52.4,45.3,50
+"1499",88353,"NC","North Carolina","Fabrizio/Impact",1.7,2024-09-17,600,"lv",46.5,49,49
+"1500",88354,"PA","Pennsylvania","Monmouth",2.9,2024-09-23,654,"rv",47,45,43
+"1501",88355,"PA","Pennsylvania","RMG Research",2.3,2024-09-20,783,"lv",49,49,46
+"1502",88357,"PA","Pennsylvania","Susquehanna",2.3,2024-09-22,700,"lv",46,46,44
+"1503",88360,"CO","Colorado","Keating Research",1.5,2024-09-14,500,"lv",53,42,52
+"1504",88361,"GA","Georgia","YouGov",3,2024-09-24,1441,"lv",49,51,42
+"1505",88362,"MD","Maryland","University of Maryland/Washington Post",2.5,2024-09-23,1012,"lv",63.5,31.5,43
+"1506",88362,"MD","Maryland","University of Maryland/Washington Post",2.5,2024-09-23,1012,"rv",61.5,31.5,43
+"1507",88363,"AZ","Arizona","Marist",2.9,2024-09-24,1264,"lv",49,50,42
+"1508",88363,"AZ","Arizona","Marist",2.9,2024-09-24,1416,"rv",48,50,42
+"1509",88364,"TX","Texas","Emerson",2.9,2024-09-24,950,"lv",46.7,52.3,42
+"1510",88365,"VA","Virginia","Emerson",2.9,2024-09-24,860,"lv",52.7,46.2,42
+"1511",88366,"NC","North Carolina","Marist",2.9,2024-09-24,1348,"lv",49,49,42
+"1512",88366,"NC","North Carolina","Marist",2.9,2024-09-24,1507,"rv",49,48,42
+"1513",88368,"GA","Georgia","Marist",2.9,2024-09-24,1220,"lv",49,50,42
+"1514",88368,"GA","Georgia","Marist",2.9,2024-09-24,1420,"rv",49,48,42
+"1515",88370,"PA","Pennsylvania","ActiVote",NA,2024-09-25,400,"lv",51.6,48.4,41
+"1516",88371,"MI","Michigan","University of Massachusetts Lowell/YouGov",2.9,2024-09-19,650,"lv",48,43,47
+"1517",88372,"PA","Pennsylvania","University of Massachusetts Lowell/YouGov",2.9,2024-09-19,800,"lv",48,46,47
+"1518",88376,"WI","Wisconsin","RMG Research",2.3,2024-09-23,788,"lv",50,49,43
+"1519",88378,"NV","Nevada","TIPP",1.8,2024-09-25,736,"lv",49.45,48.2,41
+"1520",88378,"NV","Nevada","TIPP",1.8,2024-09-25,1044,"rv",47.8,43.6,41
+"1521",88380,"AZ","Arizona","Beacon/Shaw",2.8,2024-09-24,764,"lv",47.5,50.5,42
+"1522",88380,"AZ","Arizona","Beacon/Shaw",2.8,2024-09-24,1021,"rv",47.5,49.5,42
+"1523",88381,"GA","Georgia","Beacon/Shaw",2.8,2024-09-24,707,"lv",50.5,48,42
+"1524",88381,"GA","Georgia","Beacon/Shaw",2.8,2024-09-24,1006,"rv",50,47.5,42
+"1525",88382,"NV","Nevada","Quantus Insights",NA,2024-09-25,628,"lv",47.7,48.8,41
+"1526",88383,"AZ","Arizona","Morning Consult",1.9,2024-09-25,926,"lv",49.5,46.5,41
+"1527",88383,"AZ","Arizona","Morning Consult",1.9,2024-09-25,977,"rv",49.5,46.5,41
+"1528",88384,"GA","Georgia","Morning Consult",1.9,2024-09-25,913,"lv",48.5,48.5,41
+"1529",88384,"GA","Georgia","Morning Consult",1.9,2024-09-25,989,"rv",48,47,41
+"1530",88385,"MI","Michigan","Morning Consult",1.9,2024-09-25,800,"lv",50,46.5,41
+"1531",88385,"MI","Michigan","Morning Consult",1.9,2024-09-25,894,"rv",49,46,41
+"1532",88386,"NV","Nevada","Morning Consult",1.9,2024-09-25,516,"lv",51,44.5,41
+"1533",88386,"NV","Nevada","Morning Consult",1.9,2024-09-25,574,"rv",47.5,44.5,41
+"1534",88387,"NC","North Carolina","Morning Consult",1.9,2024-09-25,828,"lv",49.5,47.5,41
+"1535",88387,"NC","North Carolina","Morning Consult",1.9,2024-09-25,889,"rv",49,46.5,41
+"1536",88388,"PA","Pennsylvania","Morning Consult",1.9,2024-09-25,924,"lv",51,45.5,41
+"1537",88388,"PA","Pennsylvania","Morning Consult",1.9,2024-09-25,993,"rv",49.5,45,41
+"1538",88389,"WI","Wisconsin","Morning Consult",1.9,2024-09-25,785,"lv",50.5,47.5,41
+"1539",88389,"WI","Wisconsin","Morning Consult",1.9,2024-09-25,849,"rv",49.5,47.5,41
+"1540",88390,"AZ","Arizona","Suffolk",2.9,2024-09-24,500,"lv",42.4,48.4,42
+"1541",88391,"NY","New York","Emerson",2.9,2024-09-25,1000,"lv",55.5,41.6,41
+"1542",88393,"MN","Minnesota","SurveyUSA",2.8,2024-09-26,646,"lv",50,44,40
+"1543",88394,"NC","North Carolina","Meredith College",1.6,2024-09-20,802,"lv",48,48,46
+"1544",88395,"NC","North Carolina","CNN/SSRS",2.8,2024-09-25,931,"lv",48,48,41
+"1545",88397,"NE","Nebraska CD-2","CNN/SSRS",2.8,2024-09-25,749,"lv",53,42,41
+"1546",88402,"NC","North Carolina","Beacon/Shaw",2.8,2024-09-24,787,"lv",48,49.5,42
+"1547",88402,"NC","North Carolina","Beacon/Shaw",2.8,2024-09-24,991,"rv",49,47.5,42
+"1548",88403,"PA","Pennsylvania","Beacon/Shaw",2.8,2024-09-24,775,"lv",48,48.5,42
+"1549",88403,"PA","Pennsylvania","Beacon/Shaw",2.8,2024-09-24,1021,"rv",49,47,42
+"1550",88404,"MI","Michigan","Siena/NYT",3,2024-09-26,688,"lv",47,46.5,40
+"1551",88404,"MI","Michigan","Siena/NYT",3,2024-09-26,688,"rv",44,46.5,40
+"1552",88405,"OH","Ohio","Siena/NYT",3,2024-09-26,687,"lv",43.5,49.5,40
+"1553",88405,"OH","Ohio","Siena/NYT",3,2024-09-26,687,"rv",44.5,48,40
+"1554",88406,"WI","Wisconsin","Siena/NYT",3,2024-09-26,680,"lv",48.5,46.5,40
+"1555",88406,"WI","Wisconsin","Siena/NYT",3,2024-09-26,680,"rv",48.5,46,40
+"1556",88407,"NE","Nebraska CD-2","Siena/NYT",3,2024-09-26,680,"lv",51.5,42.5,40
+"1557",88407,"NE","Nebraska CD-2","Siena/NYT",3,2024-09-26,680,"rv",50,41.5,40
+"1558",88409,"DE","Delaware","University of Delaware",NA,2024-09-19,383,"lv",55.6,35.9,47
+"1559",88410,"AZ","Arizona","AtlasIntel",2.7,2024-09-25,946,"lv",48.6,49.75,41
+"1560",88411,"MI","Michigan","AtlasIntel",2.7,2024-09-25,918,"lv",46.9,50.5,41
+"1561",88412,"NV","Nevada","AtlasIntel",2.7,2024-09-25,858,"lv",50.55,47.7,41
+"1562",88413,"PA","Pennsylvania","AtlasIntel",2.7,2024-09-25,1775,"lv",48.05,50.8,41
+"1563",88414,"WI","Wisconsin","AtlasIntel",2.7,2024-09-25,1077,"lv",48.2,49.65,41
+"1564",88415,"NC","North Carolina","AtlasIntel",2.7,2024-09-25,1173,"lv",50.65,47.7,41
+"1565",88416,"GA","Georgia","AtlasIntel",2.7,2024-09-25,1200,"lv",49,49.45,41
+"1566",88417,"FL","Florida","Victory Insights",1.3,2024-09-25,600,"lv",44.9,46.9,41
+"1567",88418,"FL","Florida","PPP",1.4,2024-09-26,808,"rv",45.5,49.5,40
+"1568",88419,"TX","Texas","PPP",1.4,2024-09-26,759,"rv",45,50,40
+"1569",88420,"PA","Pennsylvania","Trafalgar Group",0.7,2024-09-29,1090,"lv",45.3,47.5,37
+"1570",88421,"WI","Wisconsin","ActiVote",NA,2024-09-29,400,"lv",52.1,47.9,37
+"1571",88422,"CA","California","USC Dornsife/CSU Long Beach/Cal Poly Pomona",NA,2024-09-25,1685,"lv",57.7,35.5,41
+"1572",88423,"NC","North Carolina","East Carolina University",2.6,2024-09-26,1005,"lv",47.1,49.4,40
+"1573",88424,"IN","Indiana","ARW Strategies",NA,2024-09-25,600,"lv",39,55,41
+"1574",88425,"PA","Pennsylvania","Patriot Polling",1.1,2024-09-29,816,"rv",49,50,37
+"1575",88428,"RI","Rhode Island","Embold Research",1.4,2024-09-20,876,"lv",52,38,46
+"1576",88430,"PA","Pennsylvania","Fabrizio/Impact",1.7,2024-09-24,600,"lv",49.5,47,42
+"1577",88431,"NC","North Carolina","The Washington Post",3,2024-09-29,1001,"lv",48,50,37
+"1578",88431,"NC","North Carolina","The Washington Post",3,2024-09-29,1001,"rv",47,50,37
+"1579",88439,"AK","Alaska","Alaska Survey Research",1.9,2024-09-29,1182,"lv",43,52,37
+"1580",88440,"MI","Michigan","RMG Research",2.3,2024-09-27,789,"lv",50,47,39
+"1581",88441,"MI","Michigan","Remington",2.6,2024-09-20,800,"lv",49,47,46
+"1582",88442,"NV","Nevada","Remington",2.6,2024-09-20,800,"lv",48,49,46
+"1583",88443,"PA","Pennsylvania","Remington",2.6,2024-09-20,800,"lv",47,48,46
+"1584",88444,"WI","Wisconsin","Remington",2.6,2024-09-20,800,"lv",48,48,46
+"1585",88445,"MT","Montana","Remington",2.6,2024-09-20,800,"lv",39,56,46
+"1586",88447,"OH","Ohio","ActiVote",NA,2024-09-30,400,"lv",46.4,53.6,36
+"1587",88448,"IN","Indiana","ActiVote",NA,2024-09-30,400,"lv",43,57,36
+"1588",88449,"NY","New York","ActiVote",NA,2024-09-30,400,"lv",60.6,39.4,36
+"1589",88450,"AZ","Arizona","InsiderAdvantage",2,2024-09-30,800,"lv",47.7,49.1,36
+"1590",88451,"NV","Nevada","InsiderAdvantage",2,2024-09-30,800,"lv",48.4,49.3,36
+"1591",88452,"NC","North Carolina","InsiderAdvantage",2,2024-09-30,800,"lv",49.3,49.5,36
+"1592",88453,"GA","Georgia","InsiderAdvantage",2,2024-09-30,800,"lv",48.3,48.1,36
+"1593",88457,"NC","North Carolina","Quinnipiac",2.8,2024-09-29,953,"lv",47.5,49,37
+"1594",88458,"GA","Georgia","Quinnipiac",2.8,2024-09-29,942,"lv",44.5,50,37
+"1595",88459,"TX","Texas","RMG Research",2.3,2024-09-27,779,"lv",46,53,39
+"1596",88460,"ND","North Dakota","Lake Research",1.2,2024-09-26,500,"lv",40,50,40
+"1597",88461,"AZ","Arizona","Emerson",2.9,2024-09-28,920,"lv",47.6,51.7,38
+"1598",88462,"NC","North Carolina","Emerson",2.9,2024-09-28,850,"lv",49.1,49.9,38
+"1599",88465,"PA","Pennsylvania","Emerson",2.9,2024-09-28,1000,"lv",49.3,48.8,38
+"1600",88468,"WI","Wisconsin","Trafalgar Group",0.7,2024-09-30,1079,"lv",46,47.1,36
+"1601",88469,"AZ","Arizona","Benenson Strategy Group/GS Strategy Group",NA,2024-09-25,409,"lv",50,47.5,41
+"1602",88470,"GA","Georgia","Benenson Strategy Group/GS Strategy Group",NA,2024-09-25,411,"lv",47,48.5,41
+"1603",88471,"MI","Michigan","Benenson Strategy Group/GS Strategy Group",NA,2024-09-25,416,"lv",50,47,41
+"1604",88472,"NV","Nevada","Benenson Strategy Group/GS Strategy Group",NA,2024-09-25,409,"lv",48,47,41
+"1605",88473,"NC","North Carolina","Benenson Strategy Group/GS Strategy Group",NA,2024-09-25,411,"lv",49,47.5,41
+"1606",88474,"PA","Pennsylvania","Benenson Strategy Group/GS Strategy Group",NA,2024-09-25,474,"lv",49.5,48,41
+"1607",88475,"WI","Wisconsin","Benenson Strategy Group/GS Strategy Group",NA,2024-09-25,411,"lv",48.5,46.5,41
+"1608",88476,"IA","Iowa","Cygnal",2.1,2024-09-28,600,"lv",44.6,51.3,38
+"1609",88477,"SC","South Carolina","Winthrop U.",2.5,2024-09-29,1068,"lv",42,51.6,37
+"1610",88484,"MI","Michigan","Trafalgar Group",0.7,2024-09-30,1086,"lv",44.7,46.9,36
+"1611",88485,"FL","Florida","McLaughlin",0.5,2024-09-25,1200,"lv",46,51,41
+"1612",88486,"ND","North Dakota","WPAi",1.7,2024-09-30,500,"lv",32,59,36
+"1613",88488,"WI","Wisconsin","Marquette Law School",3,2024-09-26,798,"lv",50.5,46,40
+"1614",88488,"WI","Wisconsin","Marquette Law School",3,2024-09-26,882,"rv",50,46,40
+"1615",88489,"VA","Virginia","Virginia Commonwealth U.",2.1,2024-09-25,762,"rv",47.4,36.6,41
+"1616",88489,"VA","Virginia","Virginia Commonwealth U.",2.1,2024-09-25,832,"a",43,37,41
+"1617",88490,"NE","Nebraska","Bullfinch",NA,2024-10-01,400,"lv",42,53,35
+"1618",88494,"AZ","Arizona","HighGround",1.8,2024-09-29,500,"lv",47.6,45.4,37
+"1619",88497,"FL","Florida","RMG Research",2.3,2024-09-27,774,"lv",48,50,39
+"1620",88499,"PA","Pennsylvania","OnMessage Inc.",1.1,2024-09-29,800,"lv",47,47,37
+"1621",88501,"NJ","New Jersey","ActiVote",NA,2024-10-02,400,"lv",56,44,34
+"1622",88503,"NC","North Carolina","High Point University",2.5,2024-09-29,589,"lv",48,48,37
+"1623",88503,"NC","North Carolina","High Point University",2.5,2024-09-29,814,"rv",48,46,37
+"1624",88504,"MI","Michigan","Mitchell",2.4,2024-09-30,709,"lv",47.5,48,36
+"1625",88507,"NH","New Hampshire","St. Anselm",2.4,2024-10-02,2104,"lv",51,44,34
+"1626",88508,"OH","Ohio","Bowling Green State University/YouGov",NA,2024-09-27,1000,"lv",44,51,39
+"1627",88510,"NV","Nevada","Tarrance",1.6,2024-09-19,600,"lv",47,44,47
+"1628",88511,"TX","Texas","CWS Research",1.6,2024-09-09,504,"lv",41,51,57
+"1629",88512,"NC","North Carolina","RMG Research",2.3,2024-09-27,780,"lv",47,51,39
+"1630",88514,"CA","California","UC Berkeley",2.5,2024-10-01,3045,"lv",57,35,35
+"1631",88518,"IL","Illinois","ActiVote",NA,2024-10-05,400,"lv",58.8,41.2,31
+"1632",88524,"NC","North Carolina","ActiVote",NA,2024-10-06,400,"lv",50.8,49.2,30
+"1633",88525,"FL","Florida","ActiVote",NA,2024-10-06,400,"lv",47,53,30
+"1634",88526,"AZ","Arizona","RMG Research",2.3,2024-10-02,783,"lv",46,50,34
+"1635",88530,"AZ","Arizona","Redfield & Wilton Strategies",1.8,2024-10-02,555,"lv",47,48,34
+"1636",88531,"FL","Florida","Redfield & Wilton Strategies",1.8,2024-10-02,2946,"lv",45,49,34
+"1637",88532,"GA","Georgia","Redfield & Wilton Strategies",1.8,2024-10-02,3783,"lv",47,47,34
+"1638",88533,"MI","Michigan","Redfield & Wilton Strategies",1.8,2024-10-02,839,"lv",48,46,34
+"1639",88534,"MN","Minnesota","Redfield & Wilton Strategies",1.8,2024-10-02,551,"lv",51,43,34
+"1640",88535,"NV","Nevada","Redfield & Wilton Strategies",1.8,2024-10-02,514,"lv",48,47,34
+"1641",88536,"NC","North Carolina","Redfield & Wilton Strategies",1.8,2024-10-02,753,"lv",45,47,34
+"1642",88537,"PA","Pennsylvania","Redfield & Wilton Strategies",1.8,2024-10-02,5686,"lv",48,47,34
+"1643",88538,"WI","Wisconsin","Redfield & Wilton Strategies",1.8,2024-10-02,533,"lv",47,46,34
+"1644",88541,"VA","Virginia","Christopher Newport U.",2.8,2024-10-04,800,"lv",52,41,32
+"1645",88545,"MI","Michigan","Glengariff Group Inc.",1.5,2024-10-04,600,"lv",46.8,44.2,32
+"1646",88551,"MA","Massachusetts","Suffolk",2.9,2024-10-05,500,"lv",61.2,32.2,31
+"1647",88552,"AZ","Arizona","SoCal Strategies",NA,2024-10-07,735,"lv",48.7,47.8,29
+"1648",88555,"FL","Florida","Siena/NYT",3,2024-10-06,622,"lv",40.5,54,30
+"1649",88555,"FL","Florida","Siena/NYT",3,2024-10-06,622,"rv",40.5,53.5,30
+"1650",88556,"TX","Texas","Siena/NYT",3,2024-10-04,617,"lv",43,49.5,32
+"1651",88556,"TX","Texas","Siena/NYT",3,2024-10-04,617,"rv",42.5,49,32
+"1652",88557,"NV","Nevada","RMG Research",2.3,2024-10-03,782,"lv",49,49,33
+"1653",88569,"TX","Texas","Florida Atlantic University/Mainstreet Research",NA,2024-10-06,775,"lv",45,50,30
+"1654",88569,"TX","Texas","Florida Atlantic University/Mainstreet Research",NA,2024-10-06,811,"rv",45,50,30
+"1655",88570,"PA","Pennsylvania","Bullfinch",NA,2024-09-29,800,"rv",50,46,37
+"1656",88572,"AZ","Arizona","Fabrizio/Impact",1.7,2024-10-01,600,"lv",47.5,49.5,35
+"1657",88574,"MI","Michigan","Research Co.",2.4,2024-10-07,450,"lv",51,48,29
+"1658",88575,"PA","Pennsylvania","Research Co.",2.4,2024-10-07,450,"lv",50,49,29
+"1659",88576,"WI","Wisconsin","Research Co.",2.4,2024-10-07,450,"lv",50,48,29
+"1660",88578,"NE","Nebraska","Impact Research",1.5,2024-10-03,600,"lv",38,58,33
+"1661",88579,"PA","Pennsylvania","InsiderAdvantage",2,2024-10-08,800,"lv",47,49,28
+"1662",88580,"AZ","Arizona","National Research",2,2024-09-29,600,"lv",47,46,37
+"1663",88586,"MD","Maryland","UMBC",NA,2024-09-28,863,"lv",57,35,38
+"1664",88588,"AZ","Arizona","ActiVote",NA,2024-10-08,400,"lv",49.3,50.7,28
+"1665",88591,"MI","Michigan","Quinnipiac",2.8,2024-10-07,1007,"lv",47,50.5,29
+"1666",88592,"PA","Pennsylvania","Quinnipiac",2.8,2024-10-07,1412,"lv",49,46.5,29
+"1667",88593,"WI","Wisconsin","Quinnipiac",2.8,2024-10-07,1073,"lv",46.5,48.5,29
+"1668",88594,"AZ","Arizona","Global Strategy Group/North Star Opinion Research",NA,2024-09-29,400,"lv",47.5,47,37
+"1669",88595,"GA","Georgia","Global Strategy Group/North Star Opinion Research",NA,2024-09-29,400,"lv",46.5,47,37
+"1670",88596,"MI","Michigan","Global Strategy Group/North Star Opinion Research",NA,2024-09-29,404,"lv",46.5,48.5,37
+"1671",88597,"NV","Nevada","Global Strategy Group/North Star Opinion Research",NA,2024-09-29,407,"lv",47.5,47,37
+"1672",88598,"NC","North Carolina","Global Strategy Group/North Star Opinion Research",NA,2024-09-29,401,"lv",47,47.5,37
+"1673",88599,"PA","Pennsylvania","Global Strategy Group/North Star Opinion Research",NA,2024-09-29,408,"lv",47.5,47.5,37
+"1674",88600,"WI","Wisconsin","Global Strategy Group/North Star Opinion Research",NA,2024-09-29,408,"lv",47,45.5,37
+"1675",88601,"WI","Wisconsin","Arc Insights",NA,2024-10-06,700,"lv",47,48,30
+"1676",88603,"UT","Utah","PPP",1.4,2024-09-28,612,"lv",39,54,38
+"1677",88604,"GA","Georgia","Trafalgar Group",0.7,2024-10-08,1089,"lv",44.9,46.2,28
+"1678",88605,"PA","Pennsylvania","Hunt Research",NA,2024-10-07,1037,"lv",47,47.6,29
+"1679",88606,"AZ","Arizona","Emerson",2.9,2024-10-08,1000,"lv",48.2,50.5,28
+"1680",88607,"GA","Georgia","Emerson",2.9,2024-10-08,1000,"lv",49.8,49.7,28
+"1681",88608,"MI","Michigan","Emerson",2.9,2024-10-08,950,"lv",49.7,49.6,28
+"1682",88609,"NV","Nevada","Emerson",2.9,2024-10-08,900,"lv",49.2,48.1,28
+"1683",88610,"NC","North Carolina","Emerson",2.9,2024-10-08,1000,"lv",49,49.9,28
+"1684",88611,"PA","Pennsylvania","Emerson",2.9,2024-10-08,1000,"lv",49,49.7,28
+"1685",88612,"WI","Wisconsin","Emerson",2.9,2024-10-08,1000,"lv",49.2,49.9,28
+"1686",88613,"FL","Florida","Marist",2.9,2024-10-07,1257,"lv",47,51,29
+"1687",88613,"FL","Florida","Marist",2.9,2024-10-07,1410,"rv",47,51,29
+"1688",88614,"TX","Texas","Marist",2.9,2024-10-07,1186,"lv",46,53,29
+"1689",88614,"TX","Texas","Marist",2.9,2024-10-07,1365,"rv",46,52,29
+"1690",88615,"OH","Ohio","Marist",2.9,2024-10-07,1327,"lv",46,52,29
+"1691",88615,"OH","Ohio","Marist",2.9,2024-10-07,1511,"rv",46,52,29
+"1692",88616,"OH","Ohio","The Washington Post",3,2024-10-07,1002,"lv",45,51,29
+"1693",88616,"OH","Ohio","The Washington Post",3,2024-10-07,1002,"rv",44,51,29
+"1694",88617,"MT","Montana","Siena/NYT",3,2024-10-08,656,"lv",39.5,56.5,28
+"1695",88617,"MT","Montana","Siena/NYT",3,2024-10-08,656,"rv",38.5,56.5,28
+"1696",88618,"PA","Pennsylvania","YouGov/Center for Working Class Politics",3,2024-10-02,1000,"rv",46.8,44.7,34
+"1697",88624,"AZ","Arizona","Fabrizio/McLaughlin",NA,2024-10-09,800,"lv",46,49,27
+"1698",88625,"GA","Georgia","Fabrizio/McLaughlin",NA,2024-10-09,800,"lv",45,50,27
+"1699",88626,"MI","Michigan","Fabrizio/McLaughlin",NA,2024-10-09,800,"lv",48,49,27
+"1700",88627,"NV","Nevada","Fabrizio/McLaughlin",NA,2024-10-09,800,"lv",47,50,27
+"1701",88628,"NC","North Carolina","Fabrizio/McLaughlin",NA,2024-10-09,800,"lv",47,48,27
+"1702",88629,"PA","Pennsylvania","Fabrizio/McLaughlin",NA,2024-10-09,800,"lv",48,49,27
+"1703",88630,"WI","Wisconsin","Fabrizio/McLaughlin",NA,2024-10-09,800,"lv",48,49,27
+"1704",88633,"PA","Pennsylvania","TIPP",1.8,2024-10-09,803,"lv",47.9,48.95,27
+"1705",88633,"PA","Pennsylvania","TIPP",1.8,2024-10-09,1079,"rv",48.85,45.1,27
+"1706",88636,"MI","Michigan","InsiderAdvantage",2,2024-10-09,800,"lv",46,48,27
+"1707",88637,"WI","Wisconsin","InsiderAdvantage",2,2024-10-09,800,"lv",48,48,27
+"1708",88638,"NE","Nebraska","Change Research",1.4,2024-10-08,895,"lv",38,58,28
+"1709",88639,"AZ","Arizona","Fabrizio/GBAO",NA,2024-10-08,600,"rv",47.5,45.5,28
+"1710",88640,"GA","Georgia","Fabrizio/GBAO",NA,2024-10-08,600,"rv",47,45.5,28
+"1711",88641,"MI","Michigan","Fabrizio/GBAO",NA,2024-10-08,600,"rv",48,46,28
+"1712",88642,"NC","North Carolina","Fabrizio/GBAO",NA,2024-10-08,600,"rv",46,46.5,28
+"1713",88643,"NV","Nevada","Fabrizio/GBAO",NA,2024-10-08,600,"rv",42.5,48,28
+"1714",88644,"PA","Pennsylvania","Fabrizio/GBAO",NA,2024-10-08,600,"rv",45.5,46.5,28
+"1715",88645,"WI","Wisconsin","Fabrizio/GBAO",NA,2024-10-08,600,"rv",47,46.5,28
+"1716",88646,"NE","Nebraska","Torchlight Strategies",NA,2024-10-08,600,"lv",37,57,28
+"1717",88648,"AZ","Arizona","OnMessage Inc.",1.1,2024-10-02,500,"lv",45,47,34
+"1718",88649,"GA","Georgia","OnMessage Inc.",1.1,2024-10-02,500,"lv",44,47,34
+"1719",88650,"MI","Michigan","OnMessage Inc.",1.1,2024-10-02,500,"lv",48,46,34
+"1720",88651,"NV","Nevada","OnMessage Inc.",1.1,2024-10-02,500,"lv",45,47,34
+"1721",88652,"PA","Pennsylvania","OnMessage Inc.",1.1,2024-10-02,500,"lv",46,46,34
+"1722",88653,"WI","Wisconsin","OnMessage Inc.",1.1,2024-10-02,500,"lv",46,47,34
+"1723",88654,"MO","Missouri","ActiVote",NA,2024-10-10,400,"lv",42.8,57.2,26
+"1724",88655,"CA","California","ActiVote",NA,2024-10-10,400,"lv",63.5,36.5,26
+"1725",88656,"MI","Michigan","ActiVote",NA,2024-10-09,400,"lv",51.2,48.8,27
+"1726",88657,"MN","Minnesota","ActiVote",NA,2024-10-09,400,"lv",52.9,47.1,27
+"1727",88661,"GA","Georgia","Redfield & Wilton Strategies",1.8,2024-10-09,608,"lv",47,48,27
+"1728",88662,"PA","Pennsylvania","Redfield & Wilton Strategies",1.8,2024-10-09,707,"lv",46,48,27
+"1729",88664,"PA","Pennsylvania","Siena/NYT",3,2024-10-10,857,"lv",49.5,46,26
+"1730",88664,"PA","Pennsylvania","Siena/NYT",3,2024-10-10,857,"rv",49.5,46,26
+"1731",88665,"AZ","Arizona","Siena/NYT",3,2024-10-10,808,"lv",45.5,50.5,26
+"1732",88665,"AZ","Arizona","Siena/NYT",3,2024-10-10,808,"rv",44.5,50,26
+"1733",88669,"FL","Florida","Mason-Dixon",2.6,2024-10-04,625,"lv",43,49,32
+"1734",88671,"PA","Pennsylvania","J.L. Partners",1.6,2024-10-08,800,"lv",47,47,28
+"1735",88673,"GA","Georgia","RMG Research",2.3,2024-10-10,731,"lv",47,50,26
+"1736",88674,"WA","Washington","ActiVote",NA,2024-10-13,400,"lv",60,40,23
+"1737",88677,"AZ","Arizona","Trafalgar Group",0.7,2024-10-13,1090,"lv",46,47.5,23
+"1738",88686,"TX","Texas","U. Houston",2.2,2024-10-10,1329,"lv",46,51,26
+"1739",88687,"FL","Florida","Tarrance",1.6,2024-10-08,818,"rv",44,51,28
+"1740",88688,"MA","Massachusetts","UMass Amherst/YouGov",2.4,2024-10-10,700,"a",56,30,26
+"1741",88689,"MI","Michigan","SoCal Strategies",NA,2024-10-13,692,"lv",49,48,23
+"1742",88690,"PA","Pennsylvania","American Pulse",NA,2024-10-10,1193,"lv",48.55,49.75,26
+"1743",88691,"WI","Wisconsin","Patriot Polling",1.1,2024-10-14,803,"rv",49,50,22
+"1744",88695,"TN","Tennessee","Targoz Market Research",1.8,2024-10-08,971,"lv",35,56,28
+"1745",88695,"TN","Tennessee","Targoz Market Research",1.8,2024-10-08,1200,"rv",35,54,28
+"1746",88697,"MD","Maryland","ActiVote",NA,2024-10-14,400,"lv",62.9,37.1,22
+"1747",88700,"MI","Michigan","Fabrizio/Impact",1.7,2024-10-08,600,"lv",47,47.5,28
+"1748",88702,"RI","Rhode Island","U. Rhode Island",NA,2024-09-08,500,"a",53,27,58
+"1749",88704,"NC","North Carolina","Trafalgar Group",0.7,2024-10-13,1085,"lv",44.6,46.5,23
+"1750",88706,"NV","Nevada","Trafalgar Group",0.7,2024-10-13,1088,"lv",45.6,44.8,23
+"1751",88707,"GA","Georgia","InsiderAdvantage",2,2024-10-15,800,"rv",47,49,21
+"1752",88708,"MI","Michigan","MRG (Marketing Resource Group)",1.8,2024-10-11,600,"lv",44.9,44,25
+"1753",88717,"AK","Alaska","Alaska Survey Research",1.9,2024-10-09,1254,"lv",44.5,52,27
+"1754",88718,"UT","Utah","Noble Predictive Insights",2.4,2024-10-07,539,"lv",37,54,29
+"1755",88718,"UT","Utah","Noble Predictive Insights",2.4,2024-10-07,600,"rv",38,51.5,29
+"1756",88721,"CA","California","Emerson",2.9,2024-10-14,1000,"lv",61,36.6,22
+"1757",88722,"WA","Washington","SurveyUSA",2.8,2024-10-14,703,"lv",57,35,22
+"1758",88724,"NC","North Carolina","Redfield & Wilton Strategies",1.8,2024-10-14,620,"lv",46,48,22
+"1759",88725,"AZ","Arizona","Redfield & Wilton Strategies",1.8,2024-10-14,1141,"lv",46,48,22
+"1760",88726,"FL","Florida","Redfield & Wilton Strategies",1.8,2024-10-14,1009,"lv",44,50,22
+"1761",88727,"GA","Georgia","Redfield & Wilton Strategies",1.8,2024-10-14,637,"lv",47,47,22
+"1762",88728,"MI","Michigan","Redfield & Wilton Strategies",1.8,2024-10-14,682,"lv",47,47,22
+"1763",88729,"MN","Minnesota","Redfield & Wilton Strategies",1.8,2024-10-14,544,"lv",51,43,22
+"1764",88730,"NV","Nevada","Redfield & Wilton Strategies",1.8,2024-10-14,838,"lv",47,47,22
+"1765",88731,"NM","New Mexico","Redfield & Wilton Strategies",1.8,2024-10-14,382,"lv",49,45,22
+"1766",88732,"PA","Pennsylvania","Redfield & Wilton Strategies",1.8,2024-10-14,1649,"lv",48,48,22
+"1767",88733,"WI","Wisconsin","Redfield & Wilton Strategies",1.8,2024-10-14,641,"lv",48,47,22
+"1768",88734,"GA","Georgia","Quinnipiac",2.8,2024-10-14,1328,"lv",45.5,52,22
+"1769",88735,"NC","North Carolina","Quinnipiac",2.8,2024-10-14,1031,"lv",49.5,47,22
+"1770",88737,"PA","Pennsylvania","University of Massachusetts Lowell/YouGov",2.9,2024-10-09,800,"lv",46,45,27
+"1771",88738,"NH","New Hampshire","University of Massachusetts Lowell/YouGov",2.9,2024-10-10,600,"lv",50,41,26
+"1772",88741,"TX","Texas","ActiVote",NA,2024-10-16,400,"lv",44.2,55.8,20
+"1773",88742,"TN","Tennessee","ActiVote",NA,2024-10-16,400,"lv",37.6,62.4,20
+"1774",88743,"MA","Massachusetts","ActiVote",NA,2024-10-16,400,"lv",66.6,33.4,20
+"1775",88744,"MI","Michigan","Mitchell",2.4,2024-10-14,589,"lv",47.2,47.75,22
+"1776",88746,"AZ","Arizona","Morning Consult",1.9,2024-10-15,653,"lv",49,48,21
+"1777",88747,"GA","Georgia","Morning Consult",1.9,2024-10-15,1002,"lv",48,49,21
+"1778",88748,"MD","Maryland","Morning Consult",1.9,2024-10-15,490,"lv",64,31,21
+"1779",88749,"MI","Michigan","Morning Consult",1.9,2024-10-15,1065,"lv",49,47,21
+"1780",88750,"NV","Nevada","Morning Consult",1.9,2024-10-15,496,"lv",49,45,21
+"1781",88751,"NC","North Carolina","Morning Consult",1.9,2024-10-15,1072,"lv",48,49,21
+"1782",88752,"OH","Ohio","Morning Consult",1.9,2024-10-15,1243,"lv",45,52,21
+"1783",88753,"PA","Pennsylvania","Morning Consult",1.9,2024-10-15,1395,"lv",49,48,21
+"1784",88754,"TX","Texas","Morning Consult",1.9,2024-10-15,2048,"lv",46,50,21
+"1785",88755,"WI","Wisconsin","Morning Consult",1.9,2024-10-15,527,"lv",47,48,21
+"1786",88756,"WI","Wisconsin","RMG Research",2.3,2024-10-16,787,"lv",49,50,20
+"1787",88757,"WA","Washington","Elway",1.9,2024-10-12,401,"lv",57,32,24
+"1788",88758,"NC","North Carolina","Cygnal",2.1,2024-10-14,600,"lv",46.6,47.2,22
+"1789",88760,"MI","Michigan","RMG Research",2.3,2024-10-16,789,"lv",49,49,20
+"1790",88762,"AZ","Arizona","YouGov",3,2024-10-16,1435,"lv",48,51,20
+"1791",88766,"WA","Washington","PPP",1.4,2024-10-17,571,"lv",55,40,19
+"1792",88767,"OR","Oregon","PPP",1.4,2024-10-17,716,"lv",53,41,19
+"1793",88768,"TX","Texas","YouGov",3,2024-10-10,1091,"lv",46,51,26
+"1794",88769,"FL","Florida","RMG Research",2.3,2024-10-17,788,"lv",47,52,19
+"1795",88770,"SC","South Carolina","ActiVote",NA,2024-10-17,400,"lv",41.6,58.4,19
+"1796",88771,"GA","Georgia","ActiVote",NA,2024-10-17,400,"lv",49.3,50.7,19
+"1797",88776,"GA","Georgia","East Carolina University",2.6,2024-10-14,701,"lv",45.8,48.9,22
+"1798",88779,"MI","Michigan","Bullfinch",NA,2024-10-17,600,"lv",52,44,19
+"1799",88780,"PA","Pennsylvania","Bullfinch",NA,2024-10-17,600,"lv",49,48.5,19
+"1800",88781,"WI","Wisconsin","Bullfinch",NA,2024-10-18,600,"lv",49,46.5,18
+"1801",88783,"GA","Georgia","TIPP",1.8,2024-10-16,813,"lv",48.65,48.5,20
+"1802",88783,"GA","Georgia","TIPP",1.8,2024-10-16,1029,"rv",48.55,45.3,20
+"1803",88795,"AZ","Arizona","AtlasIntel",2.7,2024-10-17,1440,"lv",48.95,49.2,19
+"1804",88796,"GA","Georgia","AtlasIntel",2.7,2024-10-17,1411,"lv",48.25,49.8,19
+"1805",88797,"MI","Michigan","AtlasIntel",2.7,2024-10-17,1529,"lv",47.05,49.9,19
+"1806",88798,"NV","Nevada","AtlasIntel",2.7,2024-10-17,1171,"lv",48.25,48.35,19
+"1807",88799,"NC","North Carolina","AtlasIntel",2.7,2024-10-17,1674,"lv",50,48.8,19
+"1808",88800,"PA","Pennsylvania","AtlasIntel",2.7,2024-10-17,2048,"lv",46.95,49.85,19
+"1809",88801,"WI","Wisconsin","AtlasIntel",2.7,2024-10-17,932,"lv",48.95,48.3,19
+"1810",88803,"CO","Colorado","ActiVote",NA,2024-10-19,400,"lv",58.7,41.3,17
+"1811",88804,"OK","Oklahoma","ActiVote",NA,2024-10-19,400,"lv",33.9,66.1,17
+"1812",88807,"PA","Pennsylvania","Trafalgar Group",0.7,2024-10-19,1084,"lv",43.3,46.3,17
+"1813",88808,"FL","Florida","U. North Florida",2.8,2024-10-18,977,"lv",43,53,18
+"1814",88809,"AZ","Arizona","Washington Post/George Mason University",2.7,2024-10-15,580,"lv",46,49,21
+"1815",88809,"AZ","Arizona","Washington Post/George Mason University",2.7,2024-10-15,580,"rv",44,50,21
+"1816",88810,"GA","Georgia","Washington Post/George Mason University",2.7,2024-10-15,730,"lv",51,47,21
+"1817",88810,"GA","Georgia","Washington Post/George Mason University",2.7,2024-10-15,730,"rv",50,44,21
+"1818",88811,"MI","Michigan","Washington Post/George Mason University",2.7,2024-10-15,687,"lv",49,47,21
+"1819",88811,"MI","Michigan","Washington Post/George Mason University",2.7,2024-10-15,687,"rv",46,47,21
+"1820",88812,"NV","Nevada","Washington Post/George Mason University",2.7,2024-10-15,652,"lv",48,48,21
+"1821",88812,"NV","Nevada","Washington Post/George Mason University",2.7,2024-10-15,652,"rv",47,44,21
+"1822",88813,"NC","North Carolina","Washington Post/George Mason University",2.7,2024-10-15,965,"lv",47,50,21
+"1823",88813,"NC","North Carolina","Washington Post/George Mason University",2.7,2024-10-15,965,"rv",45,49,21
+"1824",88814,"PA","Pennsylvania","Washington Post/George Mason University",2.7,2024-10-15,707,"lv",49,47,21
+"1825",88814,"PA","Pennsylvania","Washington Post/George Mason University",2.7,2024-10-15,707,"rv",49,46,21
+"1826",88815,"WI","Wisconsin","Washington Post/George Mason University",2.7,2024-10-15,695,"lv",50,47,21
+"1827",88815,"WI","Wisconsin","Washington Post/George Mason University",2.7,2024-10-15,695,"rv",50,46,21
+"1828",88817,"FL","Florida","ActiVote",NA,2024-10-20,400,"lv",45.4,54.6,16
+"1829",88821,"NM","New Mexico","Research & Polling",2.1,2024-10-18,1024,"lv",50,41,18
+"1830",88822,"SD","South Dakota","Mason-Dixon",2.6,2024-10-16,500,"rv",33,59,20
+"1831",88828,"AZ","Arizona","Redfield & Wilton Strategies",1.8,2024-10-18,691,"lv",46,49,18
+"1832",88829,"FL","Florida","Redfield & Wilton Strategies",1.8,2024-10-18,1275,"lv",45,49,18
+"1833",88830,"MI","Michigan","Redfield & Wilton Strategies",1.8,2024-10-18,1008,"lv",47,47,18
+"1834",88831,"NV","Nevada","Redfield & Wilton Strategies",1.8,2024-10-18,529,"lv",46,47,18
+"1835",88832,"WI","Wisconsin","Redfield & Wilton Strategies",1.8,2024-10-18,622,"lv",47,46,18
+"1836",88833,"NC","North Carolina","Redfield & Wilton Strategies",1.8,2024-10-18,843,"lv",45,48,18
+"1837",88834,"GA","Georgia","Redfield & Wilton Strategies",1.8,2024-10-18,1019,"lv",47,48,18
+"1838",88835,"PA","Pennsylvania","Redfield & Wilton Strategies",1.8,2024-10-18,1256,"lv",48,48,18
+"1839",88836,"PA","Pennsylvania","Quantus Insights",NA,2024-10-20,840,"lv",48.2,50.3,16
+"1840",88841,"NY","New York","Siena",2.7,2024-10-17,872,"lv",56,38,19
+"1841",88842,"NV","Nevada","InsiderAdvantage",2,2024-10-20,800,"lv",47.7,47.9,16
+"1842",88843,"AZ","Arizona","InsiderAdvantage",2,2024-10-20,800,"lv",47,49.5,16
+"1843",88844,"WI","Wisconsin","Trafalgar Group",0.7,2024-10-20,1083,"lv",46.6,46.8,16
+"1844",88845,"MI","Michigan","Trafalgar Group",0.7,2024-10-20,1090,"lv",44.2,46,16
+"1845",88859,"GA","Georgia","U. Georgia SPIA",2.2,2024-10-16,1000,"lv",43.4,47,20
+"1846",88865,"NV","Nevada","Fabrizio/Impact",1.7,2024-10-15,600,"lv",46.5,48,21
+"1847",88866,"NC","North Carolina","SurveyUSA/High Point University",2.8,2024-10-20,1164,"rv",47,46,16
+"1848",88870,"NC","North Carolina","InsiderAdvantage",2,2024-10-20,800,"lv",46.8,48.7,16
+"1849",88871,"AZ","Arizona","HighGround",1.8,2024-10-20,400,"lv",46.2,46.8,16
+"1850",88874,"ME","Maine CD-2","Axis Research",NA,2024-10-20,411,"lv",41,50,16
+"1851",88875,"MD","Maryland","Emerson",2.9,2024-10-21,865,"lv",64,34.4,15
+"1852",88876,"FL","Florida","Emerson",2.9,2024-10-20,860,"lv",45.9,53.6,16
+"1853",88877,"TX","Texas","Emerson",2.9,2024-10-21,815,"lv",45.9,53.1,15
+"1854",88878,"NC","North Carolina","SoCal Strategies",NA,2024-10-21,702,"lv",46.3,48.7,15
+"1855",88879,"TX","Texas","CWS Research",1.6,2024-10-04,533,"lv",43,48,32
+"1856",88880,"NE","Nebraska","Change Research",1.4,2024-10-21,815,"lv",41,55,15
+"1857",88885,"ME","Maine CD-2","Axis Research",NA,2024-07-25,NA,"",42,44,103
+"1858",88886,"ME","Maine CD-2","Axis Research",NA,2024-10-06,NA,"",44,46,30
+"1859",88890,"MI","Michigan","RG Strategies",NA,2024-09-23,400,"lv",51,45,43
+"1860",88891,"WI","Wisconsin","RG Strategies",NA,2024-09-23,400,"lv",51,45,43
+"1861",88892,"PA","Pennsylvania","RG Strategies",NA,2024-09-23,400,"lv",48,48,43
+"1862",88893,"MI","Michigan","Quinnipiac",2.8,2024-10-21,1136,"lv",49.5,46,15
+"1863",88894,"WI","Wisconsin","Quinnipiac",2.8,2024-10-21,1108,"lv",48,48,15
+"1864",88895,"ME","Maine","Digital Research",1.4,2024-10-07,604,"rv",48,41,29
+"1865",88896,"ME","Maine CD-1","Digital Research",1.4,2024-10-07,303,"rv",56,33,29
+"1866",88897,"ME","Maine CD-2","Digital Research",1.4,2024-10-07,301,"rv",40,49,29
+"1867",88899,"AZ","Arizona","Morning Consult",1.9,2024-10-20,861,"lv",48.5,48.5,16
+"1868",88899,"AZ","Arizona","Morning Consult",1.9,2024-10-20,915,"rv",48.5,48.5,16
+"1869",88900,"GA","Georgia","Morning Consult",1.9,2024-10-20,855,"lv",48,49.5,16
+"1870",88900,"GA","Georgia","Morning Consult",1.9,2024-10-20,914,"rv",48,48,16
+"1871",88901,"MI","Michigan","Morning Consult",1.9,2024-10-20,705,"lv",49.5,46,16
+"1872",88901,"MI","Michigan","Morning Consult",1.9,2024-10-20,756,"rv",47.5,45.5,16
+"1873",88902,"NV","Nevada","Morning Consult",1.9,2024-10-20,420,"lv",48.5,48,16
+"1874",88902,"NV","Nevada","Morning Consult",1.9,2024-10-20,449,"rv",48.5,47.5,16
+"1875",88903,"NC","North Carolina","Morning Consult",1.9,2024-10-20,702,"lv",48,49.5,16
+"1876",88903,"NC","North Carolina","Morning Consult",1.9,2024-10-20,755,"rv",46.5,49.5,16
+"1877",88904,"PA","Pennsylvania","Morning Consult",1.9,2024-10-20,812,"lv",50,48,16
+"1878",88904,"PA","Pennsylvania","Morning Consult",1.9,2024-10-20,866,"rv",48,48,16
+"1879",88905,"WI","Wisconsin","Morning Consult",1.9,2024-10-20,624,"lv",47.5,47.5,16
+"1880",88905,"WI","Wisconsin","Morning Consult",1.9,2024-10-20,635,"rv",47.5,47.5,16
+"1881",88908,"CA","California","PPIC",2.5,2024-10-15,1137,"lv",59,33,21
+"1882",88909,"PA","Pennsylvania","Franklin and Marshall College",2.4,2024-10-20,583,"lv",49,50,16
+"1883",88909,"PA","Pennsylvania","Franklin and Marshall College",2.4,2024-10-20,794,"rv",48.5,44.5,16
+"1884",88911,"PA","Pennsylvania","Emerson",2.9,2024-10-22,860,"lv",49,50.7,14
+"1885",88912,"NC","North Carolina","Emerson",2.9,2024-10-22,950,"lv",48.2,50.2,14
+"1886",88913,"WI","Wisconsin","Emerson",2.9,2024-10-22,800,"lv",49.2,49.9,14
+"1887",88914,"GA","Georgia","Marist",2.9,2024-10-22,1193,"lv",49,49,14
+"1888",88914,"GA","Georgia","Marist",2.9,2024-10-22,1356,"rv",49,48,14
+"1889",88915,"NC","North Carolina","Marist",2.9,2024-10-22,1226,"lv",48,50,14
+"1890",88915,"NC","North Carolina","Marist",2.9,2024-10-22,1410,"rv",48,49,14
+"1891",88916,"AZ","Arizona","Marist",2.9,2024-10-22,1193,"lv",49,50,14
+"1892",88916,"AZ","Arizona","Marist",2.9,2024-10-22,1329,"rv",49,49,14
+"1893",88918,"SD","South Dakota","Emerson",2.9,2024-10-22,825,"lv",36.5,62,14
+"1894",88920,"MD","Maryland","University of Maryland/Washington Post",2.5,2024-10-22,1000,"lv",61,33,14
+"1895",88924,"MI","Michigan","Michigan State University/YouGov",NA,2024-10-10,845,"lv",52.4,47.6,26
+"1896",88925,"OH","Ohio","Bowling Green State University/YouGov",NA,2024-10-21,1000,"lv",43,50,15
+"1897",88933,"NH","New Hampshire","Emerson",2.9,2024-10-23,915,"lv",50.9,47.2,13
+"1898",88936,"FL","Florida","Hunt Research",NA,2024-10-22,1234,"lv",44.25,49.8,14
+"1899",88938,"OK","Oklahoma","WPAi",1.7,2024-10-18,502,"lv",29,65,18
+"1900",88939,"FL","Florida","Cherry Communications",1,2024-10-20,614,"lv",45,51,16
+"1901",88940,"NV","Nevada","OnMessage Inc.",1.1,2024-10-22,600,"lv",47,50,14
+"1902",88941,"OH","Ohio","OnMessage Inc.",1.1,2024-10-22,600,"lv",44,52,14
+"1903",88942,"WI","Wisconsin","OnMessage Inc.",1.1,2024-10-22,600,"lv",47,48,14
+"1904",88943,"AZ","Arizona","Redfield & Wilton Strategies",1.8,2024-10-22,710,"lv",46,48,14
+"1905",88944,"GA","Georgia","Redfield & Wilton Strategies",1.8,2024-10-22,1168,"lv",47,48,14
+"1906",88945,"MI","Michigan","Redfield & Wilton Strategies",1.8,2024-10-22,1115,"lv",47,47,14
+"1907",88946,"NV","Nevada","Redfield & Wilton Strategies",1.8,2024-10-22,540,"lv",46,47,14
+"1908",88947,"NC","North Carolina","Redfield & Wilton Strategies",1.8,2024-10-22,679,"lv",47,48,14
+"1909",88948,"PA","Pennsylvania","Redfield & Wilton Strategies",1.8,2024-10-22,1586,"lv",48,47,14
+"1910",88949,"WI","Wisconsin","Redfield & Wilton Strategies",1.8,2024-10-22,557,"lv",49,47,14
+"1911",88950,"VA","Virginia","Quantus Insights",NA,2024-10-24,725,"lv",48.9,47.8,12
+"1912",88953,"NH","New Hampshire","Dartmouth Poll",NA,2024-10-18,2211,"rv",58.5,37.7,18
+"1913",88954,"UT","Utah","HarrisX",1.5,2024-10-19,813,"rv",31,63,17
+"1914",88959,"VA","Virginia","Washington Post/George Mason University",2.7,2024-10-23,1004,"lv",49,43,13
+"1915",88959,"VA","Virginia","Washington Post/George Mason University",2.7,2024-10-23,1004,"rv",48,42,13
+"1916",88960,"NJ","New Jersey","Cygnal",2.1,2024-10-24,600,"lv",51.8,40.3,12
+"1917",88963,"MT","Montana","Emerson",2.9,2024-10-25,1000,"lv",39.6,58.6,11
+"1918",88965,"AK","Alaska","Alaska Survey Research",1.9,2024-10-22,1703,"lv",44,53,14
+"1919",88966,"SC","South Carolina","East Carolina University",2.6,2024-10-22,950,"lv",42,55.1,14
+"1920",88967,"GA","Georgia","Trafalgar Group",0.7,2024-10-26,1087,"lv",45.9,48.3,10
+"1921",88968,"AZ","Arizona","Trafalgar Group",0.7,2024-10-26,1094,"lv",46,48.1,10
+"1922",88969,"MI","Michigan","Patriot Polling",1.1,2024-10-26,796,"rv",49,50,10
+"1923",88970,"PA","Pennsylvania","InsiderAdvantage",2,2024-10-27,800,"lv",47.4,48.4,9
+"1924",88971,"FL","Florida","St. Pete Polls",2.4,2024-10-25,1227,"lv",44.6,50.3,11
+"1925",88972,"TX","Texas","Siena/NYT",3,2024-10-26,1180,"lv",41,51.5,10
+"1926",88972,"TX","Texas","Siena/NYT",3,2024-10-26,1180,"rv",40.5,51,10
+"1927",88973,"NE","Nebraska","Siena/NYT",3,2024-10-26,1194,"lv",39.5,54,10
+"1928",88973,"NE","Nebraska","Siena/NYT",3,2024-10-26,1194,"rv",39,54,10
+"1929",88974,"WI","Wisconsin","Suffolk",2.9,2024-10-23,500,"lv",46.6,48,13
+"1930",88976,"MI","Michigan","InsiderAdvantage",2,2024-10-27,800,"lv",47.9,48.5,9
+"1931",88977,"NH","New Hampshire","Praecones Analytica",2,2024-10-26,622,"rv",49.8,50.2,10
+"1932",88978,"NE","Nebraska CD-2","Siena/NYT",3,2024-10-26,500,"lv",53.5,41.5,10
+"1933",88981,"TX","Texas","ActiVote",NA,2024-10-27,400,"lv",45,55,9
+"1934",88984,"MO","Missouri","ActiVote",NA,2024-10-27,400,"lv",42,58,9
+"1935",88986,"FL","Florida","ActiVote",NA,2024-10-27,400,"lv",44.2,55.8,9
+"1936",88987,"NY","New York","ActiVote",NA,2024-10-27,400,"lv",59,41,9
+"1937",88988,"CA","California","ActiVote",NA,2024-10-27,400,"lv",62.8,37.2,9
+"1938",88990,"MN","Minnesota","Embold Research",1.4,2024-10-22,1734,"lv",47.7,45.1,14
+"1939",88992,"PA","Pennsylvania","North Star Opinion Research",1.1,2024-10-26,600,"lv",47,47,10
+"1940",88993,"KS","Kansas","Fort Hays State University",0.9,2024-10-16,517,"rv",43.2,48.2,20
+"1941",88993,"KS","Kansas","Fort Hays State University",0.9,2024-10-16,608,"a",39.4,49.9,20
+"1942",88994,"MI","Michigan","Glengariff Group Inc.",1.5,2024-10-24,600,"lv",46.7,43.7,12
+"1943",89003,"MI","Michigan","Emerson",2.9,2024-10-27,1000,"lv",49.3,49.8,9
+"1944",89005,"NC","North Carolina","Elon U.",2.5,2024-10-17,800,"rv",46,46,19
+"1945",89010,"NC","North Carolina","SurveyUSA",2.8,2024-10-26,853,"lv",47,47,10
+"1946",89011,"OH","Ohio","ActiVote",NA,2024-10-28,400,"lv",45.9,54.1,8
+"1947",89012,"VA","Virginia","ActiVote",NA,2024-10-28,400,"lv",54.1,45.9,8
+"1948",89013,"TN","Tennessee","ActiVote",NA,2024-10-28,400,"lv",38.3,61.7,8
+"1949",89014,"NJ","New Jersey","ActiVote",NA,2024-10-28,400,"lv",56.9,43.1,8
+"1950",89015,"IN","Indiana","ActiVote",NA,2024-10-28,400,"lv",42.3,57.7,8
+"1951",89016,"IL","Illinois","ActiVote",NA,2024-10-28,400,"lv",58.4,41.6,8
+"1952",89017,"MI","Michigan","Susquehanna",2.3,2024-10-27,400,"lv",51.7,46.6,9
+"1953",89022,"NY","New York","Cygnal",2.1,2024-10-27,600,"lv",56.8,39,9
+"1954",89023,"AZ","Arizona","U. Arizona/TrueDot",NA,2024-10-20,846,"rv",46.15,45.48,16
+"1955",89024,"AZ","Arizona","U. Arizona/TrueDot",NA,2024-08-31,1155,"rv",41.8,45.75,66
+"1956",89025,"WI","Wisconsin","InsiderAdvantage",2,2024-10-27,800,"lv",48,49,9
+"1957",89026,"AZ","Arizona","CNN/SSRS",2.8,2024-10-26,781,"lv",48,47,10
+"1958",89027,"NV","Nevada","CNN/SSRS",2.8,2024-10-26,683,"lv",47,48,10
+"1959",89029,"NC","North Carolina","Trafalgar Group",0.7,2024-10-28,1091,"lv",46.2,49.4,8
+"1960",89030,"AZ","Arizona","Redfield & Wilton Strategies",1.8,2024-10-27,901,"lv",47,49,9
+"1961",89031,"GA","Georgia","Redfield & Wilton Strategies",1.8,2024-10-27,1112,"lv",47,48,9
+"1962",89032,"MI","Michigan","Redfield & Wilton Strategies",1.8,2024-10-27,728,"lv",49,48,9
+"1963",89033,"NV","Nevada","Redfield & Wilton Strategies",1.8,2024-10-27,531,"lv",47,47,9
+"1964",89034,"NC","North Carolina","Redfield & Wilton Strategies",1.8,2024-10-27,770,"lv",46,48,9
+"1965",89035,"PA","Pennsylvania","Redfield & Wilton Strategies",1.8,2024-10-27,1116,"lv",48,48,9
+"1966",89036,"WI","Wisconsin","Redfield & Wilton Strategies",1.8,2024-10-27,746,"lv",49,47,9
+"1967",89038,"FL","Florida","Florida Atlantic University/Mainstreet Research",NA,2024-10-27,897,"lv",44,53,9
+"1968",89038,"FL","Florida","Florida Atlantic University/Mainstreet Research",NA,2024-10-27,913,"rv",44,53,9
+"1969",89039,"NV","Nevada","Trafalgar Group",0.7,2024-10-28,1082,"lv",47.8,47.6,8
+"1970",89040,"AZ","Arizona","Data Orbital",2.9,2024-10-28,550,"lv",41.9,49.7,8
+"1971",89041,"MT","Montana","MSU - Billings",1.5,2024-10-16,760,"a",34,52,20
+"1972",89042,"TX","Texas","University of Texas at Tyler",1.8,2024-10-21,956,"lv",46,51,15
+"1973",89043,"AZ","Arizona","CES / YouGov",3,2024-10-25,2066,"lv",47,51,11
+"1974",89043,"AZ","Arizona","CES / YouGov",3,2024-10-25,2077,"a",49,49,11
+"1975",89044,"FL","Florida","CES / YouGov",3,2024-10-25,5916,"lv",46,52,11
+"1976",89044,"FL","Florida","CES / YouGov",3,2024-10-25,5952,"a",47,51,11
+"1977",89045,"GA","Georgia","CES / YouGov",3,2024-10-25,2663,"lv",46,51,11
+"1978",89045,"GA","Georgia","CES / YouGov",3,2024-10-25,2682,"a",48,49,11
+"1979",89046,"MI","Michigan","CES / YouGov",3,2024-10-25,2336,"lv",51,46,11
+"1980",89046,"MI","Michigan","CES / YouGov",3,2024-10-25,2347,"a",52,45,11
+"1981",89047,"MN","Minnesota","CES / YouGov",3,2024-10-25,1275,"lv",53,43,11
+"1982",89047,"MN","Minnesota","CES / YouGov",3,2024-10-25,1278,"a",52,44,11
+"1983",89048,"NV","Nevada","CES / YouGov",3,2024-10-25,933,"lv",51,47,11
+"1984",89048,"NV","Nevada","CES / YouGov",3,2024-10-25,940,"a",53,44,11
+"1985",89049,"NH","New Hampshire","CES / YouGov",3,2024-10-25,375,"lv",52,45,11
+"1986",89049,"NH","New Hampshire","CES / YouGov",3,2024-10-25,380,"a",52,45,11
+"1987",89050,"NC","North Carolina","CES / YouGov",3,2024-10-25,2308,"lv",48,50,11
+"1988",89050,"NC","North Carolina","CES / YouGov",3,2024-10-25,2330,"a",49,48,11
+"1989",89051,"OH","Ohio","CES / YouGov",3,2024-10-25,3091,"lv",45,52,11
+"1990",89051,"OH","Ohio","CES / YouGov",3,2024-10-25,3120,"a",45,52,11
+"1991",89052,"PA","Pennsylvania","CES / YouGov",3,2024-10-25,3685,"lv",49,48,11
+"1992",89052,"PA","Pennsylvania","CES / YouGov",3,2024-10-25,3708,"a",50,47,11
+"1993",89053,"TX","Texas","CES / YouGov",3,2024-10-25,6473,"lv",47,51,11
+"1994",89053,"TX","Texas","CES / YouGov",3,2024-10-25,6526,"a",47,51,11
+"1995",89054,"VA","Virginia","CES / YouGov",3,2024-10-25,2015,"lv",52,44,11
+"1996",89054,"VA","Virginia","CES / YouGov",3,2024-10-25,2027,"a",53,44,11
+"1997",89055,"WI","Wisconsin","CES / YouGov",3,2024-10-25,1542,"lv",50,47,11
+"1998",89055,"WI","Wisconsin","CES / YouGov",3,2024-10-25,1552,"a",51,46,11
+"1999",89057,"AZ","Arizona","AtlasIntel",2.7,2024-10-29,1458,"lv",46.85,50.7,7
+"2000",89058,"GA","Georgia","AtlasIntel",2.7,2024-10-29,1429,"lv",47.3,50.55,7
+"2001",89059,"MI","Michigan","AtlasIntel",2.7,2024-10-29,983,"lv",48,49.25,7
+"2002",89060,"NV","Nevada","AtlasIntel",2.7,2024-10-29,1083,"lv",47.55,48.45,7
+"2003",89061,"NC","North Carolina","AtlasIntel",2.7,2024-10-29,1665,"lv",48.7,48.4,7
+"2004",89063,"PA","Pennsylvania","AtlasIntel",2.7,2024-10-29,1299,"lv",46.75,49.15,7
+"2005",89064,"WI","Wisconsin","AtlasIntel",2.7,2024-10-29,1470,"lv",48.3,48.85,7
+"2006",89065,"MI","Michigan","Quantus Insights",NA,2024-10-28,844,"lv",49.2,48.5,8
+"2007",89066,"PA","Pennsylvania","YouGov",3,2024-10-28,1273,"lv",49,49,8
+"2008",89067,"OH","Ohio","Trafalgar Group",0.7,2024-10-28,1127,"lv",45.6,51.7,8
+"2009",89068,"MN","Minnesota","SurveyUSA",2.8,2024-10-28,728,"lv",51,43,8
+"2010",89072,"CA","California","YouGov",3,2024-10-17,1139,"lv",63,34,19
+"2011",89072,"CA","California","YouGov",3,2024-10-17,1139,"rv",63,34,19
+"2012",89073,"PA","Pennsylvania","YouGov",3,2024-10-17,1043,"lv",50,48,19
+"2013",89073,"PA","Pennsylvania","YouGov",3,2024-10-17,1062,"rv",50,47,19
+"2014",89074,"FL","Florida","YouGov",3,2024-10-17,1076,"lv",46,51,19
+"2015",89074,"FL","Florida","YouGov",3,2024-10-17,1094,"rv",46,51,19
+"2016",89075,"TX","Texas","YouGov",3,2024-10-17,1075,"lv",46,51,19
+"2017",89075,"TX","Texas","YouGov",3,2024-10-17,1108,"rv",45,50,19
+"2018",89076,"NY","New York","YouGov",3,2024-10-17,1089,"lv",58,38,19
+"2019",89076,"NY","New York","YouGov",3,2024-10-17,1089,"rv",58,38,19
+"2020",89077,"MA","Massachusetts","Emerson",2.9,2024-10-26,1000,"lv",60.2,37.2,10
+"2021",89078,"NE","Nebraska","YouGov",3,2024-10-28,1206,"lv",40,55,8
+"2022",89080,"AZ","Arizona","RABA Research",1.3,2024-10-27,589,"rv",45,43,9
+"2023",89081,"TX","Texas","Cygnal",2.1,2024-10-28,600,"lv",43,51,8
+"2024",89082,"MI","Michigan","Suffolk",2.9,2024-10-27,500,"lv",47,47.4,9
+"2025",89083,"WI","Wisconsin","SoCal Strategies",NA,2024-10-29,600,"lv",49,49,7
+"2026",89084,"NJ","New Jersey","Rutgers-Eagleton",2.3,2024-10-22,451,"rv",55,35,14
+"2027",89084,"NJ","New Jersey","Rutgers-Eagleton",2.3,2024-10-22,478,"rv",51,37,14
+"2028",89085,"WA","Washington","ActiVote",NA,2024-10-29,400,"lv",59.1,40.9,7
+"2029",89092,"NE","Nebraska CD-1","YouGov",3,2024-10-28,408,"lv",43,51,8
+"2030",89093,"NE","Nebraska CD-2","YouGov",3,2024-10-28,393,"lv",52,44,8
+"2031",89094,"NE","Nebraska CD-3","YouGov",3,2024-10-28,404,"lv",25,70,8
+"2032",89095,"GA","Georgia","SoCal Strategies",NA,2024-10-27,658,"lv",49,50,9
+"2033",89096,"SC","South Carolina","ActiVote",NA,2024-10-29,400,"lv",41.5,58.5,7
+"2034",89097,"OK","Oklahoma","ActiVote",NA,2024-10-29,400,"lv",33.2,66.8,7
+"2035",89098,"PA","Pennsylvania","Monmouth",2.9,2024-10-28,824,"rv",46,47,8
+"2036",89099,"MI","Michigan","CNN/SSRS",2.8,2024-10-28,726,"lv",48,43,8
+"2037",89100,"PA","Pennsylvania","CNN/SSRS",2.8,2024-10-28,819,"lv",48,48,8
+"2038",89101,"WI","Wisconsin","CNN/SSRS",2.8,2024-10-28,736,"lv",51,45,8
+"2039",89102,"PA","Pennsylvania","Susquehanna",2.3,2024-10-22,500,"lv",46,45.8,14
+"2040",89103,"WI","Wisconsin","Marquette Law School",3,2024-10-24,753,"lv",48,46.5,12
+"2041",89104,"PA","Pennsylvania","Quinnipiac",2.8,2024-10-28,2186,"lv",46.5,48,8
+"2042",NA,"DC","District of Columbia","",NA,2024-10-29,1000,"lv",90,10,7
