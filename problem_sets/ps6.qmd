@@ -5,7 +5,7 @@ execute:
   error: TRUE
 ---
 
-Note: This problem set is due on Tuesday 6/3
+Note: This problem set is due on Monday 6/2
 
 # Part 1 - Violence in Ukraine 
 
