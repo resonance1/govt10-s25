@@ -1,0 +1,148 @@
+---
+title: "Problem Set 6"
+format: docx
+execute:
+  error: TRUE
+---
+
+Note: This problem set is due on Tuesday 6/3
+
+# Part 1 - Violence in Ukraine 
+
+```{r}
+library(tidyverse)
+
+ukraine <- read.csv("./data/ukraine.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/refs/heads/main/problem_sets/data/ukraine.csv","ukraine.csv")
+#ukraine <- read.csv("ukraine.csv")
+
+```
+
+In March and April 2014, pro-Russian rebels took up arms in Donbas (Donetsk and Luhansk). While the Ukrainian government took a decisive turn toward Europe, these protesters waved Russian flags and proclaimed the establishment of Donetsk and Luhansk People's Republics. Over time, the rebels extended their territorial control, with 61% of the municipalities in Donetsk and Luhansk regions falling under rebel's control after one year. But surprisingly, 80% of municipalities did not experience any rebel violence. What explains the difference between municipalities that experienced rebel violence and those which did not? 
+
+The data set contains 3037 observations, each of which is a municipality (i.e. cities, towns, villages) in Donetsk and Luhansk provinces. Variables in this data set are described below: 
+
+--------------------------------------------------------------------------------
+ Name                              Description
+ --------------------------------  ---------------------------------------------
+ `municipality`                    municipality name
+ `region`                          region to which the municipality belongs (Donetsk or Luhansk)
+ `latitude`                        latitude of the municipality
+ `longitude`                       longitude of the municipality
+ `russian_lang`                    proportion Russian-speaking people in the 2001 Ukrainian Census
+ `elev`                            elevation (scaled)
+ `dist_road`                       distance to the nearest road
+ `pop_density`                     population density
+ `dist_russia`                     distance to the Russian border
+ `rebel_violence`                  incidence of any rebel violence in the municipality
+-------------------------------- -----------------------------------------------
+
+1.1 Generate a 95 percent confidence interval for the difference in the average rate of rebel violence between the Donetsk and the Luhansk regions. Which region had more violence? 
+
+```{r}
+
+
+```
+
+*Answer here*
+
+1.2 Create a new binary variable in the dataset called majority_russian that is 1 if the share of Russian speakers is greater than .5, and 0 otherwise. Then, evaluate the null hypothesis that the difference in rebel violence in majority Russian-speaking municipalities and majority Ukrainian-speaking municipalities is zero, at the 99 percent level. Your answer should reference a t-statistic or a p-value.
+
+```{r}
+
+
+```
+
+*Answer here*
+
+1.3 Some researchers argue that insurgent activity is higher in remote terrain, where it is more difficult for pro-regime forces to operate. Evaluate this hypothesis by fitting a multivariate regression, in which the outcome is rebel_violence, and the independent variables are elevation, distance to the nearest road, distance to Russia, majority_russian, and population density. First, identify which variables are statistically significant at the 90 percent level, and interpret the coefficients. Next, and keeping in mind that these results are only descriptive, evaluate whether the observed patterns are consistent with prior research emphasizing the importance of remote terrain. What do the results suggest about the areas where fighting was fiercest in Ukraine? 
+
+```{r}
+
+```
+
+*Answer here*
+
+
+# Attitudes towards refugees
+
+One week after President Donald Trump signed an executive order to limit the flow of refugees to the United States, researchers fielded a nationally representative survey to understand American citizens’ attitudes toward refugee resettlement. 
+
+One of the goals the study was to assess the prevalence of NIMBYism (Not in my backyard syndrome) -- in this case, the idea that individuals support refugee resettlement in the abstract, but only as long as it does not impact their own lives or local community. To determine NIMBYism, the researchers asked respondents whether they supported (a) increasing the number of refugees the United States accepts each year, or (b) increasing the number of refugees their state or local community accepts each year, in random order. 
+
+
+```{r}
+nimby <- read.csv("./data/nimby.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/refs/heads/main/problem_sets/data/nimby.csv","nimby.csv")
+#nimby <- read.csv("nimby.csv")
+
+```
+
+Variables:
+
+L:                     Support for refugee resettlement in respondent's local community, on a 0 to 10 scale, where 10 indicates highest support
+US:                    Support for refugee resettlement in the United States, on a 0 to 10 scale, where 10 indicates highest support
+rep:                   Whether the respondent identifies as a Republican (1) or not (0)
+dem:                   Whether the respondent identifies as a Democrat (1) or not (0)
+female:                Whether the respondent is female (1) or not (0)
+employed:              Whether the respondent is employed (1) or not (0)
+nonhispanic_white:     Whether the respondent is non-hispanic white (1) or not (0)
+bachelors:             Whether the respondent has a bachelors degree (1) or not (0)
+above_median_income:   Whether the respondent's income is above the median level (1) or not (0)
+
+
+2.1. Evaluate the average support for refugee resettlement in the US among Republicans and Democrats. Interpret the results. Use a t-test or regression to determine whether the two means differ statistically at the 99% level.
+
+```{r}
+
+
+```
+
+*Answer here*
+
+2.2. Calculate the support for refugee resettlement in the US among independents (those who do not identify with either party). You will need to create a new variable to assess this.
+
+```{r}
+
+```
+
+2.3. Now we will begin to evaluate NIMBYism. Using the full sample, calculate the average support for refugee resettlement in the United States (US) vs. support for refugee resettlement in respondent's local communities (L). Which value is higher? Do the two means differ statistically, at the 95% level? 
+
+```{r}
+
+```
+
+*Answer here*
+
+2.4. Now we will examine whether NIMBYism varies according to sociodemographic factors. First, create a new dependent variable called _diffsupport_ which measures the difference in support for refugee resettlement in the US, vs. refugee resettlement in respondent's local community (US-L). Calculate the average value of _diffsupport_ separately for self-reported Republicans and Democrats, respectively. Interpret the results. Do the two means differ statistically, at the 99% level? 
+
+```{r}
+
+
+```
+
+*Answer here*
+
+2.5. We will now use regression to test multiple possible predictors of NIMBYism. First, run a bivariate regression in which the dependent variable is _diffsupport_ and the independent variables is _bachelors_. Interpret the coefficient on bachelors, as well as either the t-value or p-value. Based on these results, do respondents with a bachelors degree differ with respect to NIMBYism?
+
+```{r}
+
+
+```
+
+*Answer here*
+
+2.6. Add all demographic factors in the dataset to the regression from the previous step. Evaluate the results of the multivariate regression. Do any of these factors predict differences in NIMBYism, at the 95% level? What does this suggest about the prevalence of NIMBYism among US citizens? You do not need to interpret the individual coefficients. 
+
+```{r}
+
+
+```
+
+*Answer here*
+
+
+
+
