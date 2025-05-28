@@ -1,0 +1,264 @@
+---
+title: "Class 21"
+format: docx
+execute:
+  error: TRUE
+---
+
+# Plan
+- qnorm() review
+- Group work: Confidence Intervals
+- t-statistics (lecture)
+- t-statistics in R
+
+# Review: qnorm()
+
+```{r}
+# Normal distribution (don't need to know this code)
+x <- seq(-4, 4, length=100)
+hx <- dnorm(x)
+plot(x,hx,lty=1,type="l")
+
+# 90% confidence interval
+
+#abline(v=qnorm(),col="burlywood")
+#abline(v=qnorm(),col="burlywood")
+
+# 95% confidence interval
+
+#abline(v=qnorm(),col="thistle")
+#abline(v=qnorm(),col="thistle")
+
+# 99% confidence interval
+
+#abline(v=qnorm(),col="darkgoldenrod")
+#abline(v=qnorm(),col="darkgoldenrod")
+
+# 60% confidence interval
+
+#abline(v=qnorm(),col="dodgerblue")
+#abline(v=qnorm(),col="dodgerblue")
+
+
+```
+
+# Using regression for standard error / confidence interval
+
+```{r}
+library(tidyverse)
+chechen <- read.csv("./class_data/chechen.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/refs/heads/main/class_data/chechen.csv","chechen.csv")
+#chechen <- read.csv("chechen.csv")
+
+se <- 0.4165658
+diff_mean <- -0.553459
+
+# 95% confidence interval
+#qnorm((1-.95)/2)
+
+diff_mean -1.959964*se
+diff_mean +1.959964*se
+
+```
+
+For a _binary treatment indicator_, standard errors for treatment effects can be quickly calculated using linear regression. Let's regress fire on postattack 
+
+```{r}
+
+# lm(,data=chechen)
+
+```
+
+We can use _confint(,level=)_ to quickly calculate confidence intervals for regression coefficients.
+
+```{r}
+# confint(,level=)
+```
+
+
+# Group Work: Confidence Intervals
+
+Let's re-evaluate the study on racial bias in hiring. 
+
+```{r}
+resume <- read.csv("./class_data/resume.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/main/class_data/resume.csv","resume.csv")
+#resume <- read.csv("resume.csv")
+```
+
+In this experiment, identical resumes were sent out, except for the signaled race and gender, which was randomly assigned. We are interested in whether a resume received a call back from an employer or not.
+
+Variables:
+race    Signaled race on resume
+sex     Signaled gender on resume
+call    A binary variable indicating a call back (1) or not (0) 
+
+1.1 First, calculate the average treatment effect:
+
+Avg (Callback for White Resumes) - Avg (Callback for Black Resumes) 
+
+```{r}
+
+```
+
+1.2 Now calculate the standard error for this difference in means. You can either use this formula:
+sqrt( (sd_treatment^2 / n_treatment) + (sd_control^2 / n_control)), or a regression.
+
+```{r}
+n_treatment <- 
+n_control <-
+sd_treatment <- 
+sd_control <-
+  
+# lm(data=resume,)  
+```
+
+1.3 Calculate a 90% confidence interval for the difference in means. 
+
+```{r}
+
+```
+
+1.4 Can we conclude based on 1.3 that there is likely racial bias in hiring, with 90% confidence?
+
+
+
+1.5: Would this change with a 99% confidence interval (critical value = 2.58)?
+
+```{r}
+
+```
+
+1.6 Conceptual question:
+
+The 90% confidence interval for the average of Group A is -0.04 to 0.07
+The 90% confidence interval for the average of Group B is -0.03 to 0.17
+
+Can we conclude that B > A?
+
+
+
+# Lecture: t-distributions and t-statistics
+
+## Demonstration in R
+
+Compare t to normal (don't need to know this code)
+```{r}
+# Do not need to know this code
+n <- samplesize <- 5
+x <- seq(-4, 4, length=100)
+hx <- dnorm(x)
+plot(x,hx,lty=1,type="l",col="blue")
+lines(x, dt(x,n-1), lwd=2, col="red")
+```
+
+For smaller sample sizes, we can use _qt()_ to obtain critical values and confidence intervals. This is the equivalent of _qnorm_ for the t-distribution. qt() requires us to state the degrees of freedom.
+
+Let's obtain critical values for a 95% confidence interval, with a sample size of 10
+
+```{r}
+# qt( level, df)
+```
+
+We can use qt() all the time to be conservative, but if the sample size is large it will be similar to qnorm(). Let's use qt() for the resume example, constructing a 90% confidence interval
+
+```{r}
+
+```
+
+
+# t-statistics
+
+Manual calculation of a t-statistic:
+
+Mean:          .19
+Sample SD:   .3294
+Sample Size:    20
+
+```{r}
+
+# First calculate the standard error
+
+# Then calculate the t-statistic
+
+```
+
+Manual calculation of a t-statistic for a difference in means:
+
+```{r}
+
+result <- chechen %>% group_by(fire) %>%
+summarize(out = mean(postattack), n = n(), variance = var(postattack))
+
+diff <- result$out[2] - result$out[1]
+se <- sqrt(result$variance[2]/result$n[2] + result$variance[1]/result$n[1])
+
+# Calculate t-statistic (ate/se)
+
+# Alternative: regression
+
+```
+
+What does a t-statistic of -1.33 mean?
+
+```{r}
+# Do not need to know this code
+n  <- 318
+x <- seq(-4, 4, length=100)
+plot(x,dt(x,n-1),lty=1,type="l")
+abline(v=-1.33)
+```
+
+The _t.test_ command can also rapidly generate t-statistics. It is more generalizable that regression, since we can do it for a single variable (rather than a relationship between two variables)
+
+## One sample t-test (for a single distribution):
+
+Let’s test whether the callback rate for black resumes is different from 0, at the 99% level.
+
+```{r}
+resume_b <- resume |> filter(race == "black")
+
+#t.test(, conf.level)
+```
+
+
+We can also test whether it is different from another value (such as 2%), using the ,mu option:
+
+```{r}
+#t.test(, conf.level, mu=)
+```
+
+
+## Only If time: two sample t-test  (t-test for difference in means):
+
+Let's test whether the difference in callback rates for black and white resumes is different from each other (statistically significant), at the 95% level
+
+```{r}
+
+# t.test(outcome1,outcome2,var.equal=F)
+
+```
+
+We can also use t-tests to check for accurate randomization. Let's check that female was independently randomized between the white and black resumes, at the 95% level:
+
+```{r}
+
+
+```
+
+We can also use regression to obtain t-statistics. Note that regression always tests the null hypothesis that the true coefficient is 0.
+
+```{r}
+
+result <- lm(,data=resume)
+summary(result)
+
+```
+
+## Check-in
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand?
