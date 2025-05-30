@@ -1,0 +1,269 @@
+---
+title: "Class 22"
+format: docx
+execute:
+  error: TRUE
+---
+
+# Plan
+* Logistics
+* Hypothesis tests and p-values (lecture)
+* Group Work
+
+# Lecture
+
+```{r}
+lookup <- (1-.95)/2
+#df <- 
+#qt(lookup,df)
+
+```
+
+Our t-statistic is 1.9. Do we reject the null hypothesis of 0 effect, or fail to reject?
+
+# Demonstration
+
+We can generate t-statistics manually. However, the _t.test_ command does this automatically:
+
+Let's test whether the callback rate for black resumes is different from 0, at the 99% level.
+
+## One sample t-test (for a single distribution):
+
+```{r}
+library(tidyverse)
+resume <- read.csv("./class_data/resume.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/main/class_data/resume.csv","resume.csv")
+#resume <- read.csv("resume.csv")
+
+resume <- resume %>% mutate(female=ifelse(sex=="female",1,0))
+
+#resume_b <- resume |> filter()
+#resume_w <- resume |> filter()
+
+#t.test(,conf.level=)
+
+
+```
+
+We can also test whether it is different from another value (such as 2%), using the ,mu option:
+
+```{r}
+
+```
+
+## Two sample t-test  (t-test for difference in means):
+
+
+Let's test whether the difference in callback rates for black and white resumes is statistically significant, at the 95% level
+
+```{r}
+# t.test(outcome1,outcome2,var.equal=F,conf.level=.95)
+
+```
+
+We can also use t-tests to check for accurate randomization. Let's check that female was independently randomized between the white and black resumes, at the 95% level:
+
+```{r}
+
+
+```
+
+We can also use regression to obtain t-statistics. But note that regression *always* tests the null hypothesis that the true coefficient is 0. 
+
+```{r}
+
+result <- lm(,data=resume)
+summary(result)
+
+```
+
+When evaluating randomization with regression, the dependent variable should be the variable being randomized, and the independent variable should be the group
+
+```{r}
+
+result <- lm(,data=resume)
+summary(result)
+
+
+```
+
+
+# Lecture, part 2
+
+## p-values
+
+What is the chance of seeing our t-statistic? In other words, how much data is outside the boundaries of our t-statistic?
+
+We need to use the _pt_ function, which takes 3 arguments:
+
+- The absolute value of the t-statistic
+- The degrees of freedom (n-1)
+- lower.tail=FALSE
+
+```{r}
+tstatistic <- abs(4.115)
+n <- 4870
+
+# p value
+pt(tstatistic, df=n-1, lower.tail=FALSE)*2
+```
+
+If we are using a 90% confidence interval, what is alpha?
+
+Do we reject or fail to reject our null hypothesis at the 90% level?
+
+What about at the 99% level?
+
+
+```{r}
+# Let's find p-values using regression
+
+result <- lm(call ~ race,data=resume)
+summary(result)
+
+```
+
+
+# Group Work: Practice with Hypothesis Testing 
+
+Choose one study below, and (a) determine whether we can reject the null hypothesis that the treatment effect is 0, and (b) evaluate the quality of the randomization by testing whether the difference between the treated and control groups for a given characteristic is different from 0.
+
+##A
+
+Re-evaluate the Boston immigration experiment (from problem set 1)
+
+
+| Name                  | Description                                                     |
+|-----------------------|-----------------------------------------------------------------|
+| age                   | Age of individual at time of experiment                                   
+| treatment             | Whether an individual was exposed to immigration and is in the treatment group (1) or (0) 
+| income                | Income group in dollars (not exact income)
+| male                  | Whether individual indicated they were male (1) or not (0)
+| white                 | Indicator variable for whether individual identifies as white (1) or not (0)
+| college               | Indicator variable for whether individual attended college (1) or not (0)
+| usborn                | Indicator variable for whether individual is born in the US (1) or not (0)
+| partisanship          | Self-reported political views, ranging from (1) Very Liberal to (5) Very Conservative
+| immigration_after     | The outcome. Policy opinion on question about increasing the number of immigrants allowed in the country, on a scale 
+                        | from Oppose Increase (1) to Not Sure (3) to Support Increase (5). 
+
+```{r}
+library(tidyverse)
+
+boston <- read.csv("./problem_sets/data/boston.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/refs/heads/main/problem_sets/data/boston.csv","boston.csv")
+#boston <- read.csv("boston.csv")
+
+```
+
+Recall that the outcome in this study is attitudes toward immigration (immigration_after), while treatment indicates whether someone was personally exposed to a large number of Hispanic travelers on their morning commute. 
+
+Calculate the average treatment effect, and obtain a 95% confidence interval for the ATE. Obtain a p-value, and then evaluate the null hypothesis that the true effect of immigration exposure on attitudes is 0. 
+
+```{r}
+
+```
+
+*Answer here*
+
+Evaluate whether individuals in the treated and control group are comparable with respect to background characteristics (i.e., the difference in means is 0), using a 95% confidence level. The background characteristics are: age, income, male, white, college, usborn, partisanship.
+
+For any characteristic, do we reject the possibility that the difference between the treated and control averages is 0?
+
+```{r}
+
+```
+
+*Answer here*
+
+
+##B
+
+Re-evaluate the Kenyan savings experiments.
+
+```{r}
+library(tidyverse)
+kenya <- read.csv("./class_data/rosca2.csv")
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/main/class_data/rosca2.csv","rosca2.csv")
+#kenya <- read.csv("rosca2.csv")
+kenya <- subset(kenya,has_followup2 == 1)
+```
+
+Variables:
+fol2_amtinvest  Amount invested in Kenyan shillings, in Wave 2 (outcome)
+encouragement   Binary variable indicating whether individuals are in the control group (1) or not (0)
+safe_box        Binary variable indicating whether individuals are in the safe deposit box treatment group (1) or not (0)
+locked_box      Binary variable indicating whether individuals are in the locked box treatment group (1) or not (0)
+bg_b1_age       age of participant
+bg_female       gender of participant
+bg_married      marital status of participant
+
+Calculate the t-statistic and p-value (at the 95% level) for the null hypothesis that the difference in fol2_amtinvest between the locked box group and the control group is 0. Repeat for the safe box group. What is the 95% confidence interval for the difference in means? What is the p-value?
+ 
+```{r}
+
+
+```
+
+*Answer here*
+
+Now evaluate balance between the treated and control conditions with respect to age, gender, and marital status, at the 95% confidence level. Note: since there are two treatment conditions, you will have to evaluate the balance of each treatment relative to control. The easiest way to do this is with a t-test, but you could also use regression if you created datasets that exclude the other treatment group.
+
+For any characteristic, do we reject the possibility that the difference between the treated and control averages is 0?
+
+```{r}
+
+```
+
+*Answer here*
+
+
+##C
+
+Re-evaluate the election fraud study from the midterm
+
+```{r}
+library(tidyverse)
+download.file("https://raw.githubusercontent.com/resonance1/other2/refs/heads/main/micronesia.csv","micronesia.csv")
+micronesia <- read.csv("micronesia.csv")
+
+```
+
+Variables (Measured by polling station)
+
+obs               Yes if an international observer was present at polling station, and No otherwise
+sdf_2020_f        Vote share for the SDF party in the September 2020 federal elections (outcome variable, 0 to 100) 
+sdf_2024_f        Vote share for the SDF party in the September 2024 federal elections (0 to 100)
+sdf_2016_f        Vote share for the SDF party in the September 2016 federal elections (0 to 100)
+unrest            1 if there was a protest after the 2020 federal election, 0 otherwise
+pop               Total population, per polling station, in 2020
+male              Percentage of eligible voters who registered as male, per polling station, as of August 2020
+v_age             Average age of eligible voters, per polling station, as of August 2020
+income            Average monthly income of eligible voters (ordinal scale from 1 (lowest) to 8 (highest)), per polling station, as of July 2020
+region            One of 3 regional designations for each polling station: Eastern Islands, West, Northern Rim 
+
+Calculate the t-statistic and p-value (at the 95% level) for the null hypothesis that the difference in SDF 2020 vote share between polling stations assigned an observer vs. those not assigned an observer is 0. The treatment indicator is obs. What is the 95% confidence interval for the difference in means? What is the p-value?
+ 
+```{r}
+
+
+```
+
+*Answer here*
+
+Now evaluate balance between the treated and control groups with respect to sdf_2016_f, pop, male, v_age, income and region, at the 95% confidence level. 
+
+For any characteristic, do we reject the possibility that the difference between the treated and control averages is 0?
+
+```{r}
+
+```
+
+*Answer here*
+
+## Check-in
+
+1. On a scale ranging between 1 (Too Hard) and 10 (Too Easy), how was today's class: 
+2. What was the easiest thing to understand?
+3. What was the most difficult thing to understand?
