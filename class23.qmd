@@ -1,0 +1,163 @@
+---
+title: "Class 23"
+format: docx
+execute:
+  error: TRUE
+---
+
+# Visualizing the null hypothesis 
+
+```{r}
+# Do not need to know this code -- just a demonstration!
+
+resume <- read.csv("./class_data/resume.csv")
+chechen <- read.csv("./class_data/chechen.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/main/class_data/resume.csv","resume.csv")
+#resume <- read.csv("resume.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/main/class_data/chechen.csv","chechen.csv")
+#chechen <- read.csv("chechen.csv")
+
+###### REJECTING THE NULL
+
+resume_b <- resume |> filter(race=="black")
+resume_w <- resume |> filter(race=="white")
+t.test(resume_b$call,resume_w$call,var.equal=F,conf.level=.95)
+
+# or
+out <- t.test(call ~ race, data=resume)
+out
+t <- out$statistic
+
+#### Plot
+n  <- nrow(resume)
+conflevel = .95
+x <- seq(-8, 8, length=100)
+plot(x,dt(x,n-1),lty=1,type="l",xlab="Standard Deviations of Sampling Distribution (Centered on 0)")
+abline(v=qt((1-conflevel)/2,n-1)*-1,col="red")
+abline(v=qt((1-conflevel)/2,n-1),col="red")
+abline(v=t,col="blue")
+
+
+###### FAIL TO REJECT THE NULL
+
+out <- t.test(postattack ~ fire, data=chechen,mu=0)
+out
+t <- out$statistic
+#### Plot
+n  <- nrow(chechen)
+conflevel = .95
+x <- seq(-8, 8, length=100)
+plot(x,dt(x,n-1),lty=1,type="l",xlab="Standard Deviations of Sampling Distribution (Centered on 0)")
+abline(v=qt((1-conflevel)/2,n-1)*-1,col="red")
+abline(v=qt((1-conflevel)/2,n-1),col="red")
+abline(v=t,col="blue")
+
+
+result <- lm(postattack ~ fire, data=chechen)
+summary(result)
+
+```
+
+# Quick Practice
+
+1. You are evaluating an RCT and examining whether the treated and control groups are similar with respect to background characteristics. You conduct
+a hypothesis test where you hypothesize that the difference in the share of females in each group is 0. Evaluating the hypothesis test, you see a p-value of 0.4
+
+Do you reject or fail to reject the null hypothesis?
+
+What does this imply about the quality of randomization for this variable?
+
+2. Your friend Brunhilda tests another variable (age), evaluating the null hypothesis that the difference in average age between the treated and control groups is 0. She receives a t-statistic of 4. The sample size for the RCT is 2000. 
+
+Do you reject or fail to reject the null hypothesis?
+
+What does this imply about the quality of randomization for this variable?
+
+3. Now you examine the ATE. The 95% confidence interval for the ATE is -0.04 to -0.01. Do you reject or fail to reject the null hypothesis of no effect, at the 95% level?
+
+4. You examine a different study. The p-value on the ATE is .02. Is the finding statistically significant at the 95% level?
+
+
+# Review of Group Work 
+
+```{r}
+library(tidyverse)
+download.file("https://raw.githubusercontent.com/resonance1/other2/refs/heads/main/micronesia.csv","micronesia.csv")
+micronesia <- read.csv("micronesia.csv")
+
+```
+
+
+Variables (Measured by polling station)
+
+obs               Yes if an international observer was present at polling station, and No otherwise
+sdf_2020_f        Vote share for the SDF party in the September 2020 federal elections (outcome variable, 0 to 100) 
+sdf_2024_f        Vote share for the SDF party in the September 2024 federal elections (0 to 100)
+sdf_2016_f        Vote share for the SDF party in the September 2016 federal elections (0 to 100)
+unrest            1 if there was a protest after the 2020 federal election, 0 otherwise
+pop               Total population, per polling station, in 2020
+male              Percentage of eligible voters who registered as male, per polling station, as of August 2020
+v_age             Average age of eligible voters, per polling station, as of August 2020
+income            Average monthly income of eligible voters (ordinal scale from 1 (lowest) to 8 (highest)), per polling station, as of July 2020
+region            One of 3 regional designations for each polling station: Eastern Islands, West, Northern Rim 
+
+Calculate the t-statistic and p-value (at the 95% level) for the null hypothesis that the difference in SDF 2020 vote share between polling stations assigned an observer vs. those not assigned an observer is 0. The treatment indicator is obs. What is the 95% confidence interval for the difference in means? What is the p-value?
+
+```{r}
+
+result <- lm(sdf_2020_f~obs,data=micronesia)
+summary(result)
+confint(result,level=.95)
+
+#or
+micronesia_t <- micronesia |> filter(obs=="Yes")
+micronesia_c <- micronesia |> filter(obs=="No")
+
+t.test(micronesia_t$sdf_2020_f,micronesia_c$sdf_2020_f,var.equal=F)
+
+# or
+
+t.test(sdf_2020_f~obs,data=micronesia,var.equal=F)
+
+
+```
+
+
+Now evaluate balance between the treated and control groups with respect to sdf_2016_f, pop, male, v_age, income and region, at the 95% confidence level. 
+
+For any characteristic, do we reject the possibility that the difference between the treated and control averages is 0?
+
+```{r}
+
+
+## The fraud
+
+result <- lm(sdf_2016_f~obs,data=micronesia)
+summary(result)
+# or
+t.test(micronesia_t$sdf_2016_f,micronesia_c$sdf_2016_f,var.equal=F)
+# or
+t.test(sdf_2016_f~obs,data=micronesia,var.equal=F)
+
+
+## No fraud
+t.test(pop~obs,data=micronesia,var.equal=F)
+
+## Region
+
+
+
+```
+
+
+# Reading a regression table
+
+
+# Group project results!
+
+
+# What would you like to focus on/practice for Wednesday's review?
+
+
