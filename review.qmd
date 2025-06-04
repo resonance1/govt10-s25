@@ -1,0 +1,182 @@
+---
+title: "Review"
+format: docx
+execute:
+  error: TRUE
+---
+
+You do not need to submit this notebook.
+
+
+# t and p (Gulliver)
+
+sample mean = 48 inches
+hypothesized mean = 6 inches
+sample standard deviation = 6 inches
+sample size = 10
+
+First, let's calculate the t manually
+
+```{r}
+
+diff <- 48-6
+se <- 6/sqrt(10)
+t <- 42 / se
+t
+```
+
+What does this mean intuitively?
+
+```{r}
+n  <- 10
+
+x <- seq(-50, 50, length=100)
+plot(x,dt(x-6,n-1),lty=1,type="l",xlab="Standard Deviations of Sampling Distribution (Centered on 0)")
+abline(v=48,col="blue")
+
+
+x <- seq(-30, 30, length=100)
+plot(x,dt(x,n-1),lty=1,type="l",xlab="Standard Deviations of Sampling Distribution (Centered on 0)")
+abline(v=t,col="blue")
+
+```
+
+And now, let's grab the p value
+
+```{r}
+
+n <- 10
+pt(t, df=n-1, lower.tail=FALSE)*2
+
+```
+
+How does this differ from the confidence interval?
+
+Let's construct a 95% confidence interval for our estimate
+
+```{r}
+
+#qt()
+
+```
+
+# Basic probability
+
+Your friend flips a coin. It is tails 8 times. Is the coin fair?
+
+To think this through, you assign the value of 1 to 'tails' and 0 to 'heads'. You are then confused about how to proceed. Suddenly, the sun breaks through the clouds, and with a burst of insight, you realize the standard deviation is 0.4
+
+```{r}
+
+```
+
+
+
+## Data examples
+
+Re-evaluate the Kenyan savings experiment....again.
+
+```{r}
+kenya <- read.csv("./class_data/rosca2.csv")
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/main/class_data/rosca2.csv","rosca2.csv")
+#kenya <- read.csv("rosca2.csv")
+kenya <- subset(kenya,has_followup2 == 1)
+```
+
+Variables:
+
+fol2_amtinvest  Amount invested in Kenyan shillings, in Wave 2 (outcome)
+encouragement   Binary variable indicating whether individuals are in the control group (1) or not (0)
+safe_box        Binary variable indicating whether individuals are in the safe deposit box treatment group (1) or not (0)
+locked_box      Binary variable indicating whether individuals are in the locked box treatment group (1) or not (0)
+bg_b1_age       age of participant
+bg_female       gender of participant
+bg_married      marital status of participant
+
+Calculate the t-statistic and p-value (at the 90% level) for the null hypothesis that the difference in the savings rate between the locked box group and the control group is 0. Repeat for the safe box group. What is the 90% confidence interval for the difference in means?
+ 
+```{r}
+
+```
+
+Calculate the t-statistic and p-value for the null hypothesis that the difference in the savings rate between the locked box group and the safe box group is 0. Evaluate either at the 99% level.
+
+```{r}
+
+```
+
+Now evaluate the randomization between the treated and control conditions with respect to age, gender, and marital status, at the 95% confidence level. 
+
+```{r}
+
+```
+
+Can we conclude that the ATE is causal? 
+
+
+
+
+```{r}
+nimby <- read.csv("./problem_sets/data/nimby.csv")
+
+#download.file("https://raw.githubusercontent.com/resonance1/govt10-s25/refs/heads/main/problem_sets/data/nimby.csv","nimby.csv")
+#nimby <- read.csv("nimby.csv")
+
+```
+
+Variables:
+
+L:                     Support for refugee resettlement in respondent's local community, on a 0 to 10 scale, where 10 indicates highest support
+US:                    Support for refugee resettlement in the United States, on a 0 to 10 scale, where 10 indicates highest support
+rep:                   Whether the respondent identifies as a Republican (1) or not (0)
+dem:                   Whether the respondent identifies as a Democrat (1) or not (0)
+female:                Whether the respondent is female (1) or not (0)
+employed:              Whether the respondent is employed (1) or not (0)
+nonhispanic_white:     Whether the respondent is non-hispanic white (1) or not (0)
+bachelors:             Whether the respondent has a bachelors degree (1) or not (0)
+above_median_income:   Whether the respondent's income is above the median level (1) or not (0)
+
+
+2.1. Evaluate the average support for refugee resettlement in the US among Republicans and Democrats. Interpret the results. Use a t-test or regression to determine whether the two means differ statistically at the 99% level.
+
+```{r}
+# t.test
+rep <- nimby |> filter(rep == 1)
+dem <- nimby |> filter(dem == 1)
+
+t.test(rep$US, dem$US, conf.level = 0.99,var.equal = F)
+
+# Regression
+partisans <- nimby |> filter(rep == 1 | dem==1)
+summary(lm(data=partisans,US~rep))
+
+```
+
+
+
+
+
+# Scratchpad for conceptual problems
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
